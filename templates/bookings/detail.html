@@ -13,7 +13,7 @@
   </div>
   {% status_badge booking %}
 </div>
-
+//////////////////////////////////////////////////////////////////////////
 <div class="row g-4">
   <div class="col-lg-7">
     <section class="card mb-4" aria-labelledby="h-summary"><div class="card-body">
@@ -86,6 +86,8 @@
     </div></section>
   </div>
 </div>
+
+/////////////////////////////////////////////
 
 {# Confirmation modals: Bootstrap 5 traps focus inside, closes with Escape, and returns focus to the trigger. #}
 {% for action, label in actions %}{% if action == "refuser" or action == "annuler" %}
