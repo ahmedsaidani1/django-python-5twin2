@@ -13,6 +13,7 @@ phone_validator = RegexValidator(r"^\+?[0-9 ]{8,15}$", "Numéro de téléphone i
 
 
 class User(AbstractUser):
+    # The platform distinguishes three actor roles: freight requesters, carriers, and administrators.
     class Role(models.TextChoices):
         PME = "pme", "PME / Expéditeur"
         TRANSPORTEUR = "transporteur", "Transporteur"
@@ -28,6 +29,7 @@ class User(AbstractUser):
 
     @property
     def effective_role(self) -> str:
+        # Superusers and explicit admins are treated as administrators for access control.
         return self.Role.ADMIN if (self.is_superuser or self.role == self.Role.ADMIN) else self.role
 
     @property
@@ -91,6 +93,8 @@ class CarrierProfile(models.Model):
 
 
 class Report(models.Model):
+    # Moderation records can point to any model instance: a shipment, a trip, or a user.
+    # This generic relation is what allows admins to review and resolve reports in one place.
     """A "signalement" of an annonce, a trip or a user, handled by an admin."""
 
     class Reason(models.TextChoices):

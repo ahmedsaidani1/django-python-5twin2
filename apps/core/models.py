@@ -3,6 +3,8 @@ from django.db import models
 
 
 class AIJob(models.Model):
+    # Each row tracks a single AI task so the frontend can poll progress and show the result
+    # or error without blocking the user request in the main web thread.
     """One asynchronous AI call: what was asked, what came back, how long it took."""
 
     class Kind(models.TextChoices):
@@ -42,4 +44,5 @@ class AIJob(models.Model):
 
     @property
     def is_finished(self):
+        # A task is considered finished once it reaches either a successful or failed terminal state.
         return self.status in (self.Status.SUCCESS, self.Status.ERROR)

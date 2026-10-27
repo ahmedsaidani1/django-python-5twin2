@@ -22,8 +22,11 @@ from .models import BookingRequest, BookingStatusHistory
 
 S = BookingRequest.Status
 
+# Each transition is authorized only for a specific actor of the booking workflow.
 SENDER, RECEIVER, CARRIER, PARTICIPANT = "sender", "receiver", "carrier", "participant"
 
+# A transition is valid only when the current status and target status are paired
+# with the correct role-based actor permitted to trigger it.
 TRANSITIONS: dict[tuple[str, str], str] = {
     (S.PENDING, S.ACCEPTED): RECEIVER,
     (S.PENDING, S.REFUSED): RECEIVER,
@@ -80,6 +83,8 @@ def record_history(booking, from_status, to_status, user=None, note=""):
 
 
 def create_booking(*, freight: FreightRequest, trip: Trip, sender, message: str, proposed_price) -> BookingRequest:
+    # A booking is always created between the sender and the other party involved in the deal.
+    # The receiver is the trip carrier when the sender is the freight owner, or the freight owner otherwise.
     receiver = trip.carrier if sender.pk == freight.pme_id else freight.pme
     with transaction.atomic():
         booking = BookingRequest.objects.create(
@@ -112,6 +117,8 @@ def transition(booking: BookingRequest, to_status: str, user, note: str = "") ->
         freight = booking.freight
         from_status = booking.status
 
+        # Accepting a booking consumes the trip's remaining capacity and marks the demand
+        # as assigned to this trip, preventing other pending offers from competing for the same freight.
         if to_status == S.ACCEPTED:
             if not trip.can_carry(freight.weight_kg, freight.volume_m3):
                 raise InvalidTransition("Capacité restante du trajet insuffisante pour cette annonce.")
@@ -138,6 +145,8 @@ def transition(booking: BookingRequest, to_status: str, user, note: str = "") ->
         record_history(booking, from_status, to_status, user, note)
 
         auto_refused = []
+        # Once one request is accepted, every other pending request for the same freight
+        # is automatically rejected to maintain a single successful assignment.
         if to_status == S.ACCEPTED:
             for other in BookingRequest.objects.filter(freight=freight, status=S.PENDING).exclude(pk=booking.pk):
                 other.status = S.REFUSED
