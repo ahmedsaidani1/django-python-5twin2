@@ -16,6 +16,7 @@ BOOKING_RELATED = ("freight", "trip", "sender", "receiver")
 
 
 def status_counts(qs):
+    """Garder tous les statuts dans les indicateurs, y compris ceux dont le compte vaut zéro."""
     counts = dict(qs.values_list("status").annotate(n=Count("id")))
     return [(value, label, counts.get(value, 0)) for value, label in S.choices]
 
@@ -30,6 +31,7 @@ class DashboardHomeView(RoleRequiredMixin, TemplateView):
 
 class BaseDashboard(RoleRequiredMixin, TemplateView):
     def common(self, user):
+        """Préparer les listes partagées en limitant les réservations à l'utilisateur connecté."""
         bookings = BookingRequest.objects.filter(Q(sender=user) | Q(receiver=user))
         return {
             "received": bookings.filter(receiver=user, status=S.PENDING).select_related(*BOOKING_RELATED)[:5],
@@ -51,6 +53,7 @@ class PMEDashboardView(BaseDashboard):
         ctx = super().get_context_data(**kwargs)
         user = self.request.user
         freights = FreightRequest.objects.filter(pme=user)
+        # Les dépenses ne comptent que les livraisons terminées, pas les offres en attente ou refusées.
         delivered = BookingRequest.objects.filter(freight__pme=user, status=S.DELIVERED)
         ctx.update(self.common(user))
         ctx.update(
@@ -74,6 +77,7 @@ class CarrierDashboardView(BaseDashboard):
         ctx = super().get_context_data(**kwargs)
         user = self.request.user
         trips = Trip.objects.filter(carrier=user).select_related("vehicle")
+        # Le revenu affiché reflète les réservations effectivement livrées par ce transporteur.
         delivered = BookingRequest.objects.filter(trip__carrier=user, status=S.DELIVERED)
         ctx.update(self.common(user))
         ctx.update(

@@ -44,6 +44,7 @@ class ReviewCreateView(RoleRequiredMixin, CreateView):
 
     def _guard(self):
         booking = self.booking
+        # La réservation fixe les deux règles d'accès à l'avis : livraison terminée et avis unique.
         if booking.status != BookingRequest.Status.DELIVERED:
             messages.error(self.request, "Vous pourrez noter le transporteur une fois la livraison effectuée.")
             return redirect(booking)
@@ -56,6 +57,7 @@ class ReviewCreateView(RoleRequiredMixin, CreateView):
         return super().get_context_data(booking=self.booking, **kwargs)
 
     def form_valid(self, form):
+        # L'auteur vient de la session et le transporteur du trajet réservé, jamais de champs envoyés par le navigateur.
         form.instance.booking = self.booking
         form.instance.author = self.request.user
         form.instance.carrier = self.booking.trip.carrier

@@ -26,10 +26,12 @@ class NotificationOpenView(RoleRequiredMixin, View):
 
     def post(self, request, pk):
         notif = get_object_or_404(Notification, pk=pk)
+        # Vérifier le propriétaire empêche l'accès à une notification en devinant son identifiant.
         if notif.user_id != request.user.pk:
             raise PermissionDenied
         notif.is_read = True
         notif.save(update_fields=["is_read"])
+        # Une URL enregistrée n'est suivie que si elle reste sur le site, pour éviter une redirection externe.
         if notif.url and url_has_allowed_host_and_scheme(notif.url, allowed_hosts={request.get_host()}):
             return redirect(notif.url)
         return redirect("notifications:list")
