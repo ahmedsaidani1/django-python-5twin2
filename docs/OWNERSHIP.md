@@ -5,7 +5,7 @@
 | **Ahmed Saidani** | Comptes & rôles, contrôle d'accès, modération, intégration & déploiement | IA 5 — fraude / spam | `member1/accounts-moderation-fraud-deploy` |
 | **Fedi Ben Khalifa** | Annonces de fret, trajets & véhicules, recherche & filtres | IA 1 — annonce intelligente · IA 2 — prix | `member2/shipments-smart-annonce`, `member3/trips-price` |
 | **Farah Maiti** | Réservations & machine à états, messagerie, infrastructure IA asynchrone | IA 3 — matching | `member4/bookings-matching-messaging` |
-| **Wissem** | Avis & réputation, notifications, tableaux de bord, accueil & accessibilité | IA 4 — sentiment | `member5/reviews-notifs-dashboard-sentiment` |
+| **Wissem Ferjani** | Avis & réputation, notifications, tableaux de bord, accueil & accessibilité | IA 4 — sentiment | `member5/reviews-notifs-dashboard-sentiment` |
 
 Chaque membre est **propriétaire** de son périmètre : il en connaît le code, le présente à la soutenance, répond aux
 questions du jury dessus, relit les pull requests qui le touchent et y commite depuis **son propre compte Git**.
@@ -86,7 +86,7 @@ réservation / libération de capacité, refus automatique des offres concurrent
 
 ---
 
-## Wissem — Avis, notifications, tableaux de bord, accessibilité, IA sentiment
+## Wissem Ferjani — Avis, notifications, tableaux de bord, accessibilité, IA sentiment
 Branche : `member5/reviews-notifs-dashboard-sentiment`
 
 | Domaine | Fichiers |

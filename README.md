@@ -2,7 +2,7 @@
 
 **Marketplace de covoiturage de fret entre PME et transporteurs indépendants — _Connecter • Optimiser • Avancer ensemble_.**
 
-Projet ESPRIT 5TWIN (équipe de 4 : Ahmed Saidani, Fedi Ben Khalifa, Farah Maiti, Wissem). Les PME publient leurs besoins de transport, les transporteurs déclarent leurs
+Projet ESPRIT 5TWIN (équipe de 4 : Ahmed Saidani, Fedi Ben Khalifa, Farah Maiti, Wissem Ferjani). Les PME publient leurs besoins de transport, les transporteurs déclarent leurs
 trajets et leur capacité libre ; CargoLink les met en relation, gère les demandes de réservation jusqu'à la livraison,
 la messagerie, les avis et la modération, avec 5 fonctionnalités d'IA mesurées.
 
@@ -267,7 +267,7 @@ Chaque membre est propriétaire d'un périmètre (fichiers, partie de la soutena
 | Ahmed Saidani | comptes, modération, IA fraude, intégration & déploiement | `member1/accounts-moderation-fraud-deploy` |
 | Fedi Ben Khalifa | annonces de fret, trajets/véhicules, IA annonce intelligente, IA prix | `member2/shipments-smart-annonce`, `member3/trips-price` |
 | Farah Maiti | réservations, messagerie, IA matching, infrastructure IA asynchrone | `member4/bookings-matching-messaging` |
-| Wissem | avis, notifications, tableaux de bord, accessibilité, IA sentiment | `member5/reviews-notifs-dashboard-sentiment` |
+| Wissem Ferjani | avis, notifications, tableaux de bord, accessibilité, IA sentiment | `member5/reviews-notifs-dashboard-sentiment` |
 
 Flux : une branche par périmètre, commits conventionnels (`feat(bookings): …`, `test(trips): …`, `docs(ai): …`),
 pull request vers `main` avec CI verte, revue par un autre membre, merge `--no-ff`.
