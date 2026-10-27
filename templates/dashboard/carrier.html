@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Tableau de bord transporteur{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <h1 class="section-title mb-0">Bonjour {{ user.display_name }}</h1>
+  <div class="d-flex gap-2">
+    <a class="btn btn-accent" href="{% url 'trips:create' %}"><i class="bi bi-plus-lg" aria-hidden="true"></i> Publier un trajet</a>
+    <a class="btn btn-outline-primary" href="{% url 'shipments:list' %}"><i class="bi bi-search" aria-hidden="true"></i> Chercher du fret</a>
+  </div>
+</div>
+<section aria-labelledby="h-stats">
+  <h2 id="h-stats" class="visually-hidden">Statistiques</h2>
+  <div class="row g-3">
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Trajets publiés</p><p class="stat-value mb-0">{{ stats.trajets }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Véhicules</p><p class="stat-value mb-0">{{ stats.vehicules }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Livraisons effectuées</p><p class="stat-value mb-0">{{ stats.livrees }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Chiffre d'affaires</p><p class="stat-value mb-0 fs-4">{{ stats.revenu|tnd }}</p></div></div></div>
+  </div>
+</section>
+{% if profile %}
+<section class="card mt-4" aria-labelledby="h-rep"><div class="card-body d-flex flex-wrap gap-4 align-items-center">
+  <h2 id="h-rep" class="h5 mb-0">Ma réputation</h2>
+  <p class="mb-0">{% stars profile.average_rating %} {{ profile.average_rating|floatformat:1|default:"—" }}/5 ({{ profile.reviews_count }} avis)</p>
+  <p class="mb-0">Score IA : <strong>{{ profile.reputation_score|floatformat:0|default:"—" }}/100</strong></p>
+  <a href="{% url 'accounts:carrier' user.pk %}">Voir mon profil public</a>
+</div></section>
+{% endif %}
+<section class="mt-4" aria-labelledby="h-mine">
+  <div class="d-flex justify-content-between align-items-center"><h2 id="h-mine" class="h5 mb-3">Mes trajets</h2><a href="{% url 'trips:mine' %}">Tout voir</a></div>
+  {% if trips %}
+    <div class="row g-3">{% for t in trips %}<div class="col-md-6 col-lg-4">{% include "partials/trip_card.html" %}</div>{% endfor %}</div>
+  {% else %}
+    {% url 'trips:create' as create_url %}
+    {% include "partials/empty.html" with icon="bi-signpost-2" text="Publiez un trajet pour recevoir des demandes compatibles." url=create_url cta="Publier un trajet" %}
+  {% endif %}
+</section>
+{% include "dashboard/_common.html" %}
+{% endblock %}

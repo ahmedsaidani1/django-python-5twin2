@@ -1,0 +1,38 @@
+{% load cargolink %}
+<div class="row g-4 mt-1">
+  <section class="col-lg-6" aria-labelledby="h-received"><div class="card h-100"><div class="card-body">
+    <h2 id="h-received" class="h5">Demandes reçues à traiter</h2>
+    {% if received %}<ul class="list-group list-group-flush">{% for b in received %}{% include "partials/booking_row.html" %}{% endfor %}</ul>
+    {% else %}<p class="text-muted mb-0">Rien à traiter pour le moment.</p>{% endif %}
+  </div></div></section>
+  <section class="col-lg-6" aria-labelledby="h-sent"><div class="card h-100"><div class="card-body">
+    <h2 id="h-sent" class="h5">Demandes envoyées</h2>
+    {% if sent %}<ul class="list-group list-group-flush">{% for b in sent %}{% include "partials/booking_row.html" %}{% endfor %}</ul>
+    {% else %}<p class="text-muted mb-0">Aucune demande envoyée.</p>{% endif %}
+  </div></div></section>
+  <section class="col-lg-6" aria-labelledby="h-active"><div class="card h-100"><div class="card-body">
+    <h2 id="h-active" class="h5">Livraisons en cours</h2>
+    {% if active %}<ul class="list-group list-group-flush">{% for b in active %}{% include "partials/booking_row.html" %}{% endfor %}</ul>
+    {% else %}<p class="text-muted mb-0">Aucune livraison en cours.</p>{% endif %}
+  </div></div></section>
+  <section class="col-lg-6" aria-labelledby="h-history"><div class="card h-100"><div class="card-body">
+    <h2 id="h-history" class="h5">Historique</h2>
+    {% if history %}<ul class="list-group list-group-flush">{% for b in history %}{% include "partials/booking_row.html" %}{% endfor %}</ul>
+    {% else %}<p class="text-muted mb-0">Pas encore d'historique.</p>{% endif %}
+  </div></div></section>
+  <section class="col-lg-6" aria-labelledby="h-status"><div class="card h-100"><div class="card-body">
+    <h2 id="h-status" class="h5">Mes demandes par statut</h2>
+    <ul class="list-unstyled mb-0">
+      {% for value, label, n in status_counts %}
+        <li class="d-flex justify-content-between mb-1"><span class="badge badge-status status-{{ value }}">{{ label }}</span><span class="fw-semibold">{{ n }}</span></li>
+      {% endfor %}
+    </ul>
+  </div></div></section>
+  <section class="col-lg-6" aria-labelledby="h-notifs"><div class="card h-100"><div class="card-body">
+    <h2 id="h-notifs" class="h5">Dernières notifications</h2>
+    {% if notifications %}
+      <ul class="list-unstyled mb-2">{% for n in notifications %}<li class="mb-1 {% if not n.is_read %}fw-semibold{% endif %}"><i class="bi bi-bell" aria-hidden="true"></i> {{ n.message }} <span class="small text-muted fw-normal">· {{ n.created_at|timesince }}</span></li>{% endfor %}</ul>
+    {% else %}<p class="text-muted">Aucune notification.</p>{% endif %}
+    <a href="{% url 'notifications:list' %}">Toutes les notifications</a>
+  </div></div></section>
+</div>

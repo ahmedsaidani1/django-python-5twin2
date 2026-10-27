@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Administration{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <h1 class="section-title mb-0">Statistiques de la plateforme</h1>
+  <div class="d-flex gap-2">
+    <a class="btn btn-accent" href="{% url 'accounts:moderation' %}"><i class="bi bi-shield-check" aria-hidden="true"></i> Modération ({{ stats.signalements }} signalements, {{ stats.drapeaux }} alertes IA)</a>
+    <a class="btn btn-outline-primary" href="{% url 'admin:index' %}">Admin Django</a>
+  </div>
+</div>
+<section aria-labelledby="h-kpi">
+  <h2 id="h-kpi" class="visually-hidden">Indicateurs</h2>
+  <div class="row g-3">
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">PME inscrites</p><p class="stat-value mb-0">{{ stats.pme }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Transporteurs</p><p class="stat-value mb-0">{{ stats.transporteurs }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Annonces / trajets</p><p class="stat-value mb-0">{{ stats.annonces }} / {{ stats.trajets }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Réservations</p><p class="stat-value mb-0">{{ stats.reservations }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Volume livré</p><p class="stat-value mb-0 fs-4">{{ stats.volume|tnd }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Note moyenne</p><p class="stat-value mb-0">{{ stats.note_moyenne|floatformat:1|default:"—" }}</p></div></div></div>
+  </div>
+</section>
+<div class="row g-4 mt-1">
+  <section class="col-lg-6" aria-labelledby="h-status"><div class="card h-100"><div class="card-body">
+    <h2 id="h-status" class="h5">Réservations par statut</h2>
+    <ul class="list-unstyled mb-0">
+      {% for value, label, n in status_counts %}<li class="d-flex justify-content-between mb-1"><span class="badge badge-status status-{{ value }}">{{ label }}</span><span class="fw-semibold">{{ n }}</span></li>{% endfor %}
+    </ul>
+  </div></div></section>
+  <section class="col-lg-6" aria-labelledby="h-ai"><div class="card h-100"><div class="card-body">
+    <h2 id="h-ai" class="h5">Tâches IA</h2>
+    {% if ai_stats %}
+    <table class="table table-sm mb-0">
+      <caption class="visually-hidden">Nombre de tâches IA, taux de succès et latence moyenne par type</caption>
+      <thead><tr><th scope="col">Type</th><th scope="col">Tâches</th><th scope="col">Succès</th><th scope="col">Latence moy.</th></tr></thead>
+      <tbody>{% for s in ai_stats %}<tr><td>{{ s.kind }}</td><td>{{ s.n }}</td><td>{{ s.ok }}</td><td>{{ s.latency|floatformat:0 }} ms</td></tr>{% endfor %}</tbody>
+    </table>
+    {% else %}<p class="text-muted mb-0">Aucune tâche IA exécutée.</p>{% endif %}
+  </div></div></section>
+  <section class="col-12" aria-labelledby="h-reports"><div class="card"><div class="card-body">
+    <h2 id="h-reports" class="h5">Derniers signalements</h2>
+    {% if recent_reports %}<ul class="mb-0">{% for r in recent_reports %}<li>{{ r }} — {{ r.get_status_display }} ({{ r.created_at|date:"d/m" }})</li>{% endfor %}</ul>
+    {% else %}<p class="text-muted mb-0">Aucun signalement.</p>{% endif %}
+  </div></div></section>
+</div>
+{% endblock %}
