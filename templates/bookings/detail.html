@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Demande #{{ booking.pk }}{% endblock %}
+{% block content %}
+<nav aria-label="Fil d'Ariane"><ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href="{% url 'bookings:list' %}">Demandes</a></li>
+  <li class="breadcrumb-item active" aria-current="page">#{{ booking.pk }}</li>
+</ol></nav>
+<div class="d-flex flex-wrap justify-content-between align-items-start gap-2 mb-3">
+  <div>
+    <h1 class="section-title mb-1">Demande #{{ booking.pk }} — {{ booking.freight.title }}</h1>
+    <p class="mb-0">{% if booking.sender_id == user.pk %}Envoyée à{% else %}Reçue de{% endif %} <strong>{{ other_party.display_name }}</strong></p>
+  </div>
+  {% status_badge booking %}
+</div>
+
+<div class="row g-4">
+  <div class="col-lg-7">
+    <section class="card mb-4" aria-labelledby="h-summary"><div class="card-body">
+      <h2 id="h-summary" class="h5">Récapitulatif</h2>
+      <dl class="row mb-0">
+        <dt class="col-sm-4">Annonce</dt><dd class="col-sm-8"><a href="{{ booking.freight.get_absolute_url }}">{{ booking.freight.title }}</a> — {{ booking.freight.weight_kg|floatformat:"-1" }} kg, {{ booking.freight.volume_m3|floatformat:"-2" }} m³</dd>
+        <dt class="col-sm-4">Trajet</dt><dd class="col-sm-8"><a href="{{ booking.trip.get_absolute_url }}">{{ booking.trip }}</a> — {{ booking.trip.vehicle }}</dd>
+        <dt class="col-sm-4">PME</dt><dd class="col-sm-8">{{ booking.freight.pme.display_name }}</dd>
+        <dt class="col-sm-4">Transporteur</dt><dd class="col-sm-8"><a href="{% url 'accounts:carrier' booking.trip.carrier_id %}">{{ booking.trip.carrier.display_name }}</a></dd>
+        <dt class="col-sm-4">Prix proposé</dt><dd class="col-sm-8">{{ booking.proposed_price|tnd }}</dd>
+        <dt class="col-sm-4">Message</dt><dd class="col-sm-8">{{ booking.message|default:"—"|linebreaksbr }}</dd>
+      </dl>
+    </div></section>
+
+    <section class="card" aria-labelledby="h-messages" id="messages"><div class="card-body">
+      <h2 id="h-messages" class="h5">Messagerie</h2>
+      <div class="thread mb-3" role="log" aria-live="polite" aria-label="Fil de discussion" tabindex="0">
+        {% for m in thread %}
+          <div class="msg {% if m.sender_id == user.pk %}msg-mine{% else %}msg-other{% endif %}">
+            <p class="mb-1">{{ m.body|linebreaksbr }}</p>
+            <p class="msg-meta small mb-0 {% if m.sender_id != user.pk %}text-muted{% endif %}">{{ m.sender.display_name }} · {{ m.created_at|date:"d/m H:i" }}</p>
+          </div>
+        {% empty %}
+          <p class="text-muted">Aucun message. Écrivez le premier pour préciser les détails de l'enlèvement.</p>
+        {% endfor %}
+      </div>
+      <form method="post" action="{% url 'messaging:send' booking.pk %}">{% csrf_token %}
+        {% include "partials/form_field.html" with field=message_form.body %}
+        <button class="btn btn-primary" type="submit"><i class="bi bi-send" aria-hidden="true"></i> Envoyer</button>
+      </form>
+    </div></section>
+  </div>
+
+  <div class="col-lg-5">
+    <section class="card mb-4" aria-labelledby="h-actions"><div class="card-body">
+      <h2 id="h-actions" class="h5">Actions</h2>
+      {% if actions %}
+        <div class="d-flex flex-wrap gap-2">
+        {% for action, label in actions %}
+          {% if action == "refuser" or action == "annuler" %}
+            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#confirm-{{ action }}">{{ label }}</button>
+          {% else %}
+            <form method="post" action="{% url 'bookings:transition' booking.pk action %}">{% csrf_token %}
+              <button class="btn {% if action == 'accepter' %}btn-accent{% else %}btn-primary{% endif %}" type="submit">{{ label }}</button>
+            </form>
+          {% endif %}
+        {% endfor %}
+        </div>
+      {% else %}
+        <p class="mb-0 text-muted">Aucune action disponible pour vous à ce stade.</p>
+      {% endif %}
+      {% if can_review %}
+        <a class="btn btn-accent mt-3" href="{% url 'reviews:create' booking.pk %}"><i class="bi bi-star" aria-hidden="true"></i> Noter le transporteur</a>
+      {% elif booking.review %}
+        <p class="mt-3 mb-0">Avis laissé : {% stars booking.review.rating %} « {{ booking.review.comment|truncatechars:80 }} »</p>
+      {% endif %}
+    </div></section>
+
+    <section class="card" aria-labelledby="h-history"><div class="card-body">
+      <h2 id="h-history" class="h5">Historique des statuts</h2>
+      <ol class="list-unstyled mb-0">
+        {% for h in history %}
+          <li class="mb-2 d-flex gap-2">
+            <i class="bi bi-dot fs-4" aria-hidden="true"></i>
+            <div><span class="badge badge-status status-{{ h.to_status }}">{{ h.get_to_status_display }}</span>
+              <span class="small text-muted d-block">{{ h.created_at|date:"d/m/Y H:i" }} · {{ h.changed_by.display_name|default:"système" }}{% if h.note %} — {{ h.note }}{% endif %}</span></div>
+          </li>
+        {% endfor %}
+      </ol>
+    </div></section>
+  </div>
+</div>
+
+{# Confirmation modals: Bootstrap 5 traps focus inside, closes with Escape, and returns focus to the trigger. #}
+{% for action, label in actions %}{% if action == "refuser" or action == "annuler" %}
+<div class="modal fade" id="confirm-{{ action }}" tabindex="-1" aria-labelledby="confirm-{{ action }}-title" aria-hidden="true">
+  <div class="modal-dialog"><div class="modal-content">
+    <form method="post" action="{% url 'bookings:transition' booking.pk action %}">{% csrf_token %}
+      <div class="modal-header">
+        <h2 class="modal-title h5" id="confirm-{{ action }}-title">{{ label }} la demande #{{ booking.pk }} ?</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+      </div>
+      <div class="modal-body">
+        <label class="form-label" for="note-{{ action }}">Motif (facultatif)</label>
+        <input class="form-control" id="note-{{ action }}" name="note" maxlength="255">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Retour</button>
+        <button type="submit" class="btn btn-danger">Confirmer : {{ label|lower }}</button>
+      </div>
+    </form>
+  </div></div>
+</div>
+{% endif %}{% endfor %}
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Mes demandes{% endblock %}
+{% block content %}
+<h1 class="section-title mb-3">Mes demandes</h1>
+<nav aria-label="Boîtes de demandes" class="mb-3">
+  <ul class="nav nav-pills gap-1">
+    <li class="nav-item"><a class="nav-link {% if box == 'all' %}active{% endif %}" {% if box == 'all' %}aria-current="page"{% endif %} href="?box=all">Toutes</a></li>
+    <li class="nav-item"><a class="nav-link {% if box == 'received' %}active{% endif %}" {% if box == 'received' %}aria-current="page"{% endif %} href="?box=received">Reçues</a></li>
+    <li class="nav-item"><a class="nav-link {% if box == 'sent' %}active{% endif %}" {% if box == 'sent' %}aria-current="page"{% endif %} href="?box=sent">Envoyées</a></li>
+  </ul>
+</nav>
+<form method="get" class="d-flex flex-wrap gap-2 align-items-end mb-3">
+  <input type="hidden" name="box" value="{{ box }}">
+  <div>
+    <label class="form-label" for="status-filter">Statut</label>
+    <select class="form-select" id="status-filter" name="status">
+      <option value="">Tous</option>
+      {% for value, label in statuses %}<option value="{{ value }}" {% if value == status %}selected{% endif %}>{{ label }}</option>{% endfor %}
+    </select>
+  </div>
+  <button class="btn btn-primary" type="submit">Filtrer</button>
+</form>
+{% if bookings %}
+  <ul class="list-group">{% for b in bookings %}{% include "partials/booking_row.html" %}{% endfor %}</ul>
+{% else %}
+  {% include "partials/empty.html" with icon="bi-arrow-left-right" text="Aucune demande dans cette catégorie." %}
+{% endif %}
+{% include "partials/pagination.html" %}
+{% endblock %}

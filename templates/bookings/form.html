@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Nouvelle demande{% endblock %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-lg-8">
+  <h1 class="section-title mb-3">{% if direction == "trip" %}Demande de réservation{% else %}Proposer mon trajet{% endif %}</h1>
+  <div class="card mb-3"><div class="card-body">
+    {% if direction == "trip" %}
+      <h2 class="h6 mb-1">Trajet de {{ trip.carrier.display_name }}</h2>
+      <p class="route mb-0">{{ trip.origin }} → {{ trip.destination }} · {{ trip.departure_date|date:"d/m/Y" }}</p>
+      <p class="small text-muted mb-0">Disponible : {{ trip.remaining_weight_kg|floatformat:"-1" }} kg · {{ trip.remaining_volume_m3|floatformat:"-2" }} m³ ·
+        {% if trip.pricing_mode == "fixed" %}{{ trip.fixed_price|tnd }} forfait{% else %}{{ trip.price_per_kg|floatformat:3 }} TND/kg{% endif %}</p>
+    {% else %}
+      <h2 class="h6 mb-1">Annonce de {{ freight.pme.display_name }}</h2>
+      <p class="route mb-0">{{ freight.title }} · {{ freight.origin }} → {{ freight.destination }}</p>
+      <p class="small text-muted mb-0">{{ freight.weight_kg|floatformat:"-1" }} kg · {{ freight.volume_m3|floatformat:"-2" }} m³ ·
+        enlèvement {{ freight.pickup_date|date:"d/m" }} – limite {{ freight.delivery_deadline|date:"d/m" }} · budget {{ freight.budget|tnd }}</p>
+    {% endif %}
+  </div></div>
+  <div class="card"><div class="card-body">
+    {% include "partials/form_errors.html" %}
+    <form method="post">{% csrf_token %}
+      {% for field in form %}{% include "partials/form_field.html" %}{% endfor %}
+      <button class="btn btn-primary" type="submit">Envoyer</button>
+      <a class="btn btn-outline-primary" href="{% if direction == 'trip' %}{{ trip.get_absolute_url }}{% else %}{{ freight.get_absolute_url }}{% endif %}">Annuler</a>
+    </form>
+  </div></div>
+</div></div>
+{% endblock %}
