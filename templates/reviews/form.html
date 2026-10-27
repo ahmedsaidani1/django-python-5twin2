@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Noter le transporteur{% endblock %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-lg-7">
+  <div class="card"><div class="card-body p-4">
+    <h1 class="h3 section-title">Noter {{ booking.trip.carrier.display_name }}</h1>
+    <p class="text-muted">Livraison « {{ booking.freight.title }} » ({{ booking.trip }}).</p>
+    {% include "partials/form_errors.html" %}
+    <form method="post">{% csrf_token %}
+      {% for field in form %}{% include "partials/form_field.html" %}{% endfor %}
+      <button class="btn btn-primary" type="submit">Publier mon avis</button>
+      <a class="btn btn-outline-primary" href="{{ booking.get_absolute_url }}">Annuler</a>
+    </form>
+  </div></div>
+</div></div>
+{% endblock %}

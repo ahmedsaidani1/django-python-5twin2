@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Avis{% endblock %}
+{% block content %}
+<h1 class="section-title mb-4">{% if user.is_transporteur %}Avis reçus{% else %}Mes avis{% endif %}</h1>
+{% for r in reviews %}
+  <article class="card mb-2"><div class="card-body">
+    <div class="d-flex justify-content-between flex-wrap gap-2">
+      <h2 class="h6 mb-0">{% if user.is_transporteur %}{{ r.author.display_name }}{% else %}{{ r.carrier.display_name }}{% endif %} · {{ r.booking.freight.title }}</h2>
+      <span>{% stars r.rating %}{% if r.sentiment %} <span class="badge text-bg-light border">Sentiment : {{ r.get_sentiment_display }}</span>{% endif %}</span>
+    </div>
+    <p class="mb-0 mt-2">{{ r.comment }}</p>
+    <p class="small text-muted mb-0">{{ r.created_at|date:"d/m/Y" }}</p>
+  </div></article>
+{% empty %}
+  {% include "partials/empty.html" with icon="bi-star" text="Aucun avis pour le moment." %}
+{% endfor %}
+{% include "partials/pagination.html" %}
+{% endblock %}

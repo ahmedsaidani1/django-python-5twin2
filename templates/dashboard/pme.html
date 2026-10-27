@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Tableau de bord PME{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <h1 class="section-title mb-0">Bonjour {{ user.display_name }}</h1>
+  <div class="d-flex gap-2">
+    <a class="btn btn-accent" href="{% url 'shipments:create' %}"><i class="bi bi-plus-lg" aria-hidden="true"></i> Publier une annonce</a>
+    <a class="btn btn-outline-primary" href="{% url 'trips:list' %}"><i class="bi bi-search" aria-hidden="true"></i> Chercher un trajet</a>
+  </div>
+</div>
+<section aria-labelledby="h-stats">
+  <h2 id="h-stats" class="visually-hidden">Statistiques</h2>
+  <div class="row g-3">
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Annonces publiées</p><p class="stat-value mb-0">{{ stats.annonces }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Annonces ouvertes</p><p class="stat-value mb-0">{{ stats.ouvertes }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Livraisons effectuées</p><p class="stat-value mb-0">{{ stats.livrees }}</p></div></div></div>
+    <div class="col-6 col-md-3"><div class="card stat-card"><div class="card-body"><p class="small text-muted mb-0">Dépensé</p><p class="stat-value mb-0 fs-4">{{ stats.depense|tnd }}</p></div></div></div>
+  </div>
+</section>
+
+{% if to_review %}
+<section class="card ai-panel mt-4" aria-labelledby="h-review"><div class="card-body">
+  <h2 id="h-review" class="h5">Livraisons à noter</h2>
+  <ul class="mb-0">{% for b in to_review %}<li><a href="{% url 'reviews:create' b.pk %}">Noter {{ b.trip.carrier.display_name }}</a> pour « {{ b.freight.title }} »</li>{% endfor %}</ul>
+</div></section>
+{% endif %}
+
+<section class="mt-4" aria-labelledby="h-mine">
+  <div class="d-flex justify-content-between align-items-center"><h2 id="h-mine" class="h5 mb-3">Mes annonces récentes</h2><a href="{% url 'shipments:mine' %}">Tout voir</a></div>
+  {% if freights %}
+    <div class="row g-3">{% for f in freights %}<div class="col-md-6 col-lg-4">{% include "partials/freight_card.html" %}</div>{% endfor %}</div>
+  {% else %}
+    {% url 'shipments:create' as create_url %}
+    {% include "partials/empty.html" with icon="bi-box-seam" text="Publiez votre première annonce : l'IA peut la remplir pour vous." url=create_url cta="Publier une annonce" %}
+  {% endif %}
+</section>
+{% include "dashboard/_common.html" %}
+{% endblock %}
