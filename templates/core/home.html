@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Covoiturage de fret entre PME et transporteurs{% endblock %}
+{% block main_class %}{% endblock %}
+{% block content %}
+<section class="hero py-5" aria-labelledby="hero-title">
+  <div class="container py-lg-4">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7">
+        <p class="tagline text-uppercase mb-2">Connecter • Optimiser • Avancer ensemble</p>
+        <h1 id="hero-title" class="display-5 fw-bold">Le covoiturage de fret qui remplit les camions et sert les PME.</h1>
+        <p class="lead mt-3">CargoLink met en relation les PME qui expédient des marchandises et les transporteurs indépendants
+          qui ont de la place libre sur leurs trajets. Moins de kilomètres à vide, des prix plus justes, un suivi clair.</p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          {% if user.is_authenticated %}
+            <a class="btn btn-accent btn-lg" href="{% url 'dashboard:home' %}">Accéder à mon espace</a>
+          {% else %}
+            <a class="btn btn-accent btn-lg" href="{% url 'accounts:signup_pme' %}">Je suis une PME</a>
+            <a class="btn btn-outline-light btn-lg" href="{% url 'accounts:signup_carrier' %}">Je suis transporteur</a>
+          {% endif %}
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="card text-dark">
+          <div class="card-body">
+            <h2 class="h5 section-title">Exemple : Sfax → Tunis, mardi</h2>
+            <ul class="list-unstyled mb-0">
+              <li class="d-flex gap-2 mb-2"><i class="bi bi-box-seam fs-4" aria-hidden="true"></i><span><strong>PME :</strong> 20 palettes de tomates, budget 1 200 TND</span></li>
+              <li class="d-flex gap-2 mb-2"><i class="bi bi-truck fs-4" aria-hidden="true"></i><span><strong>Transporteur :</strong> semi-remorque au retour, 14 t libres</span></li>
+              <li class="d-flex gap-2"><i class="bi bi-stars fs-4" aria-hidden="true"></i><span><strong>CargoLink :</strong> 92 % de compatibilité, prix conseillé par l'IA</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container py-5" aria-labelledby="probleme">
+  <h2 id="probleme" class="section-title text-center mb-4"><span class="deco-underline">Le problème</span></h2>
+  <div class="row g-4">
+    <div class="col-md-4"><div class="card h-100"><div class="card-body">
+      <span class="icon-circle mb-3"><i class="bi bi-sign-turn-left" aria-hidden="true"></i></span>
+      <h3 class="h5">Des trajets à vide</h3>
+      <p class="mb-0">Après une livraison, beaucoup de camions repartent vides ou à moitié pleins : du carburant et du temps perdus, et plus d'émissions de CO₂.</p>
+    </div></div></div>
+    <div class="col-md-4"><div class="card h-100"><div class="card-body">
+      <span class="icon-circle mb-3"><i class="bi bi-shop" aria-hidden="true"></i></span>
+      <h3 class="h5">Des PME mal servies</h3>
+      <p class="mb-0">Pour quelques palettes, une PME paie un camion complet ou attend des jours. Les offres sont peu visibles et les prix peu transparents.</p>
+    </div></div></div>
+    <div class="col-md-4"><div class="card h-100"><div class="card-body">
+      <span class="icon-circle mb-3"><i class="bi bi-diagram-3" aria-hidden="true"></i></span>
+      <h3 class="h5">Des acteurs mal connectés</h3>
+      <p class="mb-0">Les transporteurs indépendants trouvent leurs clients par le bouche-à-oreille. Sans outil commun, l'offre et la demande ne se rencontrent pas.</p>
+    </div></div></div>
+  </div>
+</section>
+
+<section id="solution" class="bg-white py-5" aria-labelledby="solution-title">
+  <div class="container">
+    <h2 id="solution-title" class="section-title text-center mb-4"><span class="deco-underline">La solution CargoLink</span></h2>
+    <ol class="row g-4 list-unstyled">
+      <li class="col-md-3"><h3 class="h6"><i class="bi bi-1-circle-fill" aria-hidden="true"></i> Publier</h3><p>La PME décrit son besoin en une phrase ; l'IA remplit l'annonce. Le transporteur déclare ses trajets et sa capacité libre.</p></li>
+      <li class="col-md-3"><h3 class="h6"><i class="bi bi-2-circle-fill" aria-hidden="true"></i> Trouver</h3><p>Recherche par ville, date, volume et type de marchandise, plus un matching IA qui classe les offres compatibles.</p></li>
+      <li class="col-md-3"><h3 class="h6"><i class="bi bi-3-circle-fill" aria-hidden="true"></i> Réserver</h3><p>Demande avec prix proposé (suggéré par l'IA), acceptation, messagerie dédiée et notifications.</p></li>
+      <li class="col-md-3"><h3 class="h6"><i class="bi bi-4-circle-fill" aria-hidden="true"></i> Suivre et noter</h3><p>Suivi du statut jusqu'à la livraison, puis avis et score de réputation du transporteur.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="container py-5" aria-labelledby="valeur">
+  <h2 id="valeur" class="section-title text-center mb-4"><span class="deco-underline">La valeur pour chacun</span></h2>
+  <div class="row g-4">
+    <div class="col-md-6"><div class="card h-100"><div class="card-body">
+      <h3 class="h5"><i class="bi bi-building" aria-hidden="true"></i> Pour les PME</h3>
+      <ul class="mb-3"><li>Payer uniquement la place utilisée</li><li>Comparer des offres notées par d'autres PME</li><li>Suivre chaque livraison en temps réel</li></ul>
+      <a class="btn btn-primary" href="{% url 'accounts:signup_pme' %}">Publier ma première annonce</a>
+    </div></div></div>
+    <div class="col-md-6"><div class="card h-100"><div class="card-body">
+      <h3 class="h5"><i class="bi bi-truck-front" aria-hidden="true"></i> Pour les transporteurs</h3>
+      <ul class="mb-3"><li>Rentabiliser les retours à vide</li><li>Recevoir des demandes compatibles avec son trajet</li><li>Construire sa réputation grâce aux avis</li></ul>
+      <a class="btn btn-primary" href="{% url 'accounts:signup_carrier' %}">Proposer mes trajets</a>
+    </div></div></div>
+  </div>
+</section>
+{% endblock %}

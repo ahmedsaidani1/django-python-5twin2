@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Accès refusé{% endblock %}
+{% block content %}
+<div class="empty-state card">
+  <i class="bi bi-shield-lock" aria-hidden="true"></i>
+  <h1 class="h3 mt-2">Accès refusé (403)</h1>
+  <p>Vous n'avez pas les droits nécessaires pour accéder à cette page.</p>
+  <a class="btn btn-primary" href="{% url 'core:home' %}">Retour à l'accueil</a>
+</div>
+{% endblock %}
