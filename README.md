@@ -264,10 +264,10 @@ Chaque membre est propriétaire d'un périmètre (fichiers, partie de la soutena
 
 | Membre | Périmètre | Branche(s) |
 |---|---|---|
-| Ahmed Saidani | comptes, modération, IA fraude, intégration & déploiement | `member1/accounts-moderation-fraud-deploy` |
-| Fedi Ben Khalifa | annonces de fret, trajets/véhicules, IA annonce intelligente, IA prix | `member2/shipments-smart-annonce`, `member3/trips-price` |
-| Farah Maiti | réservations, messagerie, IA matching, infrastructure IA asynchrone | `member4/bookings-matching-messaging` |
-| Wissem Ferjani | avis, notifications, tableaux de bord, accessibilité, IA sentiment | `member5/reviews-notifs-dashboard-sentiment` |
+| Ahmed Saidani | toute l'IA (5 fonctionnalités + infrastructure asynchrone), comptes, modération, intégration & déploiement | `member1/accounts-moderation-fraud-deploy` + parties IA |
+| Fedi Ben Khalifa | annonces de fret, trajets/véhicules, recherche & filtres | `member2/shipments-smart-annonce`, `member3/trips-price` |
+| Farah Maiti | réservations & machine à états, messagerie | `member4/bookings-matching-messaging` |
+| Wissem Ferjani | avis, notifications, tableaux de bord, accessibilité | `member5/reviews-notifs-dashboard-sentiment` |
 
 Flux : une branche par périmètre, commits conventionnels (`feat(bookings): …`, `test(trips): …`, `docs(ai): …`),
 pull request vers `main` avec CI verte, revue par un autre membre, merge `--no-ff`.
