@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Mes trajets{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <h1 class="section-title mb-0">Mes trajets</h1>
+  <div class="d-flex gap-2">
+    <a class="btn btn-outline-primary" href="{% url 'trips:vehicles' %}"><i class="bi bi-truck" aria-hidden="true"></i> Mes véhicules</a>
+    <a class="btn btn-accent" href="{% url 'trips:create' %}"><i class="bi bi-plus-lg" aria-hidden="true"></i> Nouveau trajet</a>
+  </div>
+</div>
+{% if trips %}
+<div class="table-responsive"><table class="table align-middle bg-white">
+  <caption class="visually-hidden">Liste de mes trajets</caption>
+  <thead><tr><th scope="col">Trajet</th><th scope="col">Départ</th><th scope="col">Véhicule</th><th scope="col">Réservé / disponible</th><th scope="col">Statut</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead>
+  <tbody>
+  {% for t in trips %}
+    <tr>
+      <td><a href="{{ t.get_absolute_url }}">{{ t.origin }} → {{ t.destination }}</a>{% if not t.is_active %} <span class="badge bg-secondary">masqué</span>{% endif %}</td>
+      <td>{{ t.departure_date|date:"d/m/Y" }}</td>
+      <td>{{ t.vehicle }}</td>
+      <td>{{ t.reserved_weight_kg|floatformat:"-1" }} / {{ t.available_weight_kg|floatformat:"-1" }} kg</td>
+      <td>{% status_badge t %}</td>
+      <td class="text-end">
+        <a class="btn btn-sm btn-outline-primary" href="{% url 'trips:update' t.pk %}" aria-label="Modifier le trajet {{ t }}"><i class="bi bi-pencil" aria-hidden="true"></i></a>
+        <a class="btn btn-sm btn-outline-danger" href="{% url 'trips:delete' t.pk %}" aria-label="Supprimer le trajet {{ t }}"><i class="bi bi-trash" aria-hidden="true"></i></a>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% else %}
+  {% url 'trips:create' as create_url %}
+  {% include "partials/empty.html" with icon="bi-signpost-2" text="Vous n'avez pas encore publié de trajet." url=create_url cta="Publier mon premier trajet" %}
+{% endif %}
+{% include "partials/pagination.html" %}
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Supprimer le trajet{% endblock %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-lg-6">
+  <div class="card"><div class="card-body p-4">
+    <h1 class="h3 section-title">Supprimer le trajet</h1>
+    <p>Voulez-vous vraiment supprimer le trajet <strong>{{ trip }}</strong> ? S'il a déjà des demandes, il sera annulé.</p>
+    <form method="post">{% csrf_token %}
+      <button class="btn btn-danger" type="submit">Confirmer</button>
+      <a class="btn btn-outline-primary" href="{{ trip.get_absolute_url }}">Annuler</a>
+    </form>
+  </div></div>
+</div></div>
+{% endblock %}

@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Mes véhicules{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <h1 class="section-title mb-0">Mes véhicules</h1>
+  <a class="btn btn-accent" href="{% url 'trips:vehicle_create' %}"><i class="bi bi-plus-lg" aria-hidden="true"></i> Ajouter un véhicule</a>
+</div>
+{% if vehicles %}
+<div class="row g-3">
+  {% for v in vehicles %}
+  <div class="col-md-6 col-lg-4"><article class="card h-100"><div class="card-body">
+    <h2 class="h6"><i class="bi bi-truck" aria-hidden="true"></i> {{ v.get_vehicle_type_display }} — {{ v.plate_number }}</h2>
+    <p class="small text-muted mb-2">{{ v.capacity_kg|floatformat:"-1" }} kg · {{ v.capacity_m3|floatformat:"-1" }} m³{% if v.refrigerated %} · réfrigéré{% endif %}</p>
+    <a class="btn btn-sm btn-outline-primary" href="{% url 'trips:vehicle_update' v.pk %}">Modifier<span class="visually-hidden"> {{ v.plate_number }}</span></a>
+    <a class="btn btn-sm btn-outline-danger" href="{% url 'trips:vehicle_delete' v.pk %}">Supprimer<span class="visually-hidden"> {{ v.plate_number }}</span></a>
+  </div></article></div>
+  {% endfor %}
+</div>
+{% else %}
+  {% url 'trips:vehicle_create' as create_url %}
+  {% include "partials/empty.html" with icon="bi-truck" text="Déclarez votre premier véhicule pour publier des trajets." url=create_url cta="Ajouter un véhicule" %}
+{% endif %}
+{% endblock %}

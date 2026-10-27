@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}{% if object %}Modifier le véhicule{% else %}Ajouter un véhicule{% endif %}{% endblock %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-lg-7">
+  <div class="card"><div class="card-body p-4">
+    <h1 class="h3 section-title">{% if object %}Modifier le véhicule{% else %}Ajouter un véhicule{% endif %}</h1>
+    {% include "partials/form_errors.html" %}
+    <form method="post">{% csrf_token %}
+      {% for field in form %}{% include "partials/form_field.html" %}{% endfor %}
+      <button class="btn btn-primary" type="submit">Enregistrer</button>
+      <a class="btn btn-outline-primary" href="{% url 'trips:vehicles' %}">Annuler</a>
+    </form>
+  </div></div>
+</div></div>
+{% endblock %}
