@@ -1,3 +1,4 @@
+# Import the project settings to reference the configured user model
 from django.conf import settings
 from django.contrib.auth.models import AbstractUser
 from django.contrib.contenttypes.fields import GenericForeignKey

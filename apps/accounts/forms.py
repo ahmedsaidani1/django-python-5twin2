@@ -1,3 +1,4 @@
+# Import Django's forms module to create and validate forms
 from django import forms
 from django.contrib.auth.forms import AuthenticationForm, PasswordResetForm, SetPasswordForm, UserCreationForm
 from django.db import transaction
