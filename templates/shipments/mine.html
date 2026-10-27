@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}Mes annonces{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-4">
+  <h1 class="section-title mb-0">Mes annonces</h1>
+  <a class="btn btn-accent" href="{% url 'shipments:create' %}"><i class="bi bi-plus-lg" aria-hidden="true"></i> Nouvelle annonce</a>
+</div>
+{% if freights %}
+<div class="table-responsive"><table class="table align-middle bg-white">
+  <caption class="visually-hidden">Liste de mes annonces</caption>
+  <thead><tr><th scope="col">Annonce</th><th scope="col">Trajet</th><th scope="col">Enlèvement</th><th scope="col">Demandes</th><th scope="col">Statut</th><th scope="col"><span class="visually-hidden">Actions</span></th></tr></thead>
+  <tbody>
+  {% for f in freights %}
+    <tr>
+      <td><a href="{{ f.get_absolute_url }}">{{ f.title }}</a>{% if not f.is_active %} <span class="badge bg-secondary">masquée</span>{% endif %}</td>
+      <td>{{ f.origin }} → {{ f.destination }}</td>
+      <td>{{ f.pickup_date|date:"d/m/Y" }}</td>
+      <td>{{ f.bookings.all|length }}</td>
+      <td>{% status_badge f %}</td>
+      <td class="text-end">
+        <a class="btn btn-sm btn-outline-primary" href="{% url 'shipments:update' f.pk %}" aria-label="Modifier {{ f.title }}"><i class="bi bi-pencil" aria-hidden="true"></i></a>
+        <a class="btn btn-sm btn-outline-danger" href="{% url 'shipments:delete' f.pk %}" aria-label="Supprimer {{ f.title }}"><i class="bi bi-trash" aria-hidden="true"></i></a>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table></div>
+{% else %}
+  {% url 'shipments:create' as create_url %}
+  {% include "partials/empty.html" with icon="bi-box-seam" text="Vous n'avez pas encore publié d'annonce." url=create_url cta="Publier ma première annonce" %}
+{% endif %}
+{% include "partials/pagination.html" %}
+{% endblock %}
