@@ -1,5 +1,15 @@
-# Render Blueprint — New + > Blueprint > select this repository.
-# Creates: PostgreSQL, Key Value (Redis), the Django web service and the Celery worker.
+# Render Blueprint — FREE plan. New + > Blueprint > select this repository.
+# Creates: a free PostgreSQL database and the Django web service.
+#
+# Free-plan design:
+# - No Celery worker and no Redis (background workers are paid). REDIS_URL is not set, so the
+#   broker is unreachable and AI jobs run in a background thread: the HTTP request still returns
+#   immediately (202) and the browser polls /ai/jobs/<id>/.
+# - No shell / pre-deploy command on free instances: migrations and the first demo seed run in
+#   the start command (`seed_demo --if-empty` does nothing once the demo admin exists).
+# - 1 gunicorn worker with threads to stay within the free instance memory.
+# With a paid plan, add a `keyvalue` service, a `worker` running
+# `celery -A config worker -l info`, and REDIS_URL on both services.
 databases:
   - name: cargolink-db
     databaseName: cargolink
@@ -7,11 +17,6 @@ databases:
     plan: free
 
 services:
-  - type: keyvalue
-    name: cargolink-redis
-    plan: free
-    ipAllowList: []
-
   - type: web
     name: cargolink-web
     runtime: python
@@ -20,8 +25,10 @@ services:
       pip install -r requirements.txt &&
       python manage.py collectstatic --noinput &&
       python manage.py train_ai_models
-    preDeployCommand: python manage.py migrate --noinput
-    startCommand: gunicorn config.wsgi:application --bind 0.0.0.0:$PORT --workers 2 --timeout 60
+    startCommand: >-
+      python manage.py migrate --noinput &&
+      python manage.py seed_demo --if-empty &&
+      gunicorn config.wsgi:application --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120
     healthCheckPath: /
     envVars:
       - key: PYTHON_VERSION
@@ -34,42 +41,11 @@ services:
         fromDatabase:
           name: cargolink-db
           property: connectionString
-      - key: REDIS_URL
-        fromService:
-          type: keyvalue
-          name: cargolink-redis
-          property: connectionString
+      - key: CONN_MAX_AGE
+        value: "0"
       - key: AI_PROVIDER
         value: local
       - key: AI_API_KEY
         sync: false
-
-  - type: worker
-    name: cargolink-worker
-    runtime: python
-    plan: starter
-    buildCommand: pip install -r requirements.txt && python manage.py train_ai_models
-    startCommand: celery -A config worker --loglevel=info --concurrency=2
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.12.7
-      - key: DJANGO_SETTINGS_MODULE
-        value: config.settings.prod
-      - key: SECRET_KEY
-        fromService:
-          type: web
-          name: cargolink-web
-          envVarKey: SECRET_KEY
-      - key: DATABASE_URL
-        fromDatabase:
-          name: cargolink-db
-          property: connectionString
-      - key: REDIS_URL
-        fromService:
-          type: keyvalue
-          name: cargolink-redis
-          property: connectionString
-      - key: AI_PROVIDER
-        value: local
-      - key: AI_API_KEY
-        sync: false
+      - key: MPLCONFIGDIR
+        value: /tmp/matplotlib

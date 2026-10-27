@@ -119,8 +119,15 @@ Lighthouse et axe (procédure dans le document).
 
 **Comment déployez-vous ?**
 Image Docker (Python 3.12-slim, utilisateur non-root, statiques et modèles IA intégrés), `docker compose up` lance web
-(gunicorn), PostgreSQL, Redis et le worker Celery, migrations et données de démo automatiques. Sur Render, le Blueprint
-`render.yaml` crée base, Redis, web et worker ; les migrations passent en `preDeployCommand`.
+(gunicorn), PostgreSQL, Redis et le worker Celery, migrations et données de démo automatiques. Sur Render (offre
+gratuite), le Blueprint `render.yaml` crée la base PostgreSQL et le service web ; migrations et premier chargement des
+données de démo s'exécutent au démarrage.
+
+**Sur Render il n'y a pas de Celery : l'IA est-elle encore asynchrone ?**
+Oui. Les workers Render sont payants ; sans broker, `submit_job` le détecte (sonde TCP rapide) et exécute la tâche dans
+un thread d'arrière-plan. La requête HTTP renvoie toujours `202` immédiatement et le navigateur interroge
+`/ai/jobs/<id>/`. Le même code utilise Celery + Redis dès qu'un broker est disponible (docker compose, ou Render payant
+en ajoutant un service Key Value et un worker).
 
 **Pourquoi WhiteNoise et pas nginx ?**
 Sur un PaaS, il n'y a pas de nginx devant l'application : WhiteNoise sert les statiques compressés avec des noms hachés

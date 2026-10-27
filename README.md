@@ -200,20 +200,21 @@ Les limites (données synthétiques, biais éventuels) sont écrites dans chaque
 
 ## Déploiement sur Render
 
-Le fichier `render.yaml` (Blueprint) crée la base PostgreSQL, Redis (Key Value), le service web et le worker Celery.
+Le fichier `render.yaml` (Blueprint) utilise uniquement l'**offre gratuite** : une base PostgreSQL et le service web.
 
 1. Pousser le dépôt sur GitHub (branche `main`).
-2. Sur [dashboard.render.com](https://dashboard.render.com) : **New + → Blueprint**, choisir le dépôt, valider le plan.
-3. Render crée `cargolink-db`, `cargolink-redis`, `cargolink-web`, `cargolink-worker`. `SECRET_KEY` est générée
-   automatiquement ; renseigner `AI_API_KEY` (facultatif) quand Render le demande.
-4. Le build exécute `pip install`, `collectstatic`, `train_ai_models` ; `preDeployCommand` applique les migrations.
-5. Charger les données de démonstration : onglet **Shell** du service web → `python manage.py seed_demo`.
-6. Ouvrir `https://cargolink-web.onrender.com` (le nom d'hôte Render est ajouté automatiquement à `ALLOWED_HOSTS`
-   et `CSRF_TRUSTED_ORIGINS`).
+2. Sur [dashboard.render.com](https://dashboard.render.com) (connexion avec GitHub) : **New + → Blueprint**, choisir le
+   dépôt et la branche `main`, laisser `AI_API_KEY` vide, puis **Apply**.
+3. Render crée `cargolink-db` et `cargolink-web`. `SECRET_KEY` est générée automatiquement.
+4. Build : `pip install`, `collectstatic`, `train_ai_models`. Démarrage : `migrate`, `seed_demo --if-empty` (les comptes
+   de démo sont créés au premier démarrage seulement), puis gunicorn (1 worker, 4 threads).
+5. Ouvrir l'URL affichée (`https://cargolink-web….onrender.com`) ; le nom d'hôte Render est ajouté automatiquement à
+   `ALLOWED_HOSTS` et `CSRF_TRUSTED_ORIGINS`. Chaque push sur `main` redéploie.
 
-> **Offre gratuite** : les workers Render sont payants (plan *starter*). Pour une démo 100 % gratuite, supprimer le
-> bloc `cargolink-worker` **et** la variable `REDIS_URL` du service web : le broker étant injoignable, les tâches IA
-> s'exécutent dans un thread d'arrière-plan (la requête HTTP ne bloque toujours pas).
+**Choix liés à l'offre gratuite** : pas de worker Celery ni de Redis (payants). Sans broker, les tâches IA s'exécutent
+dans un thread d'arrière-plan : la requête renvoie toujours `202` immédiatement et le navigateur interroge
+`/ai/jobs/<id>/`. Celery + Redis tournent avec `docker compose`. Le service s'endort après ~15 min d'inactivité
+(premier chargement ≈ 1 min) et la base gratuite expire au bout d'environ 30 jours.
 
 Production : `DEBUG=False`, redirection HTTPS, HSTS 1 an, cookies `Secure`/`HttpOnly`, `X-Frame-Options: DENY`,
 `SECURE_PROXY_SSL_HEADER`, WhiteNoise (fichiers compressés + hachés). `python manage.py check --deploy` est vert en CI.

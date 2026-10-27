@@ -140,3 +140,13 @@ class SeedDemoTests(TestCase):
         self.assertEqual(statuses, set(BookingRequest.Status.values))
         call_command("seed_demo", stdout=mock.MagicMock())  # idempotent
         self.assertEqual(User.objects.filter(username="admin").count(), 1)
+
+    def test_seed_demo_if_empty_keeps_existing_data(self):
+        from django.core.management import call_command
+
+        from apps.accounts.models import User
+
+        call_command("seed_demo", stdout=mock.MagicMock())
+        admin_pk = User.objects.get(username="admin").pk
+        call_command("seed_demo", "--if-empty", stdout=mock.MagicMock())  # Render restart: no reset
+        self.assertEqual(User.objects.get(username="admin").pk, admin_pk)

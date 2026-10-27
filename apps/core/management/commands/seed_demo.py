@@ -54,8 +54,18 @@ class Command(BaseCommand):
         )
         return user
 
+    def add_arguments(self, parser):
+        parser.add_argument(
+            "--if-empty",
+            action="store_true",
+            help="Ne rien faire si les comptes de démo existent déjà (utilisé au démarrage sur Render).",
+        )
+
     @transaction.atomic
     def handle(self, *args, **options):
+        if options["if_empty"] and User.objects.filter(username="admin").exists():
+            self.stdout.write("Données de démonstration déjà présentes : rien à faire.")
+            return
         usernames = ["admin", "promo_fret"] + [p[0] for p in PMES] + [c[0] for c in CARRIERS]
         Trip.objects.filter(carrier__username__in=usernames).delete()  # vehicles are PROTECTed by trips
         User.objects.filter(username__in=usernames).delete()
