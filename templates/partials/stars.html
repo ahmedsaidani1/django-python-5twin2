@@ -1,0 +1,1 @@
+<span class="stars" role="img" aria-label="Note : {{ rating|floatformat:1|default:'aucune' }} sur 5">{% for _ in full %}<i class="bi bi-star-fill" aria-hidden="true"></i>{% endfor %}{% for _ in empty %}<i class="bi bi-star" aria-hidden="true"></i>{% endfor %}</span>

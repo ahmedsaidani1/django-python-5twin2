@@ -1,0 +1,8 @@
+{% if form.non_field_errors %}
+  <div class="alert alert-danger" role="alert">
+    <p class="fw-semibold mb-1">Le formulaire contient des erreurs :</p>
+    <ul class="mb-0">{% for e in form.non_field_errors %}<li>{{ e }}</li>{% endfor %}</ul>
+  </div>
+{% elif form.errors %}
+  <div class="alert alert-danger" role="alert">Veuillez corriger les champs signalés ci-dessous.</div>
+{% endif %}

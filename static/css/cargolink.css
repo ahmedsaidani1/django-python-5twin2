@@ -1,0 +1,125 @@
+/* CargoLink — brand layer on top of Bootstrap 5.
+   Contrast rules (WCAG AA): yellow is used only on navy backgrounds or as decoration,
+   never as text on white. All text/background pairs below are ≥ 4.5:1. */
+:root {
+  --cl-navy: #0B2A5B;
+  --cl-navy-700: #123a78;
+  --cl-yellow: #FFB400;
+  --cl-bg: #F3F6FA;
+  --cl-text: #1b2533;
+  --cl-muted: #4f5a68;       /* 6.6:1 on #F3F6FA */
+  --cl-border: #d5dce6;
+  --bs-primary: #0B2A5B;
+  --bs-primary-rgb: 11, 42, 91;
+  --bs-link-color: #123a78;
+  --bs-link-color-rgb: 18, 58, 120;
+  --bs-link-hover-color: #0B2A5B;
+  --bs-body-bg: #F3F6FA;
+  --bs-body-color: #1b2533;
+  --bs-secondary-color: #4f5a68;
+  --bs-border-radius: .6rem;
+}
+
+body { background: var(--cl-bg); color: var(--cl-text); min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1 0 auto; }
+.text-muted, .text-body-secondary, .form-text { color: var(--cl-muted) !important; }
+
+/* Skip link: hidden until focused */
+.skip-link {
+  position: absolute; left: 1rem; top: -100px; z-index: 2000;
+  background: var(--cl-yellow); color: var(--cl-navy); font-weight: 700;
+  padding: .6rem 1rem; border-radius: .4rem; text-decoration: none;
+}
+.skip-link:focus { top: .75rem; }
+
+/* Visible keyboard focus everywhere */
+:focus-visible { outline: 3px solid var(--cl-yellow) !important; outline-offset: 2px; box-shadow: 0 0 0 5px var(--cl-navy) !important; }
+.bg-navy :focus-visible, .navbar :focus-visible { box-shadow: 0 0 0 5px #fff !important; }
+
+/* Header / nav */
+.bg-navy { background: var(--cl-navy) !important; color: #fff; }
+.navbar.bg-navy .nav-link { color: #e8eef7; }
+.navbar.bg-navy .nav-link:hover { color: #fff; }
+.navbar.bg-navy .nav-link[aria-current="page"] { color: var(--cl-yellow); font-weight: 600; box-shadow: inset 0 -3px 0 var(--cl-yellow); }
+.brand-name { font-weight: 800; letter-spacing: .02em; color: #fff; }
+.brand-name span { color: var(--cl-yellow); }
+.notif-badge { background: var(--cl-yellow); color: var(--cl-navy); }
+
+/* Buttons */
+.btn-primary { --bs-btn-bg: var(--cl-navy); --bs-btn-border-color: var(--cl-navy); --bs-btn-hover-bg: var(--cl-navy-700); --bs-btn-hover-border-color: var(--cl-navy-700); --bs-btn-active-bg: #081f44; }
+.btn-accent { background: var(--cl-yellow); color: var(--cl-navy); font-weight: 700; border: 0; }
+.btn-accent:hover, .btn-accent:focus { background: #ffc533; color: var(--cl-navy); }
+.btn-outline-primary { --bs-btn-color: var(--cl-navy); --bs-btn-border-color: var(--cl-navy); --bs-btn-hover-bg: var(--cl-navy); --bs-btn-hover-border-color: var(--cl-navy); }
+.btn-outline-light { --bs-btn-hover-color: var(--cl-navy); }
+
+/* Cards */
+.card { border: 1px solid var(--cl-border); border-radius: .8rem; box-shadow: 0 1px 2px rgba(11, 42, 91, .06); }
+.card-hover { transition: transform .15s ease, box-shadow .15s ease; }
+.card-hover:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(11, 42, 91, .12); }
+.card .accent-bar { height: 4px; background: var(--cl-yellow); border-radius: .8rem .8rem 0 0; }
+.stat-card .stat-value { font-size: 1.8rem; font-weight: 800; color: var(--cl-navy); }
+.route { font-weight: 700; color: var(--cl-navy); }
+.route .bi { color: var(--cl-muted); }
+
+/* Status badges (white text on dark colours, navy on yellow) */
+.badge-status { font-weight: 600; padding: .4em .7em; border-radius: 1rem; }
+.status-en_attente { background: var(--cl-yellow); color: var(--cl-navy); }
+.status-acceptee   { background: #0a58ca; color: #fff; }
+.status-en_cours   { background: #5b2c9c; color: #fff; }
+.status-livree     { background: #146c43; color: #fff; }
+.status-refusee    { background: #b02a37; color: #fff; }
+.status-annulee    { background: #495057; color: #fff; }
+.status-ouverte, .status-ouvert { background: #146c43; color: #fff; }
+.status-attribuee, .status-complet { background: #0a58ca; color: #fff; }
+.status-cloturee, .status-termine, .status-annule { background: #495057; color: #fff; }
+
+/* Hero / landing */
+.hero { background: linear-gradient(135deg, var(--cl-navy) 0%, #143f80 100%); color: #fff; }
+.hero .lead { color: #e8eef7; }
+.hero .tagline { color: var(--cl-yellow); font-weight: 700; letter-spacing: .08em; }
+.icon-circle { width: 3rem; height: 3rem; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--cl-navy); color: var(--cl-yellow); font-size: 1.4rem; }
+.section-title { color: var(--cl-navy); font-weight: 800; }
+.deco-underline { display: inline-block; border-bottom: 4px solid var(--cl-yellow); padding-bottom: .15rem; }
+
+/* Empty states */
+.empty-state { text-align: center; padding: 2.5rem 1rem; color: var(--cl-muted); }
+.empty-state .bi { font-size: 2.6rem; color: var(--cl-navy); opacity: .5; }
+
+/* Forms */
+.form-label { font-weight: 600; }
+.invalid-feedback { color: #a1202c; }
+.form-control.is-invalid, .form-select.is-invalid { border-color: #a1202c; }
+
+/* AI panels */
+.ai-panel { border-left: 4px solid var(--cl-yellow); background: #fff; }
+.ai-panel[aria-busy="true"] .ai-spinner { display: inline-block !important; }
+.ai-result-error { color: #a1202c; font-weight: 600; }
+.score-bar { height: .5rem; background: #e3e8ef; border-radius: 1rem; overflow: hidden; }
+.score-bar > span { display: block; height: 100%; background: var(--cl-navy); }
+
+/* Messages thread */
+.thread { max-height: 420px; overflow-y: auto; }
+.msg { max-width: 80%; border-radius: .8rem; padding: .5rem .8rem; margin-bottom: .5rem; }
+.msg-mine { background: var(--cl-navy); color: #fff; margin-left: auto; }
+.msg-other { background: #fff; border: 1px solid var(--cl-border); }
+.msg-mine .msg-meta { color: #d6deea; }
+
+/* Stars */
+.stars { color: #8a5a00; } /* dark amber: 5.4:1 on white */
+
+/* Footer */
+footer.site-footer { background: var(--cl-navy); color: #e8eef7; }
+footer.site-footer a { color: #fff; }
+
+/* Toasts */
+.toast-container { z-index: 1090; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* Bootstrap components that hard-code #0d6efd: use the brand navy (14:1 with white) */
+.pagination { --bs-pagination-active-bg: var(--cl-navy); --bs-pagination-active-border-color: var(--cl-navy); --bs-pagination-color: var(--cl-navy-700); }
+.nav-pills { --bs-nav-pills-link-active-bg: var(--cl-navy); --bs-nav-link-color: var(--cl-navy-700); }
+.form-check-input:checked { background-color: var(--cl-navy); border-color: var(--cl-navy); }
+.bg-primary { background-color: var(--cl-navy) !important; }

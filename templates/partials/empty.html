@@ -1,0 +1,5 @@
+<div class="empty-state card">
+  <i class="bi {{ icon|default:'bi-inbox' }}" aria-hidden="true"></i>
+  <p class="mt-2 mb-3">{{ text }}</p>
+  {% if url %}<a class="btn btn-primary" href="{{ url }}">{{ cta }}</a>{% endif %}
+</div>

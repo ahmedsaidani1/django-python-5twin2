@@ -1,0 +1,71 @@
+{% load static cargolink %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-navy" aria-label="Navigation principale">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="{% url 'core:home' %}">
+      <img src="{% static 'img/logo-mark.svg' %}" alt="" width="36" height="36">
+      <span class="brand-name">Cargo<span>Link</span></span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Ouvrir le menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        {% if user.is_authenticated %}
+          <li class="nav-item"><a class="nav-link" href="{% url 'dashboard:home' %}" {% nav_current '/tableau-de-bord/' %}>Tableau de bord</a></li>
+          {% if user.is_pme %}
+            <li class="nav-item"><a class="nav-link" href="{% url 'shipments:mine' %}" {% nav_current '/annonces/' %}>Mes annonces</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'trips:list' %}" {% nav_current '/trajets/' %}>Trouver un trajet</a></li>
+          {% elif user.is_transporteur %}
+            <li class="nav-item"><a class="nav-link" href="{% url 'trips:mine' %}" {% nav_current '/trajets/' %}>Mes trajets</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'shipments:list' %}" {% nav_current '/annonces/' %}>Trouver du fret</a></li>
+          {% elif user.is_platform_admin %}
+            <li class="nav-item"><a class="nav-link" href="{% url 'accounts:moderation' %}" {% nav_current '/comptes/moderation/' %}>Modération</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'shipments:list' %}" {% nav_current '/annonces/' %}>Annonces</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'trips:list' %}" {% nav_current '/trajets/' %}>Trajets</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'admin:index' %}">Admin Django</a></li>
+          {% endif %}
+          {% if not user.is_platform_admin %}
+            <li class="nav-item"><a class="nav-link" href="{% url 'bookings:list' %}" {% nav_current '/demandes/' %}>Demandes</a></li>
+            <li class="nav-item"><a class="nav-link" href="{% url 'messaging:inbox' %}" {% nav_current '/messages/' %}>Messages</a></li>
+          {% endif %}
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{% url 'core:home' %}" {% nav_current '/' %}>Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'core:home' %}#solution">La solution</a></li>
+        {% endif %}
+      </ul>
+      <ul class="navbar-nav align-items-lg-center gap-lg-2">
+        {% if user.is_authenticated %}
+          <li class="nav-item">
+            <a class="nav-link position-relative" href="{% url 'notifications:list' %}" {% nav_current '/notifications/' %}
+               aria-label="Notifications{% if unread_notifications_count %} : {{ unread_notifications_count }} non lue{{ unread_notifications_count|pluralize }}{% endif %}">
+              <i class="bi bi-bell-fill" aria-hidden="true"></i>
+              {% if unread_notifications_count %}<span class="badge rounded-pill notif-badge" aria-hidden="true">{{ unread_notifications_count }}</span>{% endif %}
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="userMenu">
+              <i class="bi bi-person-circle" aria-hidden="true"></i> {{ user.display_name }}
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userMenu">
+              {% if not user.is_platform_admin %}
+                <li><a class="dropdown-item" href="{% url 'accounts:profile' %}">Mon profil</a></li>
+                {% if user.is_transporteur %}<li><a class="dropdown-item" href="{% url 'trips:vehicles' %}">Mes véhicules</a></li>{% endif %}
+                <li><a class="dropdown-item" href="{% url 'reviews:mine' %}">Avis</a></li>
+                <li><hr class="dropdown-divider"></li>
+              {% endif %}
+              <li>
+                <form method="post" action="{% url 'accounts:logout' %}">{% csrf_token %}
+                  <button class="dropdown-item" type="submit">Se déconnecter</button>
+                </form>
+              </li>
+            </ul>
+          </li>
+        {% else %}
+          <li class="nav-item"><a class="nav-link" href="{% url 'accounts:login' %}" {% nav_current '/comptes/connexion/' %}>Connexion</a></li>
+          <li class="nav-item"><a class="btn btn-accent" href="{% url 'accounts:signup' %}">Créer un compte</a></li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
