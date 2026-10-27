@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Messages{% endblock %}
+{% block content %}
+<h1 class="section-title mb-4">Messages</h1>
+{% if threads %}
+  <ul class="list-group">
+  {% for b in threads %}
+    <li class="list-group-item d-flex justify-content-between align-items-center gap-2">
+      <div>
+        <a class="fw-semibold" href="{{ b.get_absolute_url }}#messages">Demande #{{ b.pk }} · {{ b.freight.title }}</a>
+        <div class="small text-muted">Avec {% if b.sender_id == user.pk %}{{ b.receiver.display_name }}{% else %}{{ b.sender.display_name }}{% endif %} · dernier message le {{ b.last_message_at|date:"d/m H:i" }}</div>
+      </div>
+      {% if b.unread %}<span class="badge bg-primary">{{ b.unread }} non lu{{ b.unread|pluralize }}</span>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+{% else %}
+  {% include "partials/empty.html" with icon="bi-chat-dots" text="Aucune conversation. Les messages se trouvent dans chaque demande de réservation." %}
+{% endif %}
+{% include "partials/pagination.html" %}
+{% endblock %}
