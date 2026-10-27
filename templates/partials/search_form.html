@@ -1,0 +1,14 @@
+<form method="get" class="card card-body mb-4" role="search" aria-label="{{ search_label }}">
+  <div class="row g-2 align-items-end">
+    <div class="col-12 col-md-4">{% include "partials/form_field.html" with field=form.q %}</div>
+    <div class="col-6 col-md-2">{% include "partials/form_field.html" with field=form.origin %}</div>
+    <div class="col-6 col-md-2">{% include "partials/form_field.html" with field=form.destination %}</div>
+    <div class="col-6 col-md-2">{% include "partials/form_field.html" with field=form.date %}</div>
+    <div class="col-6 col-md-2">{% include "partials/form_field.html" with field=form.min_volume %}</div>
+    <div class="col-12 col-md-4">{% include "partials/form_field.html" with field=form.merchandise_type %}</div>
+    <div class="col-12 col-md-8 d-flex gap-2 mb-3">
+      <button class="btn btn-primary" type="submit"><i class="bi bi-search" aria-hidden="true"></i> Rechercher</button>
+      <a class="btn btn-outline-primary" href="{{ request.path }}">Réinitialiser</a>
+    </div>
+  </div>
+</form>

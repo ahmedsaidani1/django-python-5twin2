@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Annonces de fret{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+  <h1 class="section-title mb-0">Annonces de fret</h1>
+  {% if user.is_pme %}<a class="btn btn-accent" href="{% url 'shipments:create' %}"><i class="bi bi-plus-lg" aria-hidden="true"></i> Publier une annonce</a>{% endif %}
+</div>
+{% include "partials/search_form.html" with search_label="Filtrer les annonces" %}
+<h2 class="h5 mb-3" aria-live="polite">{{ paginator.count }} annonce{{ paginator.count|pluralize }} trouvée{{ paginator.count|pluralize }}</h2>
+{% if freights %}
+  <div class="row g-3">{% for f in freights %}<div class="col-md-6 col-lg-4">{% include "partials/freight_card.html" %}</div>{% endfor %}</div>
+{% else %}
+  {% include "partials/empty.html" with icon="bi-search" text="Aucune annonce ne correspond à ces critères." %}
+{% endif %}
+{% include "partials/pagination.html" %}
+{% endblock %}

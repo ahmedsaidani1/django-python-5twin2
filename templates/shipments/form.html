@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}{% if object %}Modifier l'annonce{% else %}Publier une annonce{% endif %}{% endblock %}
+{% block content %}
+<h1 class="section-title mb-4">{% if object %}Modifier l'annonce{% else %}Publier une annonce de fret{% endif %}</h1>
+<div class="row g-4">
+  {% if not object %}
+  <section class="col-lg-4 order-lg-2" aria-labelledby="h-ai">
+    <div class="card ai-panel" id="ai-smart-annonce" aria-busy="false"><div class="card-body">
+      <h2 id="h-ai" class="h5"><i class="bi bi-stars" aria-hidden="true"></i> Annonce intelligente</h2>
+      <p class="small text-muted">Décrivez votre besoin en une phrase, l'IA pré-remplit le formulaire.</p>
+      <label class="form-label" for="ai-text">Votre besoin</label>
+      <textarea id="ai-text" class="form-control mb-2" rows="4" maxlength="1000" placeholder="20 palettes de tomates de Sfax à Tunis mardi, budget 1200 DT"></textarea>
+      <button type="button" class="btn btn-primary" data-ai-trigger>
+        <span class="spinner-border spinner-border-sm ai-spinner d-none" aria-hidden="true"></span>
+        Remplir avec l'IA
+      </button>
+      <p class="small mt-2 mb-0" data-ai-status role="status" aria-live="polite"></p>
+    </div></div>
+  </section>
+  {% endif %}
+  <section class="col-lg-8" aria-label="Formulaire de l'annonce">
+    <div class="card"><div class="card-body">
+      {% include "partials/form_errors.html" %}
+      <form method="post" class="needs-price">
+        {% csrf_token %}
+        <div class="row">
+          <div class="col-md-8">{% include "partials/form_field.html" with field=form.title %}</div>
+          <div class="col-md-4">{% include "partials/form_field.html" with field=form.merchandise_type %}</div>
+          <div class="col-12">{% include "partials/form_field.html" with field=form.description %}</div>
+          <div class="col-md-6">{% include "partials/form_field.html" with field=form.origin %}</div>
+          <div class="col-md-6">{% include "partials/form_field.html" with field=form.destination %}</div>
+          <div class="col-md-6">{% include "partials/form_field.html" with field=form.weight_kg %}</div>
+          <div class="col-md-6">{% include "partials/form_field.html" with field=form.volume_m3 %}</div>
+          <div class="col-md-6">{% include "partials/form_field.html" with field=form.pickup_date %}</div>
+          <div class="col-md-6">{% include "partials/form_field.html" with field=form.delivery_deadline %}</div>
+          <div class="col-12">{% include "partials/form_field.html" with field=form.constraints %}</div>
+          <div class="col-md-6">{% include "partials/form_field.html" with field=form.budget %}</div>
+          <div class="col-md-6">
+            <div class="ai-panel p-2 rounded mb-3" data-ai-price="id_budget" aria-busy="false">
+              <button type="button" class="btn btn-sm btn-outline-primary" data-ai-trigger>
+                <span class="spinner-border spinner-border-sm ai-spinner d-none" aria-hidden="true"></span>
+                <i class="bi bi-calculator" aria-hidden="true"></i> Suggérer un budget (IA)
+              </button>
+              <p class="small mb-0 mt-1" data-ai-status role="status" aria-live="polite"></p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="btn btn-primary" type="submit">{% if object %}Enregistrer{% else %}Publier l'annonce{% endif %}</button>
+          <a class="btn btn-outline-primary" href="{% url 'shipments:mine' %}">Annuler</a>
+        </div>
+      </form>
+    </div></div>
+  </section>
+</div>
+{% endblock %}
