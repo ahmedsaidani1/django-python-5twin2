@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Trajets disponibles{% endblock %}
+{% block content %}
+<div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-3">
+  <h1 class="section-title mb-0">Trajets avec capacité disponible</h1>
+  {% if user.is_transporteur %}<a class="btn btn-accent" href="{% url 'trips:create' %}"><i class="bi bi-plus-lg" aria-hidden="true"></i> Publier un trajet</a>{% endif %}
+</div>
+{% include "partials/search_form.html" with search_label="Filtrer les trajets" %}
+<h2 class="h5 mb-3" aria-live="polite">{{ paginator.count }} trajet{{ paginator.count|pluralize }} trouvé{{ paginator.count|pluralize }}</h2>
+{% if trips %}
+  <div class="row g-3">{% for t in trips %}<div class="col-md-6 col-lg-4">{% include "partials/trip_card.html" %}</div>{% endfor %}</div>
+{% else %}
+  {% include "partials/empty.html" with icon="bi-search" text="Aucun trajet ne correspond à ces critères." %}
+{% endif %}
+{% include "partials/pagination.html" %}
+{% endblock %}
