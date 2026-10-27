@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Signaler{% endblock %}
+{% block content %}
+<div class="row justify-content-center"><div class="col-lg-6">
+  <div class="card"><div class="card-body p-4">
+    <h1 class="h3 section-title">Signaler un contenu</h1>
+    <p>Vous signalez : <strong>{{ target }}</strong>. L'équipe de modération examinera votre signalement.</p>
+    {% include "partials/form_errors.html" %}
+    <form method="post">{% csrf_token %}
+      {% for field in form %}{% include "partials/form_field.html" %}{% endfor %}
+      <div class="d-flex gap-2">
+        <button class="btn btn-primary" type="submit">Envoyer le signalement</button>
+        <a class="btn btn-outline-primary" href="{{ target.get_absolute_url }}">Annuler</a>
+      </div>
+    </form>
+  </div></div>
+</div></div>
+{% endblock %}

@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %}Modération{% endblock %}
+{% block content %}
+<h1 class="section-title mb-4">Modération</h1>
+
+<section class="mb-5" aria-labelledby="h-reports">
+  <h2 id="h-reports" class="h4">Signalements ouverts <span class="badge bg-primary">{{ reports|length }}</span></h2>
+  {% if reports %}
+  <div class="table-responsive"><table class="table table-striped align-middle bg-white">
+    <caption class="visually-hidden">Signalements en attente de traitement</caption>
+    <thead><tr><th scope="col">Date</th><th scope="col">Cible</th><th scope="col">Motif</th><th scope="col">Signalé par</th><th scope="col">Actions</th></tr></thead>
+    <tbody>
+    {% for r in reports %}
+      <tr>
+        <td>{{ r.created_at|date:"d/m/Y H:i" }}</td>
+        <td>{{ r.content_type.model }} : {% if r.target.get_absolute_url %}<a href="{{ r.target.get_absolute_url }}">{{ r.target }}</a>{% else %}{{ r.target|default:"(supprimé)" }}{% endif %}
+          {% if r.details %}<div class="small text-muted">{{ r.details }}</div>{% endif %}</td>
+        <td>{{ r.get_reason_display }}</td>
+        <td>{{ r.reporter.display_name }}</td>
+        <td class="d-flex flex-wrap gap-1">
+          {% if r.target %}
+          {% with kind=r.content_type.model %}
+          <form method="post" action="{% if kind == 'freightrequest' %}{% url 'accounts:moderation_action' 'annonce' r.object_id 'desactiver' %}{% elif kind == 'trip' %}{% url 'accounts:moderation_action' 'trajet' r.object_id 'desactiver' %}{% else %}{% url 'accounts:moderation_action' 'utilisateur' r.object_id 'desactiver' %}{% endif %}">{% csrf_token %}
+            <button class="btn btn-sm btn-danger" type="submit">Désactiver</button>
+          </form>
+          {% endwith %}
+          {% endif %}
+          <form method="post" action="{% url 'accounts:moderation_action' 'signalement' r.pk 'traiter' %}">{% csrf_token %}<button class="btn btn-sm btn-outline-primary" type="submit">Marquer traité</button></form>
+          <form method="post" action="{% url 'accounts:moderation_action' 'signalement' r.pk 'rejeter' %}">{% csrf_token %}<button class="btn btn-sm btn-outline-secondary" type="submit">Rejeter</button></form>
+        </td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% else %}{% include "partials/empty.html" with icon="bi-check2-circle" text="Aucun signalement en attente." %}{% endif %}
+</section>
+
+<section aria-labelledby="h-flagged">
+  <h2 id="h-flagged" class="h4">Signalés par l'IA anti-fraude</h2>
+  <div class="row g-3">
+    <div class="col-lg-4">
+      <h3 class="h6">Annonces</h3>
+      <ul class="list-group">
+      {% for f in flagged_freights %}
+        <li class="list-group-item">
+          <a href="{{ f.get_absolute_url }}">{{ f.title }}</a> <span class="badge bg-danger">score {{ f.fraud_score|floatformat:2 }}</span>
+          <div class="small text-muted">par {{ f.pme.display_name }}</div>
+          <div class="d-flex gap-1 mt-1">
+            <form method="post" action="{% url 'accounts:moderation_action' 'annonce' f.pk 'desactiver' %}">{% csrf_token %}<button class="btn btn-sm btn-danger" type="submit">Masquer</button></form>
+            <form method="post" action="{% url 'accounts:moderation_action' 'annonce' f.pk 'valider' %}">{% csrf_token %}<button class="btn btn-sm btn-outline-primary" type="submit">Valider</button></form>
+          </div>
+        </li>
+      {% empty %}<li class="list-group-item text-muted">Aucune annonce suspecte.</li>{% endfor %}
+      </ul>
+    </div>
+    <div class="col-lg-4">
+      <h3 class="h6">Trajets</h3>
+      <ul class="list-group">
+      {% for t in flagged_trips %}
+        <li class="list-group-item">
+          <a href="{{ t.get_absolute_url }}">{{ t }}</a> <span class="badge bg-danger">score {{ t.fraud_score|floatformat:2 }}</span>
+          <div class="small text-muted">par {{ t.carrier.display_name }}</div>
+          <div class="d-flex gap-1 mt-1">
+            <form method="post" action="{% url 'accounts:moderation_action' 'trajet' t.pk 'desactiver' %}">{% csrf_token %}<button class="btn btn-sm btn-danger" type="submit">Masquer</button></form>
+            <form method="post" action="{% url 'accounts:moderation_action' 'trajet' t.pk 'valider' %}">{% csrf_token %}<button class="btn btn-sm btn-outline-primary" type="submit">Valider</button></form>
+          </div>
+        </li>
+      {% empty %}<li class="list-group-item text-muted">Aucun trajet suspect.</li>{% endfor %}
+      </ul>
+    </div>
+    <div class="col-lg-4">
+      <h3 class="h6">Comptes</h3>
+      <ul class="list-group">
+      {% for u in flagged_users %}
+        <li class="list-group-item">
+          {{ u.display_name }} <span class="small text-muted">({{ u.get_role_display }})</span>
+          <div class="d-flex gap-1 mt-1">
+            <form method="post" action="{% url 'accounts:moderation_action' 'utilisateur' u.pk 'desactiver' %}">{% csrf_token %}<button class="btn btn-sm btn-danger" type="submit">Désactiver le compte</button></form>
+            <form method="post" action="{% url 'accounts:moderation_action' 'utilisateur' u.pk 'valider' %}">{% csrf_token %}<button class="btn btn-sm btn-outline-primary" type="submit">Valider</button></form>
+          </div>
+        </li>
+      {% empty %}<li class="list-group-item text-muted">Aucun compte suspect.</li>{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+{% endblock %}

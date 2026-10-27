@@ -1,0 +1,1601 @@
+split,label,text,price,expected_price,weight_kg,posts_24h,account_age_days,reports
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",531.3,815.06,6455,1,1,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",241.56,164.61,1611,5,3,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. URGENT : marchandise périssable, départ demain matin !",815.66,515.45,2419,1,30,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",267.62,278.43,2533,1,3,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 95 167 417",4327.56,700.42,0,15,30,1
+train,1,"Marchandise conditionnée en cartons, quai de chargement disponible.",335.2,356.19,604,0,30,0
+train,1,Facture avec matricule fiscal exigée.,94.21,124.83,525,1,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",336.1,221.69,95,0,500,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink.",629.72,616.98,1802,1,500,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,403.72,1153.5,16048,5,900,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",126.0,190.01,216,3,0,2
+train,0,"Livraison en centre-ville, accès camion porteur possible.",454.45,294.04,3204,1,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",182.66,192.7,3263,3,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",703.24,489.51,959,9,30,1
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",1864.25,233.73,798,15,1,3
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",76.65,120.59,200,9,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",521.42,355.58,247,3,0,0
+train,0,Contact du magasinier communiqué après réservation.,265.18,262.75,1624,3,500,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,558.41,210.92,1114,8,90,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",131.6,153.05,400,2,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",132.88,127.34,1209,2,0,2
+train,1,"Produits à livrer chez notre client, réception de 8h à 16h.",213.01,203.92,1135,25,0,0
+train,0,"Facture avec matricule fiscal exigée. Prix négociable, appelez-nous via la messagerie CargoLink.",592.25,497.35,3989,0,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Prix négociable, appelez-nous via la messagerie CargoLink.",1870.94,1204.52,10773,9,200,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 59 393 763",1705.25,1128.8,11444,1,3,0
+train,0,Contact du magasinier communiqué après réservation. Tél. 93 373 939,179.87,271.33,1560,0,90,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",429.88,276.94,3843,1,30,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. URGENT : marchandise périssable, départ demain matin ! Tél. 26 863 173",317.71,271.29,2330,0,200,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",1047.06,180.9,454,8,2,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",521.39,842.73,17431,3,1,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",23.64,67.55,1311,0,900,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Prix négociable, appelez-nous via la messagerie CargoLink.",486.71,397.38,3438,3,10,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink.",238.17,230.47,549,3,900,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. URGENT : marchandise périssable, départ demain matin !",538.41,493.94,4764,9,90,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,729.36,1086.66,12981,5,500,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. URGENT : marchandise périssable, départ demain matin !",366.87,400.49,7339,0,0,1
+train,0,"Livraison en centre-ville, accès camion porteur possible.",93.53,267.24,6114,1,0,0
+train,1,Contact du magasinier communiqué après réservation.,100.54,470.23,733,4,5,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Prix négociable, appelez-nous via la messagerie CargoLink.",302.11,360.95,3442,9,1,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 24 953 517,385.92,461.55,106,1,0,0
+train,0,"Contact du magasinier communiqué après réservation. URGENT : marchandise périssable, départ demain matin !",945.73,987.59,18427,5,200,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,1287.49,1742.88,12371,9,1,2
+train,0,"Facture avec matricule fiscal exigée. URGENT : marchandise périssable, départ demain matin !",609.14,388.54,450,1,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Tél. 56 870 887",332.57,222.29,3893,1,0,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 96 374 209,367.9,493.07,5980,2,5,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1104.9,143.33,1735,2,30,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 99 275 745,515.8,410.56,197,1,200,2
+train,0,Facture avec matricule fiscal exigée.,297.52,409.31,5540,5,0,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",339.97,376.4,294,3,10,0
+train,0,Contact du magasinier communiqué après réservation.,1536.97,1833.38,18150,5,0,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,3010.54,706.93,4208,0,30,3
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",234.8,218.28,662,8,0,3
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",368.62,239.21,389,5,30,0
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",610.99,488.8,119,0,90,1
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",642.43,734.78,11485,2,0,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 98 845 516",530.34,397.76,99999,1,90,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",113.54,389.4,1714,25,200,3
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. URGENT : marchandise périssable, départ demain matin !",453.33,468.46,2391,0,500,1
+train,0,Contact du magasinier communiqué après réservation.,62.6,89.06,220,0,10,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",478.83,667.32,10950,3,3,1
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",7380.42,1134.47,14764,4,0,2
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",1675.36,1216.47,14606,1,400,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. URGENT : marchandise périssable, départ demain matin !",77.16,90.68,973,9,200,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",173.15,111.37,233,9,900,0
+train,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",815.26,638.64,5885,4,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",368.72,423.38,5966,9,90,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1113.93,811.58,5594,1,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",327.56,366.49,7098,0,30,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",362.21,172.06,428,15,0,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 28 344 139,45.63,126.94,289,2,400,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",996.43,1520.79,18721,1,900,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 29 678 312",348.84,543.19,7298,0,1,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,203.27,142.23,342,2,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",783.73,356.24,343,0,0,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 96 220 522,93.61,354.65,1226,15,0,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",549.02,446.09,2878,1,2,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",408.9,365.69,1001,5,3,0
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",1901.96,246.83,3556,25,5,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",52.62,136.79,335,2,1,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",201.84,226.11,207,3,200,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",134.01,190.31,117,5,1,0
+train,0,Facture avec matricule fiscal exigée.,247.78,252.77,397,1,10,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",150.59,95.74,2972,5,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",237.15,320.7,2998,0,500,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",366.64,365.2,2673,0,3,0
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",299.77,237.66,5587,8,5,3
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",799.72,645.41,4276,9,900,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",49.92,526.08,10138,1,5,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",1120.61,869.24,8162,0,3,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",427.07,532.13,6301,1,900,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",365.12,436.81,141,0,900,0
+train,0,Facture avec matricule fiscal exigée.,482.66,375.28,4638,0,30,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",264.56,254.77,109,9,500,0
+train,0,Contact du magasinier communiqué après réservation.,988.14,811.71,6458,0,500,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",765.8,584.55,523,0,90,3
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",4528.93,632.38,11520,25,90,3
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",751.78,512.48,4114,0,10,2
+train,0,Contact du magasinier communiqué après réservation.,557.89,713.31,602,1,200,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",591.03,268.65,1052,9,30,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",384.94,1099.82,16878,1,500,0
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",688.3,529.63,5822,25,0,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",1025.63,1134.78,9810,5,30,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 54 523 198",827.11,674.69,1387,5,1,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",626.84,400.36,142,0,10,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",1504.43,1014.64,10867,5,10,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",221.24,183.86,166,0,3,0
+train,0,Contact du magasinier communiqué après réservation.,441.21,647.46,101,2,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",201.91,202.85,995,9,500,2
+train,1,Facture avec matricule fiscal exigée.,3686.16,849.11,19643,25,400,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",169.5,139.67,84,9,1,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",339.28,541.73,233,0,900,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 27 133 379,393.26,281.95,545,4,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 29 955 459",399.32,467.04,146,1,30,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 57 969 337,195.73,179.57,4259,0,5,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",273.62,224.08,1001,2,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",275.42,182.39,2011,2,1,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 92 311 877,627.48,517.42,2841,4,5,3
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1010.75,484.51,2077,2,90,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,174.03,143.75,515,0,500,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 54 181 755,72.57,101.55,355,4,200,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",2551.36,507.16,17825,8,1,1
+train,0,"Livraison en centre-ville, accès camion porteur possible.",517.2,460.24,1821,1,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",374.16,517.68,1826,9,500,0
+train,0,Contact du magasinier communiqué après réservation.,283.0,437.51,180,0,200,0
+train,0,Facture avec matricule fiscal exigée.,444.15,472.62,90,1,3,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Tél. 28 359 384",93.31,266.59,477,1,500,1
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",658.1,176.85,491,0,400,1
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",39.5,164.57,2593,15,90,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",2621.22,2300.19,18800,4,90,2
+train,1,"Livraison en centre-ville, accès camion porteur possible.",381.19,361.21,4720,15,200,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",657.14,298.7,4049,3,900,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,309.4,197.51,254,2,200,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",289.6,357.98,3135,1,1,2
+train,0,Contact du magasinier communiqué après réservation.,246.64,112.11,936,9,1,0
+train,1,Facture avec matricule fiscal exigée.,548.88,516.18,3201,1,2,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",104.06,297.31,349,3,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",425.51,597.04,5111,0,200,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",401.32,262.53,780,0,500,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",630.33,462.53,580,2,0,3
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",499.05,364.23,5178,0,900,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",929.56,715.92,3837,1,200,1
+train,1,"Produits à livrer chez notre client, réception de 8h à 16h.",422.45,386.38,1157,25,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",1741.98,1626.21,17709,3,90,2
+train,0,Facture avec matricule fiscal exigée.,386.64,352.65,8584,0,90,0
+train,1,Facture avec matricule fiscal exigée.,1321.57,538.63,4973,15,2,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",639.5,423.63,1970,9,0,1
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",419.06,421.3,349,15,90,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",361.24,489.0,4749,3,200,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",333.47,223.53,159,9,200,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Prix négociable, appelez-nous via la messagerie CargoLink.",269.33,178.95,2183,5,10,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",641.02,502.2,2228,2,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",290.28,246.78,123,0,90,2
+train,0,Facture avec matricule fiscal exigée.,803.66,617.65,1094,5,90,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 25 679 574,64.31,485.07,235,4,200,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Prix négociable, appelez-nous via la messagerie CargoLink.",385.39,391.58,1134,2,3,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",369.38,380.01,341,5,3,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",169.97,216.43,200,25,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",727.87,752.09,10578,1,200,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 27 851 691",511.47,365.47,281,4,400,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",257.02,734.33,3132,0,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",1244.99,791.95,19744,0,10,0
+train,1,"Livraison en centre-ville, accès camion porteur possible.",1391.24,375.25,164,15,0,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",601.56,534.41,99999,1,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",535.71,469.77,11437,9,900,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,444.87,451.77,114,1,400,3
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,1174.8,384.32,219,25,30,2
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",162.48,1691.15,18065,4,30,3
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",127.76,421.3,6373,15,5,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Tél. 54 433 351",1369.9,876.85,9159,1,0,1
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,674.5,587.37,12838,9,10,0
+train,0,Contact du magasinier communiqué après réservation.,149.11,131.97,219,0,90,1
+train,0,"Livraison en centre-ville, accès camion porteur possible.",439.12,342.14,387,3,10,1
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",3132.76,910.46,3192,4,1,2
+train,1,"Forex et bitcoin : doublez votre argent, appelez 94 539 779",306.11,326.65,155,25,0,3
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Tél. 54 550 183",442.73,573.58,185,0,1,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 99 469 507,2327.69,301.83,886,25,400,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",585.95,507.03,179,5,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",128.38,166.5,396,9,500,0
+train,0,Contact du magasinier communiqué après réservation.,213.6,142.67,278,5,900,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",508.0,2299.43,19308,1,2,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",172.43,276.1,15176,1,1,1
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,535.0,603.51,3793,25,0,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",201.78,189.78,1785,1,500,1
+train,0,Facture avec matricule fiscal exigée.,738.35,538.13,375,3,30,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,122.66,155.72,1635,1,90,2
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,308.24,285.43,17304,25,1,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",291.08,283.09,571,1,10,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",423.39,382.44,1129,1,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",336.53,272.61,2727,5,30,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",254.12,394.4,3932,2,500,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. URGENT : marchandise périssable, départ demain matin !",918.19,996.68,8448,1,500,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",228.71,179.27,2130,8,200,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,41.05,381.22,4940,8,200,2
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,3155.21,474.25,97,8,400,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",303.02,211.37,5231,5,200,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",1939.79,350.33,402,8,30,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",682.61,502.4,93,4,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",663.86,683.3,1566,2,30,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. URGENT : marchandise périssable, départ demain matin !",710.45,484.52,1602,0,30,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,62.61,807.09,4711,4,1,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",154.67,226.75,110,1,30,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 27 667 235,28.04,108.31,95,1,5,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,216.76,220.01,3680,9,900,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",487.7,434.86,202,0,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",354.27,263.09,156,5,900,0
+train,0,Facture avec matricule fiscal exigée.,335.73,288.89,15150,1,900,1
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,285.03,326.94,258,1,5,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",213.97,174.9,593,0,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",551.62,526.42,807,1,500,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",6535.95,978.85,10088,2,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",238.21,392.4,188,0,3,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",480.13,218.24,104,0,900,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",1306.76,195.87,101,1,2,1
+train,1,"Forex et bitcoin : doublez votre argent, appelez 27 807 861",290.63,210.0,86,25,0,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",211.77,676.81,394,8,30,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",326.36,445.85,6802,1,90,0
+train,0,Contact du magasinier communiqué après réservation.,886.63,562.66,2802,1,200,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",351.67,336.89,90,1,1,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Prix négociable, appelez-nous via la messagerie CargoLink.",507.17,543.13,1233,5,200,2
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",68.74,585.16,9845,8,5,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",1334.11,839.13,7015,1,1,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Prix négociable, appelez-nous via la messagerie CargoLink.",637.45,580.5,3790,9,200,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",319.02,337.62,494,0,900,1
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin ! Tél. 57 710 687",761.9,346.32,99,9,30,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",146.61,92.45,2081,2,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",475.7,642.59,12312,3,90,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",940.95,594.35,1745,0,3,0
+train,1,Contact du magasinier communiqué après réservation.,679.47,557.9,95,2,1,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",39.76,251.16,3829,0,0,1
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",258.39,207.0,675,1,200,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",468.95,716.24,534,5,3,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",175.2,111.59,122,1,3,0
+train,0,Facture avec matricule fiscal exigée.,454.66,516.31,862,0,3,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,28.43,437.79,598,2,90,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,533.65,242.57,662,0,200,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 27 403 344,537.95,418.56,8371,1,0,1
+train,1,"Produits à livrer chez notre client, réception de 8h à 16h.",224.93,313.97,156,25,400,3
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",262.73,365.23,270,3,10,0
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. Prix négociable, appelez-nous via la messagerie CargoLink.",888.71,403.96,251,5,900,0
+train,0,Contact du magasinier communiqué après réservation.,408.12,258.96,275,2,1,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",333.78,242.24,89,9,1,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",277.88,175.45,4585,1,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",775.84,485.49,250,3,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. URGENT : marchandise périssable, départ demain matin !",219.03,226.19,784,3,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",329.82,384.46,2197,1,3,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,249.32,356.09,99999,1,400,3
+train,0,"Facture avec matricule fiscal exigée. URGENT : marchandise périssable, départ demain matin !",1145.65,1536.18,14344,0,200,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",408.18,287.09,125,2,0,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",281.69,337.31,1531,1,10,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 95 955 778,675.98,525.62,10407,15,400,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",569.29,735.94,7811,1,10,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",634.29,457.41,2391,0,10,0
+train,0,"Contact du magasinier communiqué après réservation. Prix négociable, appelez-nous via la messagerie CargoLink.",1671.72,1091.31,14932,2,200,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Prix négociable, appelez-nous via la messagerie CargoLink.",627.11,285.05,89,5,0,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",233.89,197.47,278,5,3,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",948.72,763.74,15768,1,90,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",604.27,621.66,211,5,500,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",52.82,351.92,270,25,400,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. URGENT : marchandise périssable, départ demain matin !",1020.12,1000.69,6272,3,90,0
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",78.96,298.53,115,0,90,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",480.26,184.9,150000,8,5,3
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",455.9,387.0,150000,4,200,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",733.25,783.46,11933,9,900,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",121.6,183.41,2525,1,1,0
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",532.51,393.89,1186,4,90,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",249.39,173.56,162,0,30,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",419.15,481.26,149,5,900,0
+train,0,"Facture avec matricule fiscal exigée. URGENT : marchandise périssable, départ demain matin !",574.94,479.86,2690,9,3,2
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",43.87,484.5,4135,8,0,0
+train,0,Facture avec matricule fiscal exigée. Tél. 24 155 229,201.03,219.91,2498,1,90,0
+train,0,Facture avec matricule fiscal exigée.,101.23,289.22,2105,5,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",937.73,426.24,2563,1,90,1
+train,0,Facture avec matricule fiscal exigée.,449.11,292.48,329,3,500,1
+train,1,"Livraison en centre-ville, accès camion porteur possible.",450.53,336.18,278,2,200,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",596.25,688.31,5503,25,30,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",533.54,379.49,421,9,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",905.46,623.86,178,3,900,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,678.83,782.77,3213,3,1,0
+train,0,"Facture avec matricule fiscal exigée. Prix négociable, appelez-nous via la messagerie CargoLink.",531.54,370.38,176,3,200,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",384.16,463.75,107,15,2,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",557.56,479.65,523,3,500,0
+train,0,Contact du magasinier communiqué après réservation. Tél. 53 550 877,83.91,117.66,953,0,10,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",720.02,702.26,9661,1,3,0
+train,0,Facture avec matricule fiscal exigée.,613.49,557.45,464,5,1,1
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",80.92,59.06,150000,8,400,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",151.5,186.09,826,0,200,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien. Tél. 93 315 666,256.42,290.54,680,0,500,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 52 725 891,1474.29,322.96,788,1,30,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,60.05,165.57,159,15,2,3
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",507.7,578.24,414,9,500,2
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",218.32,309.26,384,2,10,0
+train,1,Contact du magasinier communiqué après réservation.,515.32,137.79,6841,0,90,3
+train,0,Contact du magasinier communiqué après réservation.,325.34,234.5,2271,2,90,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",734.04,673.37,4851,1,30,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. URGENT : marchandise périssable, départ demain matin !",87.45,249.87,2206,3,30,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",268.42,189.49,167,0,10,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",285.67,427.99,210,2,30,0
+train,1,Facture avec matricule fiscal exigée.,95.21,310.58,1473,8,5,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",179.69,194.44,752,1,10,0
+train,0,Facture avec matricule fiscal exigée.,416.36,390.81,83,9,500,0
+train,0,Facture avec matricule fiscal exigée.,607.68,834.81,6526,0,200,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",277.71,286.04,201,0,30,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 28 419 779,70.77,231.65,257,4,0,0
+train,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",593.0,1571.07,17966,2,200,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",96.48,141.8,162,5,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",321.1,518.81,7249,2,900,2
+train,0,"Livraison en centre-ville, accès camion porteur possible.",106.66,110.29,187,5,10,0
+train,1,Contact du magasinier communiqué après réservation.,911.77,426.58,150000,8,1,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",338.91,425.47,128,1,0,3
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",139.18,91.99,515,3,1,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 91 944 512,70.86,553.63,11146,1,200,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 29 430 370",938.39,665.95,1699,9,900,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,618.13,611.61,913,0,1,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",955.87,901.46,16312,9,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",397.3,592.9,665,0,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",358.31,267.99,2616,9,10,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",299.24,854.97,5287,2,10,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 53 680 369",124.32,355.21,455,1,900,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",1291.36,586.98,8047,0,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",198.52,235.09,934,0,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",275.86,317.93,1209,5,90,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",432.49,454.58,12498,2,500,0
+train,0,Facture avec matricule fiscal exigée.,422.04,362.39,1821,9,10,1
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 24 600 426,125.66,101.44,382,8,0,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",70.24,307.48,1210,4,90,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",298.46,249.73,1923,2,3,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,326.95,275.09,3503,9,200,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,642.0,595.11,0,8,90,0
+train,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",1955.42,1763.27,19094,15,1,3
+train,0,Facture avec matricule fiscal exigée.,83.87,61.12,583,0,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",334.53,373.58,1146,0,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",267.47,309.62,606,5,90,0
+train,0,Facture avec matricule fiscal exigée.,824.65,597.05,6625,0,10,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",141.33,154.54,999,2,0,0
+train,0,"Contact du magasinier communiqué après réservation. URGENT : marchandise périssable, départ demain matin ! Tél. 91 916 202",432.79,341.07,137,3,10,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,213.36,691.57,3851,1,0,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Tél. 59 982 197",664.92,557.03,5684,0,900,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. URGENT : marchandise périssable, départ demain matin !",336.91,153.14,1801,5,3,1
+train,0,Contact du magasinier communiqué après réservation.,447.12,284.41,129,3,200,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",978.14,444.61,5635,5,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",339.4,375.48,101,2,3,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",2096.78,1642.62,18152,5,10,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,464.01,431.88,279,2,90,3
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",371.82,341.01,2256,2,400,1
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",133.0,146.0,97,1,200,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",336.7,475.06,748,5,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",764.92,488.08,89,2,1,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",273.82,276.06,274,0,200,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Tél. 24 895 672",364.99,378.94,1993,1,500,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",375.61,479.48,13253,1,0,2
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. URGENT : marchandise périssable, départ demain matin !",136.72,156.83,1653,2,10,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",86.62,91.28,659,1,30,1
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",246.63,202.7,452,2,2,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",68.38,195.37,595,1,30,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 24 263 625,168.39,514.6,18537,0,30,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,116.13,157.87,285,1,200,1
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",287.38,254.2,252,8,5,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",464.99,463.03,748,0,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",972.65,863.6,8405,3,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",117.59,162.85,114,1,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",452.61,376.5,270,9,900,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 93 297 716",161.17,139.16,1588,8,90,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,472.18,387.64,14525,1,200,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,565.73,412.79,207,1,10,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 51 525 921,441.81,356.34,1622,1,5,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",68.4,204.1,607,8,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",621.79,414.61,12033,0,1,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Prix négociable, appelez-nous via la messagerie CargoLink.",549.62,378.97,520,5,900,1
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",405.15,289.78,7386,1,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. URGENT : marchandise périssable, départ demain matin !",1135.88,516.31,2920,9,1,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",753.11,602.96,5224,5,1,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 57 500 195,291.21,330.49,113,2,1,3
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",324.54,318.02,1836,1,10,2
+train,0,Facture avec matricule fiscal exigée.,716.17,787.35,9865,9,500,1
+train,0,Facture avec matricule fiscal exigée.,446.66,361.69,125,3,1,0
+train,0,Contact du magasinier communiqué après réservation.,334.87,227.06,374,1,90,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink.",622.15,516.48,10592,1,3,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",599.9,656.84,8577,3,1,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,428.05,538.58,108,0,1,1
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",256.98,223.97,7675,25,400,0
+train,0,Contact du magasinier communiqué après réservation.,265.49,336.54,4702,9,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",123.59,131.75,1058,2,90,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Prix négociable, appelez-nous via la messagerie CargoLink.",337.45,452.7,406,3,10,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",1002.61,680.08,11122,5,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",830.74,527.52,311,5,10,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",548.04,397.92,6848,25,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",222.03,319.11,2513,0,30,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",314.49,407.07,230,9,10,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",328.76,523.6,7852,9,500,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,671.2,603.84,2201,0,1,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",190.9,206.34,2266,2,3,0
+train,0,Contact du magasinier communiqué après réservation.,162.76,222.35,368,1,3,2
+train,1,"Forex et bitcoin : doublez votre argent, appelez 95 923 617",242.85,184.4,6465,4,400,2
+train,1,Facture avec matricule fiscal exigée.,207.14,275.98,566,1,90,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",260.58,253.87,3224,0,90,0
+train,0,Facture avec matricule fiscal exigée.,225.09,184.08,230,1,900,1
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",155.93,445.52,164,3,1,0
+train,0,"Contact du magasinier communiqué après réservation. URGENT : marchandise périssable, départ demain matin !",324.59,375.05,958,0,3,0
+train,0,Facture avec matricule fiscal exigée.,432.94,356.52,1483,2,1,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",373.36,284.55,647,4,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",94.0,145.31,208,2,0,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",1701.81,1239.2,10349,3,200,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",709.57,966.12,19945,9,900,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",1245.79,566.27,1064,2,200,0
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",1601.27,211.97,4328,25,400,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Tél. 52 242 798",221.75,633.56,1650,9,900,0
+train,0,Facture avec matricule fiscal exigée.,368.17,422.49,186,0,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",498.08,489.23,428,2,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",1318.39,1322.28,19926,5,10,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",473.32,654.68,3913,15,0,0
+train,0,Contact du magasinier communiqué après réservation.,783.02,355.92,311,2,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,633.26,722.49,4768,0,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. URGENT : marchandise périssable, départ demain matin !",568.73,554.75,922,3,500,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",438.96,334.2,1687,5,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",254.37,167.84,2738,2,0,0
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",1032.62,1424.83,8880,25,0,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",426.44,362.11,99,1,3,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,298.39,240.51,12300,5,200,2
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",617.36,616.64,13941,2,1,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",1060.33,883.66,4116,1,30,0
+train,0,Facture avec matricule fiscal exigée.,1196.28,1216.17,15244,0,3,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",473.86,315.4,468,2,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",594.89,515.4,657,3,90,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",425.85,461.35,204,1,10,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",255.42,204.33,100,3,1,0
+train,0,Contact du magasinier communiqué après réservation.,658.67,417.03,592,0,30,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",332.76,358.0,1949,1,200,0
+train,0,Contact du magasinier communiqué après réservation.,36.69,104.82,222,1,900,2
+train,1,URGENT URGENT envoyez un mandat avant chargement 54 325 488,119.63,325.8,2419,1,5,0
+train,0,Facture avec matricule fiscal exigée.,625.71,439.42,280,2,500,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. URGENT : marchandise périssable, départ demain matin !",83.44,99.82,88,1,900,2
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",253.73,176.52,348,1,30,0
+train,1,"Camion disponible, tarif très bas, places limitées.",4753.15,864.17,13848,8,5,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,203.37,321.79,1592,5,1,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",539.51,485.3,3884,5,900,2
+train,0,Contact du magasinier communiqué après réservation.,104.8,299.42,3807,1,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. URGENT : marchandise périssable, départ demain matin !",1902.74,1389.98,13040,5,200,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 98 380 718,2947.75,408.33,150000,1,200,2
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1705.43,295.8,315,2,5,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,388.42,461.98,3610,2,30,2
+train,1,"Forex et bitcoin : doublez votre argent, appelez 94 622 998",470.07,538.74,2981,1,2,1
+train,0,"Livraison en centre-ville, accès camion porteur possible.",993.28,624.42,612,1,30,2
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",177.12,154.14,92,15,30,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 90 578 990,1415.47,1536.6,14978,15,30,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",112.97,157.74,1088,1,900,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",823.15,668.18,285,1,900,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 90 326 104",389.32,378.05,564,9,1,0
+train,1,"Livraison en centre-ville, accès camion porteur possible.",429.07,1151.68,13271,2,0,1
+train,1,"Camion disponible, tarif très bas, places limitées.",3113.59,584.28,150000,1,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",405.66,333.2,165,1,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",303.54,300.84,1413,9,900,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",1750.98,1104.55,7127,0,0,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,285.55,251.04,411,25,2,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",598.54,778.19,4126,0,3,0
+train,1,"Livraison en centre-ville, accès camion porteur possible.",254.21,270.3,92,4,1,1
+train,1,URGENT URGENT envoyez un mandat avant chargement 28 656 549,200.68,197.45,131,2,2,2
+train,1,"Livraison en centre-ville, accès camion porteur possible.",400.92,327.5,3012,8,1,2
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,105.63,81.15,102,25,2,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Prix négociable, appelez-nous via la messagerie CargoLink.",571.8,741.04,3497,2,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",295.27,192.22,1981,0,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",125.42,83.28,231,1,30,2
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",124.03,154.94,102,0,500,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",1039.6,859.38,4553,9,3,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",306.26,341.52,2787,3,30,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",984.77,767.65,2656,0,0,2
+train,0,"Livraison en centre-ville, accès camion porteur possible.",922.72,958.24,3053,5,90,2
+train,1,"Marchandise conditionnée en cartons, quai de chargement disponible.",956.15,776.3,17365,25,0,0
+train,0,"Contact du magasinier communiqué après réservation. URGENT : marchandise périssable, départ demain matin !",721.68,630.26,3814,9,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",167.76,130.59,317,1,0,0
+train,1,"Camion disponible, tarif très bas, places limitées.",134.05,104.89,117,15,2,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,1294.9,588.59,1508,0,0,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",743.63,574.15,8929,1,500,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",1029.37,729.63,16492,1,0,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 53 676 272,927.94,912.98,4950,15,1,2
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",792.36,595.98,2772,2,10,0
+train,0,Facture avec matricule fiscal exigée.,445.19,475.91,645,0,500,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 55 765 651",391.93,290.16,4666,8,200,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",193.15,223.39,3034,9,500,0
+train,0,Facture avec matricule fiscal exigée.,465.43,579.99,2290,2,200,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,153.48,210.35,304,8,400,1
+train,0,Contact du magasinier communiqué après réservation.,287.86,357.21,113,0,900,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",149.96,234.9,335,2,0,0
+train,0,Facture avec matricule fiscal exigée.,670.33,711.44,4145,3,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,413.26,537.0,5295,1,3,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",858.33,979.34,11750,1,200,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. URGENT : marchandise périssable, départ demain matin ! Tél. 23 445 306",645.28,461.78,478,3,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",157.31,178.33,422,9,10,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1809.22,1525.29,14962,4,1,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",794.86,714.75,2553,9,200,2
+train,1,"Forex et bitcoin : doublez votre argent, appelez 97 527 608",706.81,592.08,5716,2,90,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",205.65,150.04,982,9,30,0
+train,0,Contact du magasinier communiqué après réservation.,914.04,753.86,3033,9,900,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",1257.25,1963.26,18908,1,3,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",599.1,526.52,1846,2,1,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",1665.85,1430.92,150000,8,200,3
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",803.81,1061.2,13379,0,3,1
+train,0,Contact du magasinier communiqué après réservation.,1011.63,775.46,12312,3,30,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",4112.75,1463.23,9887,8,2,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",242.0,110.0,306,9,200,0
+train,1,"Camion disponible, tarif très bas, places limitées.",477.8,409.24,4225,15,30,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",442.18,392.39,93,3,500,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",670.76,422.48,1187,2,1,2
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",362.59,124.19,328,1,2,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,197.09,563.11,11322,9,200,0
+train,0,Contact du magasinier communiqué après réservation. Tél. 59 365 561,143.03,171.02,457,3,1,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,214.82,173.69,150000,1,2,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",109.72,313.48,344,5,200,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1619.6,241.8,766,8,200,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",798.2,712.86,6702,0,1,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",336.28,235.54,147,0,1,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 99 952 933",567.13,502.35,2799,1,0,0
+train,0,Contact du magasinier communiqué après réservation.,295.24,426.51,735,1,200,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",56.15,674.12,325,4,5,1
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",170.32,156.16,150000,1,90,2
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,185.64,199.09,508,15,1,2
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,356.06,312.2,121,0,5,0
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",143.39,132.44,150000,4,1,0
+train,0,Contact du magasinier communiqué après réservation.,446.61,295.37,8552,1,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",506.41,564.26,8611,5,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",145.81,159.34,104,2,3,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",1203.86,792.71,8836,9,10,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",222.22,182.29,289,2,3,1
+train,0,Contact du magasinier communiqué après réservation.,166.32,173.45,1802,9,3,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,545.89,380.25,11514,1,90,1
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",109.15,512.23,99999,0,0,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",145.53,409.35,381,1,1,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",611.15,234.15,2295,0,0,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",1431.65,665.25,3977,15,2,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",147.77,101.12,1987,9,30,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 27 291 810,953.09,825.2,5133,25,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",281.44,318.72,3636,9,1,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",1908.63,1391.68,15983,9,10,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",312.92,330.47,2861,0,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",171.77,145.06,81,1,0,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 29 899 422",178.97,255.31,793,0,0,0
+train,0,"Facture avec matricule fiscal exigée. URGENT : marchandise périssable, départ demain matin !",459.72,319.41,141,1,90,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 56 715 407",4617.3,975.53,3932,8,2,2
+train,0,"Livraison en centre-ville, accès camion porteur possible.",956.97,625.02,11561,2,500,0
+train,1,Facture avec matricule fiscal exigée.,249.95,194.59,294,25,30,2
+train,0,Contact du magasinier communiqué après réservation. Tél. 52 158 305,279.89,465.3,3530,2,900,0
+train,1,"Marchandise conditionnée en cartons, quai de chargement disponible.",558.18,583.29,150000,25,30,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",1299.85,948.85,11774,1,500,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,1614.66,263.25,322,15,2,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",378.82,331.48,5130,5,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",1036.48,779.18,7402,1,500,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 57 106 950,57.58,741.14,3903,2,0,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Prix négociable, appelez-nous via la messagerie CargoLink.",496.0,438.03,943,0,900,2
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",549.56,389.76,307,1,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",175.93,226.49,540,1,900,2
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",840.94,1049.93,18141,0,0,2
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,342.39,269.02,110,1,400,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",251.67,322.75,1786,3,90,2
+train,1,"Marchandise conditionnée en cartons, quai de chargement disponible.",481.21,362.24,3341,2,400,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 28 102 331",42.9,170.5,88,2,90,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",973.94,643.97,9608,0,900,2
+train,0,Facture avec matricule fiscal exigée.,1762.93,1512.32,15334,1,1,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,37.11,247.62,199,15,30,1
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,35.25,329.69,239,15,5,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",424.01,298.21,366,0,90,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,68.62,46.37,95,2,10,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 50 254 982",218.38,267.99,7017,2,3,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",295.43,202.44,1201,0,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",458.55,315.23,871,5,10,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",632.0,842.18,13580,3,30,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",627.53,553.96,960,0,0,0
+train,0,Facture avec matricule fiscal exigée.,135.25,182.86,938,9,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",620.7,537.92,1865,3,3,2
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",223.8,314.39,487,2,1,0
+train,0,Facture avec matricule fiscal exigée.,374.88,386.09,455,0,200,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",945.74,612.39,14825,3,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,488.46,489.81,15128,2,1,1
+train,1,"Camion disponible, tarif très bas, places limitées.",119.9,463.48,99999,2,0,3
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",152.07,183.09,154,0,10,1
+train,1,URGENT URGENT envoyez un mandat avant chargement 99 447 711,347.86,434.39,195,1,400,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",407.59,442.17,5652,5,1,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",163.41,446.09,2445,8,30,3
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",30.79,249.65,126,15,5,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,429.7,710.15,14021,1,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",188.17,139.09,653,1,200,0
+train,0,Contact du magasinier communiqué après réservation.,264.2,283.45,343,1,10,0
+train,0,Facture avec matricule fiscal exigée.,507.19,390.26,1949,5,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",703.21,848.45,3521,9,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",202.05,206.27,133,0,900,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,188.01,134.6,588,9,3,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 25 579 114",661.71,436.97,3497,0,10,0
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. URGENT : marchandise périssable, départ demain matin !",644.88,766.61,11995,5,90,1
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 50 426 504,1509.14,298.79,175,15,1,1
+train,0,"Contact du magasinier communiqué après réservation. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 24 915 662",831.35,787.3,12891,0,200,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",812.41,637.34,1036,9,3,2
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",288.11,227.09,2446,0,5,0
+train,0,Facture avec matricule fiscal exigée.,108.5,310.01,130,3,3,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",198.46,161.28,691,0,30,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. URGENT : marchandise périssable, départ demain matin !",105.25,117.82,120,9,200,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 57 405 296",809.95,368.16,12725,5,0,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",808.2,508.45,18230,1,10,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",1014.44,643.13,9833,1,3,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",640.51,291.14,3560,2,30,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,317.61,230.79,99999,15,400,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Tél. 54 106 828",211.31,158.49,1520,2,90,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",282.02,349.88,2112,0,0,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,102.28,117.06,669,15,200,3
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",375.14,264.18,158,5,3,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",282.77,403.72,5621,0,900,0
+train,0,Contact du magasinier communiqué après réservation.,389.9,434.43,4451,9,3,1
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien. Tél. 57 459 690,275.9,176.56,387,2,10,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",455.74,360.38,340,1,2,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",617.13,460.19,104,0,90,2
+train,0,Facture avec matricule fiscal exigée.,81.55,233.01,99,2,0,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. URGENT : marchandise périssable, départ demain matin !",228.17,346.74,623,0,200,0
+train,1,"Marchandise conditionnée en cartons, quai de chargement disponible.",223.28,168.05,352,4,5,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,216.17,160.59,986,9,3,0
+train,0,Facture avec matricule fiscal exigée.,122.79,195.92,359,9,0,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",2145.39,1691.28,16796,1,400,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Prix négociable, appelez-nous via la messagerie CargoLink.",533.21,343.91,94,5,1,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,265.8,177.23,6074,9,30,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. URGENT : marchandise périssable, départ demain matin !",644.49,569.45,593,2,90,1
+train,0,Contact du magasinier communiqué après réservation.,671.11,605.75,872,1,10,0
+train,1,Contact du magasinier communiqué après réservation.,829.92,781.6,4502,0,400,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",745.22,967.34,2175,15,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",671.58,440.57,733,2,3,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 92 597 952",375.2,390.84,2767,8,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",661.57,904.42,12936,0,30,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",54.56,46.7,119,1,10,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",121.47,136.92,2573,1,1,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",662.68,458.26,15961,1,3,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink.",388.58,307.47,234,1,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",127.86,211.33,542,1,30,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,99.91,313.44,6536,4,400,3
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",582.59,776.02,4093,1,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",93.13,149.02,989,0,200,2
+train,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",482.44,542.83,0,25,1,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",235.76,188.42,1675,2,200,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien. Tél. 98 306 713,204.31,144.21,209,2,500,1
+train,1,URGENT URGENT envoyez un mandat avant chargement 96 392 700,61.85,178.12,236,15,400,0
+train,0,"Contact du magasinier communiqué après réservation. Prix négociable, appelez-nous via la messagerie CargoLink.",470.0,395.35,5659,9,200,1
+train,0,Contact du magasinier communiqué après réservation.,735.32,528.87,539,2,90,0
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",177.89,218.67,2108,25,0,1
+train,0,Facture avec matricule fiscal exigée.,350.3,231.23,413,0,10,1
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,297.55,768.83,3409,4,200,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 96 759 595",403.51,367.42,282,0,200,3
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,1356.61,1676.1,16050,15,2,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",696.23,962.69,13746,5,1,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",426.28,487.05,6142,1,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",103.19,136.02,136,1,10,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",650.43,2135.96,15659,2,90,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",353.37,390.23,296,0,900,1
+train,0,Facture avec matricule fiscal exigée.,1791.53,1441.36,14318,3,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",252.63,226.72,795,2,200,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",728.65,466.9,5918,3,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",378.32,424.51,268,1,900,1
+train,0,Facture avec matricule fiscal exigée.,1629.0,1460.29,6566,9,500,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",464.61,524.07,1768,1,30,0
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",355.36,109.96,559,1,0,1
+train,1,URGENT URGENT envoyez un mandat avant chargement 53 878 456,348.55,489.66,4240,1,1,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1163.66,1052.68,15355,4,400,3
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",1357.84,260.46,99999,8,0,1
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",1731.86,1420.78,19040,2,2,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",411.45,547.96,328,3,1,0
+train,0,Facture avec matricule fiscal exigée.,331.06,341.24,2198,1,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,383.34,320.54,2120,5,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",764.99,1005.18,13180,2,900,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",295.68,264.55,150000,0,90,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 97 678 200",560.05,618.73,269,15,200,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",339.94,360.67,841,0,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",514.57,507.06,103,0,10,0
+train,0,"Facture avec matricule fiscal exigée. URGENT : marchandise périssable, départ demain matin !",397.59,318.21,1902,3,900,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",357.66,464.39,3203,9,200,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",2679.65,1807.78,19222,5,3,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",432.81,536.1,2106,8,1,1
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",260.85,302.8,307,8,5,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,680.27,744.17,7247,4,1,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 27 219 992,221.63,232.61,488,8,30,0
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",232.18,1103.79,11877,1,0,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,921.5,415.91,0,25,30,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",263.57,232.37,695,2,900,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Prix négociable, appelez-nous via la messagerie CargoLink.",211.57,135.49,262,2,0,2
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",348.97,421.86,4316,2,400,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",973.99,696.97,2173,1,1,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 21 943 880,145.34,426.72,776,0,0,1
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,588.58,400.71,408,3,90,0
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. URGENT : marchandise périssable, départ demain matin !",244.38,213.21,221,0,30,0
+train,0,Contact du magasinier communiqué après réservation.,2683.12,1219.6,19952,0,90,0
+train,0,Facture avec matricule fiscal exigée.,290.52,194.93,1337,1,3,2
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",618.64,483.36,2675,15,0,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",466.57,362.39,4081,1,90,2
+train,0,Facture avec matricule fiscal exigée.,180.11,224.88,5358,3,0,0
+train,0,Facture avec matricule fiscal exigée.,254.33,726.67,549,0,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",335.37,219.43,229,2,1,1
+train,1,"Marchandise conditionnée en cartons, quai de chargement disponible.",770.71,859.34,9773,4,0,2
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,144.86,141.13,729,15,90,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",1708.58,285.84,3009,1,0,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,210.37,763.85,8029,1,5,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",924.87,690.1,2625,0,3,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",1875.47,1863.67,12915,0,10,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",705.81,484.57,168,3,10,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Tél. 53 836 418",304.02,191.68,744,1,30,0
+train,1,Facture avec matricule fiscal exigée.,410.29,423.85,2155,25,400,1
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",3315.45,914.72,11434,15,90,2
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",151.58,186.15,81,15,0,2
+train,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",1619.6,467.57,940,8,1,2
+train,1,URGENT URGENT envoyez un mandat avant chargement 22 820 142,34.64,112.47,150000,25,0,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 99 915 264,1010.3,248.6,150000,15,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",1549.07,1158.98,5733,2,3,0
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",924.36,364.61,99999,0,0,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. URGENT : marchandise périssable, départ demain matin !",391.58,388.55,268,0,10,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,104.27,530.4,99999,15,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",653.91,932.44,19235,0,3,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 22 892 309",190.44,148.47,228,2,90,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,386.8,325.05,7904,0,90,0
+train,0,Facture avec matricule fiscal exigée.,137.33,190.06,5080,9,3,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",669.75,304.43,2736,1,90,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",449.29,340.43,881,8,1,3
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,212.59,276.88,221,0,90,0
+train,0,Contact du magasinier communiqué après réservation.,510.03,501.17,205,3,500,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Tél. 54 953 369",562.82,474.94,125,5,10,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",419.8,474.71,7128,1,90,0
+train,0,Contact du magasinier communiqué après réservation.,341.57,451.57,4149,3,3,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 55 252 421,506.64,588.25,7595,25,30,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Tél. 94 930 812",654.74,518.27,8444,2,200,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 92 857 922,140.21,399.87,9659,4,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",764.01,608.87,5266,5,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",1030.11,1353.2,17813,9,900,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",645.58,427.02,14444,1,1,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",2912.14,1323.7,16253,2,10,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",56.5,161.43,84,0,90,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",348.58,272.81,124,1,10,2
+train,1,URGENT URGENT envoyez un mandat avant chargement 92 304 197,7347.25,919.91,6596,2,0,3
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",203.14,160.22,85,25,30,3
+train,1,"Forex et bitcoin : doublez votre argent, appelez 97 584 224",1464.96,233.16,91,8,1,3
+train,0,Contact du magasinier communiqué après réservation.,847.7,1040.16,8010,1,500,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Prix négociable, appelez-nous via la messagerie CargoLink.",382.9,273.59,6120,5,10,0
+train,0,Facture avec matricule fiscal exigée. Tél. 51 326 901,837.26,896.37,9053,1,200,0
+train,1,"Livraison en centre-ville, accès camion porteur possible.",236.24,259.28,87,15,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,1162.14,784.2,4594,9,10,1
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",666.66,645.48,3599,4,30,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",570.34,775.06,11249,9,10,0
+train,0,Facture avec matricule fiscal exigée.,741.51,642.37,3584,0,90,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",591.34,268.79,3057,9,200,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",438.73,295.88,1952,3,3,0
+train,0,Contact du magasinier communiqué après réservation.,225.09,146.83,91,9,10,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",579.41,648.77,422,9,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",82.26,117.04,209,0,90,0
+train,0,Facture avec matricule fiscal exigée.,334.56,264.73,1647,3,900,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",92.75,60.04,997,1,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",190.64,252.05,452,0,90,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",85.67,99.93,455,1,0,1
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",110.1,402.94,211,25,2,1
+train,1,Contact du magasinier communiqué après réservation.,263.39,241.29,108,8,1,2
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,207.47,180.3,150000,4,5,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",185.75,218.06,1050,9,3,1
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",1238.0,994.11,13610,3,900,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",324.5,271.27,167,9,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",358.71,163.05,180,1,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",436.19,476.64,1350,0,0,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",410.95,479.89,943,1,0,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",410.34,275.29,155,3,1,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",385.69,255.19,1815,5,500,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 26 890 929",361.64,465.84,158,0,200,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",1121.35,1046.2,10005,9,1,2
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",442.45,525.87,99999,2,5,0
+train,0,Contact du magasinier communiqué après réservation.,208.26,595.03,2481,1,900,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",280.7,127.59,158,0,3,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",406.85,184.93,862,1,200,0
+train,1,"Camion disponible, tarif très bas, places limitées.",450.9,369.84,5421,4,2,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",460.03,486.8,205,1,0,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",326.18,297.0,1362,3,3,0
+train,0,Contact du magasinier communiqué après réservation.,639.46,504.84,3238,1,900,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Prix négociable, appelez-nous via la messagerie CargoLink.",454.08,206.4,1706,1,10,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",509.63,326.06,157,1,0,2
+train,0,Contact du magasinier communiqué après réservation.,439.09,567.1,2108,1,3,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",822.87,759.83,2306,0,30,0
+train,1,"Camion disponible, tarif très bas, places limitées.",439.22,99.29,164,25,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",144.52,113.76,176,0,90,2
+train,0,"Facture avec matricule fiscal exigée. Prix négociable, appelez-nous via la messagerie CargoLink.",898.4,589.85,215,0,3,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",69.45,198.43,321,5,30,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 55 803 816,349.89,401.82,103,0,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",760.83,517.86,2000,3,200,1
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",850.97,838.63,13294,1,0,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",64.78,185.1,920,0,10,0
+train,0,Facture avec matricule fiscal exigée.,525.52,416.57,172,1,90,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",1096.19,914.1,13600,0,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",169.81,278.65,2175,0,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,186.81,229.64,1640,3,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Prix négociable, appelez-nous via la messagerie CargoLink.",351.45,394.26,2996,0,10,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",1954.84,1418.83,13756,1,0,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,416.71,501.85,217,5,1,0
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",323.29,337.51,90,0,1,2
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",8.57,154.21,124,4,0,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",331.63,312.81,1090,1,900,0
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",1171.02,1328.76,17401,8,1,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",1019.76,769.99,5963,5,0,0
+train,1,"Camion disponible, tarif très bas, places limitées.",439.2,338.42,3589,4,0,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",50.68,47.28,88,2,10,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 50 872 284,24.52,75.62,595,2,90,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",1536.71,339.43,4211,15,400,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",342.56,415.55,199,15,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,204.98,152.98,219,5,500,0
+train,0,Facture avec matricule fiscal exigée.,474.35,334.69,473,5,10,0
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",5747.21,786.24,5235,0,1,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",381.93,420.39,879,1,500,2
+train,0,"Contact du magasinier communiqué après réservation. URGENT : marchandise périssable, départ demain matin !",34.42,98.34,605,0,1,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",341.35,1398.34,15276,1,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",233.06,158.4,1806,2,3,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",173.9,496.86,1518,9,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",200.51,325.94,426,0,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",96.14,136.75,558,9,1,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",129.63,157.24,472,1,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",1414.56,976.5,16347,3,3,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",393.31,421.74,2251,1,1,0
+train,1,"Camion disponible, tarif très bas, places limitées.",885.8,184.94,1238,2,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",129.35,369.56,2917,0,10,0
+train,0,Facture avec matricule fiscal exigée.,406.47,298.23,2983,0,90,2
+train,0,Contact du magasinier communiqué après réservation.,348.64,273.97,9903,1,10,0
+train,1,Contact du magasinier communiqué après réservation.,265.44,232.79,82,25,1,1
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,722.56,918.04,4199,2,400,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 91 806 545,3678.39,821.96,9936,0,400,2
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",327.5,213.59,535,1,0,0
+train,0,Contact du magasinier communiqué après réservation.,510.05,759.56,2842,3,30,0
+train,0,Facture avec matricule fiscal exigée.,492.23,316.67,12725,0,3,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",231.28,151.94,114,9,3,0
+train,1,"Camion disponible, tarif très bas, places limitées.",243.0,253.6,1991,2,2,3
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",482.41,422.55,135,0,900,0
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",325.15,254.32,111,0,30,0
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",149.84,386.61,663,15,30,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 20 969 204",4138.21,780.68,11179,15,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",169.94,199.09,120,9,30,0
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,335.33,441.06,641,15,0,0
+train,1,"Marchandise conditionnée en cartons, quai de chargement disponible.",371.44,296.86,128,25,200,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",760.22,478.89,2053,1,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Prix négociable, appelez-nous via la messagerie CargoLink.",496.71,431.25,83,1,200,2
+train,1,"Camion disponible, tarif très bas, places limitées.",13.29,105.43,150000,15,200,1
+train,0,"Facture avec matricule fiscal exigée. URGENT : marchandise périssable, départ demain matin !",89.85,256.71,233,1,500,0
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",460.64,329.33,109,8,200,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",431.75,437.23,8311,2,10,0
+train,0,"Facture avec matricule fiscal exigée. Prix négociable, appelez-nous via la messagerie CargoLink.",514.68,384.89,5439,0,1,2
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",387.96,106.38,651,0,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",573.38,471.98,1530,3,30,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink.",66.88,108.41,2441,0,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",388.88,267.01,939,2,500,2
+train,1,URGENT URGENT envoyez un mandat avant chargement 50 413 204,5130.45,1052.73,7209,25,1,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. URGENT : marchandise périssable, départ demain matin !",80.18,58.62,109,0,500,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",501.6,370.86,2271,1,1,0
+train,1,Facture avec matricule fiscal exigée.,113.12,289.38,150000,1,200,3
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",665.8,749.37,14136,5,90,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",510.6,359.9,488,5,10,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",1262.25,1265.98,16553,5,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",105.98,302.81,634,1,0,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,308.08,923.31,99999,15,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",448.74,324.24,251,1,30,2
+train,0,"Contact du magasinier communiqué après réservation. Prix négociable, appelez-nous via la messagerie CargoLink.",428.88,640.36,2592,0,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. URGENT : marchandise périssable, départ demain matin !",523.13,652.83,2232,9,500,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",33.5,159.24,0,15,2,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 54 811 549",622.33,655.71,1986,4,0,1
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",36.33,358.74,150000,25,2,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",296.57,329.82,960,1,500,0
+train,0,Facture avec matricule fiscal exigée.,513.51,365.28,5792,1,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",418.21,647.96,4780,1,10,0
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",36.59,51.54,391,8,2,0
+train,0,Contact du magasinier communiqué après réservation.,1278.72,1000.14,7610,1,500,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,100.13,488.5,281,15,1,3
+train,0,"Contact du magasinier communiqué après réservation. Prix négociable, appelez-nous via la messagerie CargoLink.",335.22,389.75,606,1,1,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",495.18,345.53,1085,5,500,0
+train,1,Facture avec matricule fiscal exigée.,551.79,97.46,684,15,2,3
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. URGENT : marchandise périssable, départ demain matin !",127.66,204.38,578,1,1,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",191.98,173.82,100,5,90,0
+train,0,Facture avec matricule fiscal exigée.,2101.43,1426.86,6109,9,90,2
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",648.03,506.42,4508,1,90,2
+train,0,"Contact du magasinier communiqué après réservation. URGENT : marchandise périssable, départ demain matin !",702.85,573.02,5832,9,0,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,612.22,653.09,8400,9,90,2
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",1679.42,295.94,217,25,200,3
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,785.46,553.0,4082,0,30,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,870.35,1235.43,9508,1,200,0
+train,0,Contact du magasinier communiqué après réservation.,548.63,419.7,2466,9,900,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",986.23,129.6,0,0,200,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 96 486 985,349.79,1670.39,13315,8,0,3
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",209.29,599.45,460,0,200,2
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. URGENT : marchandise périssable, départ demain matin !",237.35,184.02,122,2,200,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",167.32,270.35,6681,3,30,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",475.24,405.34,101,5,900,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. URGENT : marchandise périssable, départ demain matin !",476.88,460.84,191,3,90,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",615.77,521.14,1178,1,10,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Tél. 53 454 598",473.07,732.77,15288,9,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",1343.83,1735.4,15129,9,1,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",423.68,387.4,558,9,900,0
+train,0,Contact du magasinier communiqué après réservation.,204.23,583.51,6199,2,30,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",1030.08,468.22,360,0,10,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",423.87,192.67,187,1,3,0
+train,0,Facture avec matricule fiscal exigée.,1057.77,767.54,2808,1,1,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",547.27,512.44,12749,0,0,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 56 792 926,77.32,488.2,99999,2,200,1
+train,1,"Camion disponible, tarif très bas, places limitées.",1183.02,481.83,329,1,5,1
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",2342.66,389.69,620,25,90,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,555.84,624.43,10699,9,3,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",306.55,293.47,2280,9,500,2
+train,0,"Livraison en centre-ville, accès camion porteur possible.",428.15,593.38,2725,1,30,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,1048.77,360.13,387,25,0,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",548.78,568.76,236,5,30,2
+train,1,"Forex et bitcoin : doublez votre argent, appelez 91 242 844",220.16,192.01,2385,0,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",73.28,100.95,168,9,500,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",462.81,291.77,545,5,900,0
+train,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",329.3,425.95,131,1,1,0
+train,0,Contact du magasinier communiqué après réservation.,363.86,293.04,500,5,200,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",268.26,214.48,1284,5,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",283.26,228.47,1084,0,1,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",401.45,305.67,2236,9,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",283.0,287.21,108,0,900,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",302.01,261.44,409,9,900,0
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",32.69,225.13,4861,2,5,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",551.03,436.25,469,8,0,1
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",405.11,348.27,1162,1,400,2
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 90 350 176,2555.79,513.9,462,1,1,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",130.69,102.9,304,0,900,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Prix négociable, appelez-nous via la messagerie CargoLink.",214.41,289.18,1600,0,900,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",686.92,1072.97,8861,2,0,2
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,656.42,671.45,158,2,2,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",573.87,402.36,12094,2,30,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",271.81,264.64,289,9,3,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 28 245 347,2092.65,1713.31,14204,2,0,0
+train,0,Contact du magasinier communiqué après réservation.,386.43,319.18,2450,0,500,0
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. Prix négociable, appelez-nous via la messagerie CargoLink.",53.29,152.27,274,5,200,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",528.74,705.73,12477,5,10,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,570.85,440.02,100,2,500,0
+train,1,"Camion disponible, tarif très bas, places limitées.",995.55,228.5,12738,4,400,0
+train,0,Facture avec matricule fiscal exigée.,743.5,552.12,14196,9,200,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",1844.39,370.87,4295,0,400,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. URGENT : marchandise périssable, départ demain matin ! Tél. 54 529 559",233.05,147.52,201,1,3,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",486.25,523.26,4001,3,30,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",437.61,317.79,965,9,900,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",531.18,389.88,309,9,10,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 24 718 315,1097.04,919.59,14623,25,2,0
+train,1,"Produits à livrer chez notre client, réception de 8h à 16h.",947.86,815.92,5322,15,5,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",1937.06,1601.21,15171,0,30,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,223.86,298.6,447,1,30,0
+train,0,Contact du magasinier communiqué après réservation.,174.85,205.96,1317,0,90,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",129.12,176.35,632,0,30,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",59.14,81.04,2591,9,900,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",403.99,360.07,9291,2,900,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Prix négociable, appelez-nous via la messagerie CargoLink.",135.59,387.4,428,0,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",283.34,237.43,165,0,900,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",689.07,538.88,182,25,5,1
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,1564.76,266.44,219,8,30,2
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 95 987 932,520.01,429.12,7976,25,1,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Tél. 26 426 492",366.52,599.92,1259,2,30,0
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. Prix négociable, appelez-nous via la messagerie CargoLink.",1746.29,1266.8,16316,1,1,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",458.32,382.51,187,0,1,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",198.51,254.48,91,3,1,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,183.24,259.17,8705,2,200,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 24 594 870,47.84,138.52,120,1,0,1
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",181.23,200.18,193,0,0,3
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,229.29,328.95,110,2,200,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",795.2,581.73,7534,1,30,0
+train,0,Contact du magasinier communiqué après réservation.,731.75,658.25,1159,1,3,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",279.78,188.43,457,5,90,1
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",390.05,313.39,99999,1,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",819.0,617.57,5814,5,30,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,475.19,381.93,4737,0,900,1
+train,0,Contact du magasinier communiqué après réservation.,769.11,514.77,762,5,3,2
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",462.84,471.94,414,1,1,0
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",51.27,168.36,1230,15,30,2
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",142.2,406.29,830,0,0,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",32.11,136.68,490,4,1,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",506.36,559.75,92,0,30,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",364.09,235.73,2080,3,10,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,170.62,233.73,1023,1,3,1
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,540.63,585.04,1733,0,1,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",253.26,328.64,786,1,90,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 21 947 509,215.14,277.07,7504,8,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",372.64,520.09,4189,0,10,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,62.04,277.81,815,2,400,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",229.29,241.15,161,2,3,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",176.99,258.11,502,2,3,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",674.13,501.06,577,1,0,0
+train,0,Contact du magasinier communiqué après réservation.,2544.56,1156.62,16558,3,0,1
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",170.2,191.5,2347,2,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Tél. 57 996 543",1070.76,728.13,15883,2,900,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. URGENT : marchandise périssable, départ demain matin !",287.36,130.62,2084,5,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Prix négociable, appelez-nous via la messagerie CargoLink.",820.42,599.38,448,5,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",391.27,359.62,168,9,200,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",140.44,212.86,3783,3,10,1
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",635.93,521.14,600,25,1,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",249.96,241.45,648,1,30,0
+train,1,Facture avec matricule fiscal exigée.,19.34,334.63,215,2,2,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",197.0,289.35,929,1,900,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",128.88,214.24,5150,3,30,1
+train,1,Envoi régulier chaque semaine si la collaboration se passe bien.,335.2,424.67,99999,1,1,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",643.28,292.4,243,9,200,2
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",453.77,356.74,129,8,0,3
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",133.83,138.31,149,2,3,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",120.54,142.83,359,9,3,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",180.94,225.89,150000,2,400,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",306.28,295.05,1339,3,10,1
+train,1,"Produits à livrer chez notre client, réception de 8h à 16h.",584.29,484.52,1170,4,2,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie.",334.33,217.5,1261,9,200,1
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",514.13,404.86,83,1,500,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",358.66,556.75,601,2,90,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",521.97,605.69,11570,0,1,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",173.2,144.42,1559,3,1,0
+train,0,Facture avec matricule fiscal exigée.,645.74,535.15,664,1,500,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",2598.04,2255.41,19920,5,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",433.15,366.54,1356,1,900,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,220.3,258.07,124,0,200,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",649.12,526.31,425,0,900,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",567.15,698.59,5284,3,900,0
+train,1,Contact du magasinier communiqué après réservation.,361.34,292.3,346,2,5,1
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",178.76,270.89,1048,5,1,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",410.01,300.45,2173,5,3,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",281.08,392.78,1111,1,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Tél. 94 731 434",670.82,304.92,231,5,500,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,455.49,598.74,1864,3,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",422.24,678.21,1899,1,500,2
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",123.17,110.99,323,4,5,0
+train,0,Facture avec matricule fiscal exigée.,1000.13,732.75,2007,1,1,1
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",565.12,694.83,3980,0,200,1
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",196.38,561.1,13212,1,0,0
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",124.19,161.31,3623,2,5,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",166.2,239.95,2225,9,0,0
+train,0,Contact du magasinier communiqué après réservation.,346.65,379.83,2176,0,0,0
+train,1,"Forex et bitcoin : doublez votre argent, appelez 23 791 540",151.71,188.76,159,8,2,0
+train,1,"Transport gratuit, il suffit de payer les frais de dossier par virement.",3021.89,802.24,9779,1,5,1
+train,0,"Livraison en centre-ville, accès camion porteur possible. Tél. 98 720 765",331.24,388.68,194,9,200,2
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,1031.32,813.48,6013,25,90,0
+train,0,Facture avec matricule fiscal exigée.,226.35,370.0,4007,0,10,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",683.82,685.06,14921,1,30,2
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",1426.17,1235.71,11214,4,0,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,61.4,175.43,2059,1,500,2
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",113.21,119.16,179,1,30,1
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,344.74,225.95,657,9,500,1
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. Prix négociable, appelez-nous via la messagerie CargoLink.",426.94,321.71,2496,5,500,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,578.44,747.89,1767,0,90,2
+train,0,"Livraison en centre-ville, accès camion porteur possible.",362.96,518.57,238,5,500,1
+train,0,Contact du magasinier communiqué après réservation.,495.35,369.85,1486,3,1,2
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",562.43,577.76,2488,9,90,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,357.84,350.65,4542,25,90,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",819.75,675.46,140,1,500,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",656.96,585.4,290,3,0,0
+train,1,"Produits à livrer chez notre client, réception de 8h à 16h.",388.53,1253.13,9899,1,0,1
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,511.3,361.28,128,9,3,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",242.79,259.46,6192,0,500,2
+train,1,"Besoin d'un camion bâché, la marchandise craint la pluie.",97.19,81.82,1677,0,30,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",2748.75,839.8,6788,4,0,2
+train,0,Contact du magasinier communiqué après réservation.,65.05,185.86,365,9,1,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 90 139 509,130.21,1068.32,6783,15,200,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Tél. 96 390 228",159.63,168.58,289,3,1,2
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",359.16,229.37,149,5,200,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",389.14,323.51,2908,0,3,0
+train,1,URGENT URGENT envoyez un mandat avant chargement 58 149 519,145.54,402.64,6397,15,90,2
+train,0,Facture avec matricule fiscal exigée.,516.05,362.78,126,5,3,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,108.12,122.42,552,9,10,1
+train,1,Contact du magasinier communiqué après réservation.,71.4,280.73,625,15,200,0
+train,1,"Offre exceptionnelle, paiement d'avance par Western Union uniquement.",8425.27,1600.58,16163,15,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",183.64,126.49,1018,1,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",160.64,208.53,231,0,900,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,254.81,262.62,138,0,30,0
+train,0,Contact du magasinier communiqué après réservation.,201.32,214.7,416,0,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",574.67,518.02,14097,0,90,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Tél. 25 740 739",102.31,125.99,231,0,200,0
+train,0,Facture avec matricule fiscal exigée.,658.89,505.78,3938,2,90,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Tél. 24 556 147",491.55,669.92,7614,2,10,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,191.92,239.14,2341,4,30,1
+train,1,"Produits à livrer chez notre client, réception de 8h à 16h.",177.95,202.96,1193,8,200,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 21 702 663,1454.27,537.3,99999,25,1,0
+train,1,"Palettes filmées, chargement par chariot élévateur sur place.",1617.47,271.36,99,8,2,2
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",305.17,378.62,221,8,1,0
+train,0,Contact du magasinier communiqué après réservation.,301.86,312.24,6374,9,900,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,1018.87,920.73,4078,0,200,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Tél. 59 946 585",334.33,337.29,208,5,0,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",1320.78,1000.57,6791,2,0,1
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible.",524.42,545.3,761,0,0,0
+train,0,Facture avec matricule fiscal exigée. Tél. 94 745 766,1417.26,644.21,555,3,200,0
+train,1,"Livraison en centre-ville, accès camion porteur possible.",395.45,376.29,1715,0,30,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",223.41,710.25,0,25,400,3
+train,0,"Contact du magasinier communiqué après réservation. URGENT : marchandise périssable, départ demain matin !",939.03,426.83,2970,5,0,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",176.13,117.53,101,9,30,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. URGENT : marchandise périssable, départ demain matin !",980.78,445.81,1034,1,200,0
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,678.07,463.16,6139,0,1,0
+train,1,GAGNEZ DE L'ARGENT FACILE !!! Contactez-moi sur WhatsApp 53 586 154,650.63,572.27,4357,8,0,0
+train,0,Contact du magasinier communiqué après réservation.,718.49,612.22,9205,1,30,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. Tél. 51 356 575",547.56,373.67,4281,1,900,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",467.95,643.18,6587,2,0,0
+train,1,"Promo -70% sur tous les trajets, contactez telegram @fretpromo",183.69,231.57,207,25,0,3
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h. URGENT : marchandise périssable, départ demain matin !",107.14,306.1,6884,0,90,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. URGENT : marchandise périssable, départ demain matin !",367.23,570.61,8547,2,10,1
+train,0,Contact du magasinier communiqué après réservation.,221.72,170.38,426,0,90,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",305.23,321.99,119,0,500,2
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",98.32,156.06,183,0,90,0
+train,0,"Facture avec matricule fiscal exigée. Prix négociable, appelez-nous via la messagerie CargoLink.",1220.91,865.34,583,0,0,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",1393.5,633.41,688,9,3,0
+train,0,Facture avec matricule fiscal exigée.,264.42,306.14,758,2,1,0
+train,0,"Facture avec matricule fiscal exigée. Prix négociable, appelez-nous via la messagerie CargoLink.",151.61,209.52,188,5,90,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. Prix négociable, appelez-nous via la messagerie CargoLink.",418.85,530.02,1640,2,90,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée. Prix négociable, appelez-nous via la messagerie CargoLink.",702.47,766.71,10687,3,10,0
+train,1,"Prix imbattable, avance de 50% obligatoire sur mon compte.",474.89,413.87,173,8,0,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Prix négociable, appelez-nous via la messagerie CargoLink.",527.02,370.89,286,1,3,2
+train,0,Envoi régulier chaque semaine si la collaboration se passe bien.,329.73,226.72,4929,3,500,0
+train,0,"Marchandise conditionnée en cartons, quai de chargement disponible. Prix négociable, appelez-nous via la messagerie CargoLink.",454.81,431.32,3559,0,30,0
+train,0,"Livraison en centre-ville, accès camion porteur possible. URGENT : marchandise périssable, départ demain matin !",922.1,674.53,3065,1,30,0
+train,1,"Bonus de 500 DT pour chaque inscription, écrivez à gain@mail.com",423.37,346.1,226,1,0,1
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Tél. 96 484 844",688.46,533.26,1013,1,30,0
+train,1,"Livraison en centre-ville, accès camion porteur possible.",43.53,707.4,7657,0,2,1
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Prix négociable, appelez-nous via la messagerie CargoLink.",638.7,577.08,11393,1,30,0
+train,0,"Produits à livrer chez notre client, réception de 8h à 16h.",1165.86,990.06,5948,5,0,0
+train,0,"Besoin d'un camion bâché, la marchandise craint la pluie. Tél. 97 794 125",422.08,367.44,238,0,200,0
+train,0,"Livraison en centre-ville, accès camion porteur possible.",965.56,814.94,16459,3,0,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",477.54,303.07,261,1,90,2
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,240.57,252.34,352,1,1,1
+train,0,"Livraison en centre-ville, accès camion porteur possible.",331.14,275.95,874,2,1,0
+train,0,"Envoi régulier chaque semaine si la collaboration se passe bien. Prix négociable, appelez-nous via la messagerie CargoLink.",1441.72,1021.3,10276,5,0,0
+train,1,Investissement crypto garanti 100% !!! www.gain-rapide.com,920.29,395.28,147,2,30,3
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",392.25,251.3,211,2,3,1
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",212.25,199.23,242,4,2,0
+train,1,Cliquez sur le lien bit.ly/promo-fret pour réserver !!!,106.07,568.31,6742,0,400,2
+train,0,"Sacs sur palettes, manutention assurée par nos équipes. Tél. 51 675 970",295.24,220.45,5691,1,500,0
+train,0,"Sacs sur palettes, manutention assurée par nos équipes.",517.74,354.02,1495,0,1,0
+train,0,"Palettes filmées, chargement par chariot élévateur sur place.",319.04,382.28,1316,2,1,0
+train,1,"Sacs sur palettes, manutention assurée par nos équipes.",54.09,369.79,0,25,90,2
+train,0,Facture avec matricule fiscal exigée. Tél. 90 347 547,322.58,230.31,2118,1,200,1
+train,1,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",4494.49,697.85,3518,0,0,3
+train,0,"Palettes filmées, chargement par chariot élévateur sur place. Tél. 92 795 441",549.34,359.38,3859,0,500,0
+train,0,Contact du magasinier communiqué après réservation.,605.48,381.25,2500,9,90,0
+train,0,"Merci de prévoir des sangles, chargement au rez-de-chaussée.",715.72,790.16,8685,2,10,0
+test,0,Déchargement par nos soins à l'arrivée.,411.55,604.28,761,3,200,0
+test,1,"Payez par carte cadeau, livraison garantie 100%",3300.09,749.6,13604,25,0,3
+test,1,"Appelez 20 265 150 et oubliez la plateforme, c'est moins cher !!!",591.83,430.82,3696,0,30,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",178.09,294.99,368,1,1,0
+test,0,Déchargement par nos soins à l'arrivée.,75.55,108.83,147,9,500,0
+test,0,"Déchargement par nos soins à l'arrivée. URGENT : marchandise périssable, départ demain matin !",378.17,471.82,1388,0,30,0
+test,1,Marchandise assurée par l'expéditeur.,245.96,709.31,397,4,1,2
+test,1,Envoyez l'argent par mandat minute avant le départ.,323.01,398.46,11930,4,0,3
+test,0,Déchargement par nos soins à l'arrivée.,148.64,210.28,4365,5,900,0
+test,0,Marchandise assurée par l'expéditeur. Tél. 25 756 119,371.2,328.59,124,1,200,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,162.26,463.61,2232,3,3,0
+test,1,"Appelez 59 956 212 et oubliez la plateforme, c'est moins cher !!!",2829.12,492.22,210,8,0,0
+test,1,"Chargement possible le matin uniquement, merci de confirmer l'heure.",361.45,463.19,1822,2,1,1
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,270.0,339.48,204,25,90,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",1267.76,914.78,7088,2,500,2
+test,1,"Argent facile : devenez partenaire, bonus garanti",1312.39,327.28,2132,2,200,0
+test,1,"Chargement possible le matin uniquement, merci de confirmer l'heure.",713.67,588.99,99999,4,2,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",288.97,225.06,122,1,3,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,639.46,465.7,2071,1,200,0
+test,0,Marchandise assurée par l'expéditeur.,301.1,375.36,2304,1,200,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",208.39,327.18,565,3,3,1
+test,1,Contact direct uniquement hors plateforme : 96 231 418 WhatsApp,568.69,680.39,14510,25,0,1
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",198.94,205.21,1786,1,900,2
+test,0,"Marchandise assurée par l'expéditeur. URGENT : marchandise périssable, départ demain matin !",838.81,606.16,1807,1,500,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. Tél. 91 712 642",1073.62,488.01,907,5,200,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. URGENT : marchandise périssable, départ demain matin !",531.42,713.82,17113,0,900,2
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,3449.73,443.15,2488,4,2,3
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",225.11,198.95,5279,1,0,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",228.88,254.79,913,5,500,0
+test,0,Transport à prévoir avec hayon si possible.,160.27,104.36,253,3,10,1
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",350.82,350.86,382,4,5,0
+test,1,"Camion disponible, tarif très bas, places limitées.",143.43,386.6,1828,8,90,3
+test,1,Merci d'indiquer votre délai et votre prix dans la demande.,751.57,606.69,495,8,0,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",360.17,433.62,302,8,200,3
+test,0,"Tél. du responsable donné une fois la demande acceptée. Prix négociable, appelez-nous via la messagerie CargoLink.",278.88,214.45,460,0,200,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",499.56,550.81,824,5,1,0
+test,0,"Tél. du responsable donné une fois la demande acceptée. Prix négociable, appelez-nous via la messagerie CargoLink.",391.79,548.16,5146,0,90,2
+test,0,Transport à prévoir avec hayon si possible.,283.04,214.98,5833,1,0,1
+test,0,Transport à prévoir avec hayon si possible.,377.7,297.17,346,1,10,2
+test,1,"Appelez 22 257 179 et oubliez la plateforme, c'est moins cher !!!",59.47,154.63,130,15,0,1
+test,0,Transport à prévoir avec hayon si possible.,83.59,116.11,880,2,30,2
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",795.01,553.77,771,1,90,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,303.52,231.43,270,25,90,3
+test,0,"Accès entrepôt zone industrielle, parking poids lourds. Prix négociable, appelez-nous via la messagerie CargoLink.",179.78,513.65,13457,9,30,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",29.73,195.94,3531,25,200,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",251.61,235.63,689,1,500,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",227.74,301.49,1458,9,10,1
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",1150.11,783.5,13452,1,10,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,1332.41,915.74,5393,0,1,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",1278.3,1222.1,11070,1,0,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,175.99,172.66,1480,2,90,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. URGENT : marchandise périssable, départ demain matin !",126.75,95.44,603,9,90,2
+test,0,Transport à prévoir avec hayon si possible.,472.0,462.86,1473,5,30,0
+test,0,Transport à prévoir avec hayon si possible.,124.74,356.4,673,2,900,0
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",74.98,459.16,807,0,400,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,1015.94,352.76,180,15,0,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,157.62,207.77,1575,0,30,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,2082.58,1408.41,18350,1,10,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",265.26,374.2,4556,3,10,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",3027.14,554.03,99999,4,30,2
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",725.29,516.13,963,5,900,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,324.68,251.74,99999,15,0,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",993.41,893.15,4612,2,10,0
+test,1,Tél. du responsable donné une fois la demande acceptée.,21.1,199.2,1562,1,90,1
+test,0,Transport à prévoir avec hayon si possible. Tél. 51 845 882,334.02,476.11,514,1,0,0
+test,0,Transport à prévoir avec hayon si possible.,932.82,585.27,456,5,90,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",62.82,179.5,356,2,3,1
+test,0,Transport à prévoir avec hayon si possible.,412.3,462.98,263,9,1,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,613.47,467.62,438,1,500,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,1201.77,546.26,9227,1,200,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,318.84,297.66,1870,0,90,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Tél. 24 271 766",424.11,471.78,3231,0,900,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",1009.75,988.41,14332,0,200,0
+test,1,Envoyez l'argent par mandat minute avant le départ.,745.09,554.04,383,0,0,1
+test,0,Transport à prévoir avec hayon si possible.,271.28,123.31,351,2,900,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",95.21,82.05,165,1,1,2
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. URGENT : marchandise périssable, départ demain matin !",770.52,816.3,15282,5,200,0
+test,0,Transport à prévoir avec hayon si possible.,536.39,378.95,118,2,3,0
+test,0,"Tél. du responsable donné une fois la demande acceptée. Prix négociable, appelez-nous via la messagerie CargoLink.",836.52,533.52,3413,1,30,1
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. Prix négociable, appelez-nous via la messagerie CargoLink.",137.12,96.18,617,1,500,0
+test,0,"Marchandise assurée par l'expéditeur. Prix négociable, appelez-nous via la messagerie CargoLink.",342.59,289.97,1796,1,90,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",341.98,317.7,1822,0,900,0
+test,0,Marchandise assurée par l'expéditeur.,897.27,595.45,3066,0,90,2
+test,1,Contact direct uniquement hors plateforme : 91 773 818 WhatsApp,1566.63,249.32,1057,25,30,2
+test,0,Déchargement par nos soins à l'arrivée.,621.78,499.83,2644,5,0,1
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. Prix négociable, appelez-nous via la messagerie CargoLink.",620.81,472.71,1876,2,30,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,168.82,131.83,1001,25,0,3
+test,1,"Payez par carte cadeau, livraison garantie 100%",1076.6,927.78,10087,15,1,0
+test,0,"Transport à prévoir avec hayon si possible. URGENT : marchandise périssable, départ demain matin !",875.57,736.65,7046,3,200,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",365.23,559.31,2230,9,900,2
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,110.56,131.8,276,1,0,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",92.66,802.55,4628,25,90,1
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. URGENT : marchandise périssable, départ demain matin !",693.21,850.01,16195,0,200,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",374.04,322.77,516,25,200,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. Prix négociable, appelez-nous via la messagerie CargoLink.",850.54,583.56,1169,2,200,1
+test,1,"Les cartons sont légers mais fragiles, à empiler avec soin.",81.8,276.29,188,2,30,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur. Tél. 57 180 666,457.37,553.66,19285,0,1,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,1330.86,896.42,11201,0,1,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,742.72,692.93,16027,0,2,0
+test,0,Marchandise assurée par l'expéditeur.,176.73,116.91,483,9,900,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,408.45,359.86,307,9,10,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",224.37,142.68,87,2,900,1
+test,0,Déchargement par nos soins à l'arrivée.,186.84,189.1,136,5,1,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,599.04,521.37,851,9,0,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",109.53,68.82,1623,9,500,2
+test,0,Déchargement par nos soins à l'arrivée.,324.48,228.24,476,0,200,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,273.13,324.41,238,0,0,2
+test,0,Tél. du responsable donné une fois la demande acceptée.,257.16,161.29,837,5,30,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,327.05,413.6,133,3,10,0
+test,1,"Payez par carte cadeau, livraison garantie 100%",644.7,750.88,16864,0,1,3
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",256.81,190.61,1105,0,30,0
+test,0,Déchargement par nos soins à l'arrivée.,468.74,622.31,6826,2,500,2
+test,0,"Accès entrepôt zone industrielle, parking poids lourds. URGENT : marchandise périssable, départ demain matin !",453.04,555.45,2737,1,200,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",1752.17,1506.2,8624,0,3,0
+test,0,Transport à prévoir avec hayon si possible.,169.35,259.91,990,5,0,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,935.11,700.39,4526,1,1,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,1729.08,1800.09,11370,1,10,0
+test,0,Déchargement par nos soins à l'arrivée.,323.09,537.61,898,0,0,1
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",4302.12,1471.86,14299,8,1,0
+test,0,Marchandise assurée par l'expéditeur.,625.77,1036.59,11327,1,1,1
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",563.48,713.32,4353,5,3,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",599.73,614.17,1520,3,500,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,491.51,676.8,99999,2,30,1
+test,1,Merci d'indiquer votre délai et votre prix dans la demande.,1337.27,1303.96,11871,4,400,2
+test,1,Envoyez l'argent par mandat minute avant le départ.,197.08,266.64,576,8,2,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",1070.02,772.49,329,9,30,1
+test,0,Déchargement par nos soins à l'arrivée.,559.34,687.23,1125,3,90,1
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",239.63,306.25,1420,8,2,0
+test,0,Marchandise assurée par l'expéditeur.,454.42,333.51,4437,0,900,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,249.26,165.94,264,2,500,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",1184.8,773.21,4059,2,500,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",484.49,537.27,218,1,3,0
+test,1,"Payez par carte cadeau, livraison garantie 100%",974.35,422.78,207,25,5,0
+test,0,Marchandise assurée par l'expéditeur.,245.09,184.82,88,0,200,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure. URGENT : marchandise périssable, départ demain matin !",156.69,128.41,449,3,500,1
+test,1,Déchargement par nos soins à l'arrivée.,21.81,282.44,4058,4,2,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. URGENT : marchandise périssable, départ demain matin !",526.23,804.03,3712,9,1,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",70.25,200.71,277,5,500,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",234.07,250.93,1977,9,1,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",160.95,119.54,151,3,900,2
+test,1,"Appelez 28 343 259 et oubliez la plateforme, c'est moins cher !!!",469.96,1233.79,12704,2,400,3
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,139.98,169.49,1083,1,200,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. Prix négociable, appelez-nous via la messagerie CargoLink.",80.99,231.4,4720,2,3,2
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,124.01,56.37,370,3,900,0
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",137.35,990.75,0,25,0,2
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",214.62,285.17,399,2,5,0
+test,1,Envoyez l'argent par mandat minute avant le départ.,158.14,213.04,230,25,400,0
+test,1,"Produits emballés et étiquetés, bon de livraison fourni.",465.34,147.59,84,2,1,2
+test,1,Nous pouvons attendre un jour de plus si le prix est meilleur.,662.18,480.64,326,1,400,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",274.05,200.65,758,9,200,2
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",1740.38,1411.88,12183,1,3,1
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",55.62,404.05,99999,1,30,1
+test,0,Marchandise assurée par l'expéditeur.,642.52,666.93,2830,5,900,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,288.26,196.27,306,1,10,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",190.53,185.23,255,0,200,0
+test,0,Déchargement par nos soins à l'arrivée.,436.95,273.51,87,5,30,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,118.66,147.97,223,2,0,1
+test,0,Transport à prévoir avec hayon si possible.,485.11,591.36,894,2,500,0
+test,0,Transport à prévoir avec hayon si possible.,301.05,352.92,82,0,3,0
+test,0,Déchargement par nos soins à l'arrivée.,747.75,507.23,745,1,0,1
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",325.73,295.34,524,5,200,1
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",551.45,385.28,851,5,90,1
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",214.53,612.94,5402,2,900,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",4264.5,968.97,11550,0,0,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",172.37,165.83,1300,3,30,2
+test,1,"Payez par carte cadeau, livraison garantie 100%",2044.91,358.31,195,2,90,1
+test,0,Marchandise assurée par l'expéditeur.,231.61,205.74,175,1,500,1
+test,0,Transport à prévoir avec hayon si possible. Tél. 93 826 101,1639.27,1598.86,18577,0,30,1
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",627.25,484.83,3452,0,500,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",443.25,617.12,11278,9,0,1
+test,0,Marchandise assurée par l'expéditeur. Tél. 20 776 301,327.01,262.38,190,3,200,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,425.16,369.7,6414,5,90,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,333.99,401.38,3788,2,1,2
+test,0,Merci d'indiquer votre délai et votre prix dans la demande. Tél. 27 808 194,543.15,482.52,5712,3,90,1
+test,0,Marchandise assurée par l'expéditeur.,845.04,679.05,1801,2,1,1
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",253.61,281.26,2600,8,1,2
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",82.37,495.8,441,2,5,1
+test,1,"Argent facile : devenez partenaire, bonus garanti",356.74,419.93,8555,2,5,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,114.7,136.62,161,2,10,2
+test,0,Déchargement par nos soins à l'arrivée.,555.93,511.25,525,0,200,2
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. URGENT : marchandise périssable, départ demain matin !",215.83,195.76,781,5,90,0
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. URGENT : marchandise périssable, départ demain matin !",295.72,236.98,3078,3,500,1
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",168.05,140.96,1400,9,0,0
+test,0,"Transport à prévoir avec hayon si possible. Prix négociable, appelez-nous via la messagerie CargoLink.",242.7,110.32,1184,2,0,0
+test,0,Transport à prévoir avec hayon si possible.,346.4,367.03,482,1,1,2
+test,0,Marchandise assurée par l'expéditeur.,563.72,416.56,426,1,30,2
+test,0,Marchandise assurée par l'expéditeur.,1037.61,471.64,5468,2,3,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",110.29,128.47,545,0,500,0
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. Prix négociable, appelez-nous via la messagerie CargoLink.",338.33,405.2,1216,3,3,1
+test,1,Envoyez l'argent par mandat minute avant le départ.,370.69,409.94,145,0,30,2
+test,0,Marchandise assurée par l'expéditeur.,325.97,414.36,1488,9,500,2
+test,1,Envoyez l'argent par mandat minute avant le départ.,73.31,64.06,443,2,5,0
+test,1,"Chargement possible le matin uniquement, merci de confirmer l'heure.",700.13,543.3,1120,15,200,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,1244.93,296.36,96,15,5,3
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",277.48,237.25,107,2,1,0
+test,0,Déchargement par nos soins à l'arrivée.,386.56,290.2,5111,1,90,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,542.99,478.08,143,1,0,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,691.52,965.47,12681,0,900,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",272.26,321.7,1260,0,30,2
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",709.23,514.95,3385,1,3,0
+test,1,"Accès entrepôt zone industrielle, parking poids lourds.",344.34,377.07,5771,2,1,2
+test,0,Déchargement par nos soins à l'arrivée.,594.8,424.67,2782,1,500,1
+test,0,Tél. du responsable donné une fois la demande acceptée.,374.51,170.23,143,9,30,1
+test,1,"Argent facile : devenez partenaire, bonus garanti",245.22,1071.57,0,25,200,3
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,193.54,161.79,119,1,1,0
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",371.77,377.82,85,8,1,3
+test,1,"Produits emballés et étiquetés, bon de livraison fourni.",707.55,506.75,1431,1,30,1
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,432.94,448.69,4763,5,1,0
+test,0,Transport à prévoir avec hayon si possible.,825.02,891.47,7469,1,30,0
+test,0,Transport à prévoir avec hayon si possible. Tél. 27 290 470,356.16,401.97,4153,0,900,0
+test,0,Déchargement par nos soins à l'arrivée.,321.16,253.93,765,0,30,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. Prix négociable, appelez-nous via la messagerie CargoLink.",526.57,349.59,5689,0,1,0
+test,0,"Merci d'indiquer votre délai et votre prix dans la demande. Prix négociable, appelez-nous via la messagerie CargoLink.",74.25,58.38,1098,1,90,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,39.8,184.95,99999,25,0,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",453.46,483.29,236,5,200,2
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",562.74,214.45,8192,4,30,1
+test,0,"Tél. du responsable donné une fois la demande acceptée. URGENT : marchandise périssable, départ demain matin !",1159.6,806.16,6317,2,0,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,519.99,474.52,279,9,0,1
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,224.27,292.05,533,0,200,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 25 130 838",298.51,258.95,90,5,1,1
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",246.36,111.98,198,5,900,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",8070.9,1065.45,6818,25,400,0
+test,1,Nous pouvons attendre un jour de plus si le prix est meilleur.,754.8,194.61,744,8,0,0
+test,1,"Payez par carte cadeau, livraison garantie 100%",63.16,229.73,99999,15,30,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",223.03,183.11,126,8,90,2
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. URGENT : marchandise périssable, départ demain matin !",386.76,265.18,7823,0,0,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,219.58,211.55,1596,0,1,2
+test,1,"Payez par carte cadeau, livraison garantie 100%",40.09,512.7,868,2,0,3
+test,0,Déchargement par nos soins à l'arrivée.,454.01,713.44,1590,0,3,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",228.97,337.97,351,9,1,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,483.28,519.99,10417,0,900,0
+test,0,Marchandise assurée par l'expéditeur.,720.99,530.13,1543,0,3,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",272.87,319.55,232,9,200,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",175.18,500.51,3338,5,90,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,616.37,429.55,445,0,10,0
+test,0,Marchandise assurée par l'expéditeur.,371.59,572.65,81,2,30,0
+test,0,"Merci d'indiquer votre délai et votre prix dans la demande. URGENT : marchandise périssable, départ demain matin !",219.42,279.9,13713,1,900,0
+test,0,Transport à prévoir avec hayon si possible.,218.22,99.19,303,5,500,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",313.81,381.63,2501,1,3,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,372.58,355.82,323,1,500,2
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",154.7,442.01,5199,9,90,0
+test,0,Transport à prévoir avec hayon si possible. Tél. 20 729 198,182.69,179.79,84,9,30,2
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure. Prix négociable, appelez-nous via la messagerie CargoLink.",228.47,268.07,822,5,3,0
+test,1,"Payez par carte cadeau, livraison garantie 100%",4671.56,767.0,4688,4,5,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",203.44,303.24,162,5,3,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",422.74,520.04,855,5,3,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,323.44,270.84,360,0,0,0
+test,0,Déchargement par nos soins à l'arrivée.,560.08,499.23,2794,2,500,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",481.88,316.66,147,5,200,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,557.73,362.44,251,0,1,0
+test,0,Transport à prévoir avec hayon si possible.,221.16,198.65,426,5,500,0
+test,0,"Marchandise assurée par l'expéditeur. Prix négociable, appelez-nous via la messagerie CargoLink.",862.12,610.18,2295,9,0,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",1328.39,230.34,3005,2,5,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,403.5,281.32,113,1,900,0
+test,0,Transport à prévoir avec hayon si possible.,560.53,415.62,2763,0,0,2
+test,0,Tél. du responsable donné une fois la demande acceptée. Tél. 24 345 834,509.63,325.56,104,2,3,2
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",125.46,163.66,132,2,90,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",373.27,503.61,11256,1,90,1
+test,0,Tél. du responsable donné une fois la demande acceptée.,329.69,310.41,6401,0,90,1
+test,0,Tél. du responsable donné une fois la demande acceptée.,415.3,423.47,256,3,200,0
+test,1,Déchargement par nos soins à l'arrivée.,1230.96,230.76,1031,4,2,0
+test,0,Transport à prévoir avec hayon si possible.,912.31,756.2,10221,1,90,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",147.63,156.03,1065,0,900,0
+test,0,Transport à prévoir avec hayon si possible.,726.32,511.59,650,9,200,1
+test,1,"Payez par carte cadeau, livraison garantie 100%",2671.62,706.51,7148,8,400,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,172.51,183.69,112,1,10,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",389.8,477.27,98,2,10,2
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",167.72,479.19,3804,1,900,0
+test,1,"Accès entrepôt zone industrielle, parking poids lourds.",491.85,661.07,114,8,90,2
+test,0,Marchandise assurée par l'expéditeur.,186.21,267.2,250,0,500,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,215.93,208.87,2541,1,3,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds. Prix négociable, appelez-nous via la messagerie CargoLink.",523.32,420.25,343,5,10,0
+test,0,Marchandise assurée par l'expéditeur.,182.58,240.36,285,0,0,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",358.87,301.23,112,9,10,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande. Tél. 51 909 262,492.51,446.06,2517,0,30,1
+test,1,Merci d'indiquer votre délai et votre prix dans la demande.,1478.94,344.53,600,25,400,0
+test,1,"Produits emballés et étiquetés, bon de livraison fourni.",429.25,475.48,150000,25,1,1
+test,0,Marchandise assurée par l'expéditeur.,429.22,571.56,1069,1,30,2
+test,0,Déchargement par nos soins à l'arrivée.,350.41,548.14,120,9,0,0
+test,0,Tél. du responsable donné une fois la demande acceptée. Tél. 55 491 575,855.06,883.01,4466,3,30,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure. Tél. 98 559 141",748.07,687.28,11022,1,30,0
+test,1,"Produits emballés et étiquetés, bon de livraison fourni.",1545.67,358.74,88,1,2,0
+test,0,Déchargement par nos soins à l'arrivée.,314.78,347.65,860,1,10,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,230.41,326.15,507,2,90,1
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",1407.07,923.81,4429,0,10,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Prix négociable, appelez-nous via la messagerie CargoLink.",339.14,223.04,91,2,200,0
+test,0,Transport à prévoir avec hayon si possible.,848.23,758.75,7589,1,10,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure. URGENT : marchandise périssable, départ demain matin !",509.67,516.7,2835,0,30,0
+test,1,Nous pouvons attendre un jour de plus si le prix est meilleur.,37.35,534.73,7603,1,200,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,755.03,483.65,193,1,1,0
+test,0,Déchargement par nos soins à l'arrivée.,95.46,114.06,1023,0,30,1
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",282.31,184.94,2569,1,0,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,580.95,540.08,880,1,3,0
+test,0,Marchandise assurée par l'expéditeur.,376.6,381.21,109,1,3,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",3921.54,708.78,810,4,30,3
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",406.33,575.76,510,9,10,1
+test,0,Tél. du responsable donné une fois la demande acceptée.,135.37,203.08,3129,1,3,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure. Tél. 93 503 685",452.58,386.76,1236,2,90,1
+test,0,Déchargement par nos soins à l'arrivée.,602.78,676.62,6198,0,900,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",274.07,452.57,687,1,200,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",582.05,389.61,141,1,0,0
+test,1,Déchargement par nos soins à l'arrivée.,534.34,505.76,1144,1,5,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,513.71,1394.71,15600,25,1,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",492.42,723.15,1107,0,500,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",304.44,138.38,285,0,900,0
+test,0,Déchargement par nos soins à l'arrivée.,388.94,579.09,2022,2,1,0
+test,0,Transport à prévoir avec hayon si possible.,385.95,377.72,450,0,10,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",622.85,861.2,15358,9,0,2
+test,1,Envoyez l'argent par mandat minute avant le départ.,633.72,166.87,1028,25,200,3
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",1735.78,319.45,1279,25,1,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",454.31,486.03,5796,0,0,1
+test,0,Tél. du responsable donné une fois la demande acceptée.,247.09,285.03,3762,1,30,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",225.03,301.46,6361,1,90,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. Tél. 57 780 627",202.77,146.11,119,0,500,1
+test,1,Envoyez l'argent par mandat minute avant le départ.,338.24,451.66,4125,1,5,2
+test,1,"Argent facile : devenez partenaire, bonus garanti",197.32,228.98,1490,0,5,1
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,535.44,589.83,99999,0,200,0
+test,0,Transport à prévoir avec hayon si possible.,843.97,558.3,123,1,900,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Tél. 57 516 795",331.12,371.29,805,2,3,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,802.21,364.64,1059,1,90,2
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,923.15,592.42,10542,9,30,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",1419.99,645.45,7998,1,0,0
+test,1,Envoyez l'argent par mandat minute avant le départ.,2170.79,387.51,1597,2,5,1
+test,0,Déchargement par nos soins à l'arrivée. Tél. 27 462 740,636.88,536.18,111,5,30,1
+test,0,"Marchandise assurée par l'expéditeur. URGENT : marchandise périssable, départ demain matin !",233.25,259.87,1262,3,30,0
+test,1,Transport à prévoir avec hayon si possible.,1141.41,261.29,341,8,1,3
+test,0,Déchargement par nos soins à l'arrivée.,218.5,324.93,8634,1,0,0
+test,1,Nous pouvons attendre un jour de plus si le prix est meilleur.,2400.79,360.68,7276,2,30,2
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",871.08,1181.46,16902,15,5,0
+test,1,Contact direct uniquement hors plateforme : 26 855 546 WhatsApp,744.68,299.37,1428,1,90,1
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. URGENT : marchandise périssable, départ demain matin !",366.57,335.91,382,2,0,1
+test,0,Marchandise assurée par l'expéditeur.,445.36,557.32,2329,2,10,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",472.99,390.78,639,1,0,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,2256.56,494.74,120,1,30,0
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. Prix négociable, appelez-nous via la messagerie CargoLink.",224.54,290.76,734,5,90,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",529.37,460.44,4497,1,500,0
+test,0,Déchargement par nos soins à l'arrivée.,221.8,157.48,160,5,500,0
+test,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",172.15,219.72,0,2,2,1
+test,0,Transport à prévoir avec hayon si possible.,587.45,396.76,95,3,500,0
+test,1,Marchandise assurée par l'expéditeur.,394.78,530.42,115,0,90,1
+test,1,"Les cartons sont légers mais fragiles, à empiler avec soin.",9.13,49.39,312,25,90,0
+test,0,Transport à prévoir avec hayon si possible.,635.97,399.71,3438,0,200,0
+test,1,Marchandise assurée par l'expéditeur.,2240.26,1643.13,16825,1,90,0
+test,0,"Tél. du responsable donné une fois la demande acceptée. URGENT : marchandise périssable, départ demain matin !",962.2,667.78,13418,1,1,2
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",160.72,191.2,140,0,3,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. Tél. 21 811 516",663.2,479.85,5231,9,200,0
+test,1,Marchandise assurée par l'expéditeur.,243.29,240.35,477,0,30,0
+test,0,Transport à prévoir avec hayon si possible.,342.71,256.7,731,1,0,0
+test,0,Déchargement par nos soins à l'arrivée.,242.43,247.49,215,2,10,0
+test,1,Envoyez l'argent par mandat minute avant le départ.,1116.83,899.93,4581,1,90,0
+test,1,"Produits emballés et étiquetés, bon de livraison fourni.",167.43,787.58,691,0,200,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande. Tél. 93 588 659,222.52,181.81,946,0,90,0
+test,1,Contact direct uniquement hors plateforme : 99 163 554 WhatsApp,62.89,46.35,195,1,1,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,216.03,186.97,110,1,0,3
+test,0,"Accès entrepôt zone industrielle, parking poids lourds. Prix négociable, appelez-nous via la messagerie CargoLink.",85.67,95.81,370,2,10,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",219.48,191.82,1540,0,0,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",340.64,314.86,328,9,30,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,264.2,358.24,2453,8,2,2
+test,1,Tél. du responsable donné une fois la demande acceptée.,238.66,879.5,8131,8,2,0
+test,0,Déchargement par nos soins à l'arrivée. Tél. 56 854 494,1852.69,1393.54,17020,0,900,2
+test,0,Marchandise assurée par l'expéditeur.,559.64,457.87,7819,2,30,2
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,2066.38,267.04,275,2,5,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",184.9,168.99,6876,1,0,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",2635.43,743.7,3604,0,1,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",245.74,329.95,680,9,3,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur. Tél. 58 959 966,311.23,424.15,280,2,10,1
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",997.07,1028.68,4044,3,10,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",162.93,232.57,1399,2,90,1
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",5471.5,1284.98,8411,2,90,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",609.23,607.31,309,9,30,1
+test,0,Déchargement par nos soins à l'arrivée.,197.24,162.14,216,5,900,0
+test,0,Marchandise assurée par l'expéditeur.,636.61,424.59,4273,9,10,0
+test,0,Déchargement par nos soins à l'arrivée.,432.96,609.09,19056,3,10,0
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",189.4,216.68,1980,2,5,1
+test,1,"Payez par carte cadeau, livraison garantie 100%",106.48,116.92,689,1,30,1
+test,1,"Argent facile : devenez partenaire, bonus garanti",177.09,481.48,1877,1,0,1
+test,0,Transport à prévoir avec hayon si possible.,168.13,107.25,243,1,0,0
+test,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",17.76,119.59,699,25,90,2
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",110.88,316.8,2128,3,10,1
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",825.19,642.65,1618,4,5,0
+test,0,Marchandise assurée par l'expéditeur.,284.05,216.43,1706,2,900,0
+test,0,Transport à prévoir avec hayon si possible. Tél. 23 153 177,492.88,353.7,318,1,500,0
+test,0,Déchargement par nos soins à l'arrivée.,765.97,348.17,171,0,900,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",463.14,432.25,163,3,90,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",724.55,818.65,17132,0,0,0
+test,1,Marchandise assurée par l'expéditeur.,1635.67,504.69,10309,15,2,1
+test,1,"Appelez 57 513 859 et oubliez la plateforme, c'est moins cher !!!",352.58,322.25,353,25,200,1
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Prix négociable, appelez-nous via la messagerie CargoLink.",85.79,245.12,943,0,900,0
+test,0,Marchandise assurée par l'expéditeur.,1121.58,788.26,8711,0,900,1
+test,0,Tél. du responsable donné une fois la demande acceptée.,268.36,300.89,973,5,0,0
+test,0,Transport à prévoir avec hayon si possible.,115.38,329.66,216,9,3,0
+test,0,Marchandise assurée par l'expéditeur.,381.32,529.86,123,0,500,0
+test,1,"Les cartons sont légers mais fragiles, à empiler avec soin.",56.38,294.5,5872,4,0,2
+test,1,"Chargement possible le matin uniquement, merci de confirmer l'heure.",550.27,458.73,525,8,400,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",499.21,391.05,2829,1,3,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",387.96,250.25,671,0,900,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",519.72,774.07,7092,5,10,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,273.26,318.28,3903,0,90,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",1184.81,1310.98,10501,1,0,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",783.66,568.43,437,25,2,1
+test,1,"Argent facile : devenez partenaire, bonus garanti",54.08,178.84,1255,1,5,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",270.73,180.92,364,3,500,0
+test,0,"Transport à prévoir avec hayon si possible. Prix négociable, appelez-nous via la messagerie CargoLink.",235.55,257.44,2164,0,200,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",455.85,508.56,619,5,900,0
+test,1,"Je transporte tout, payez maintenant et gagnez un trajet gratuit !!!",185.32,243.56,783,0,1,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,174.7,499.14,4219,1,200,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,172.11,53.65,115,15,5,1
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,359.88,369.54,626,9,500,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,602.56,607.47,2076,0,1,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,1734.51,251.02,1134,2,30,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,256.09,239.22,1635,0,400,0
+test,1,"Produits emballés et étiquetés, bon de livraison fourni.",473.1,356.89,6425,8,400,1
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,551.33,699.87,3197,8,30,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",561.59,414.33,11117,1,500,0
+test,0,"Merci d'indiquer votre délai et votre prix dans la demande. Prix négociable, appelez-nous via la messagerie CargoLink.",726.79,713.01,8488,9,0,0
+test,0,Marchandise assurée par l'expéditeur.,245.42,341.77,163,5,90,1
+test,1,Déchargement par nos soins à l'arrivée.,79.61,252.33,145,4,30,0
+test,1,OFFRE LIMITÉE !!! INVESTISSEZ DANS MON CAMION,322.97,112.3,90,25,5,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,378.4,397.95,391,1,90,1
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",594.43,469.46,4547,1,900,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",1359.4,981.16,4942,9,1,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",166.51,116.62,237,5,1,0
+test,1,Merci d'indiquer votre délai et votre prix dans la demande.,869.06,375.55,1402,25,0,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Tél. 90 670 785",714.74,481.77,894,1,30,1
+test,1,"Appelez 51 512 298 et oubliez la plateforme, c'est moins cher !!!",279.45,340.27,103,8,400,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",400.17,482.68,473,4,0,3
+test,0,Déchargement par nos soins à l'arrivée.,73.48,209.94,1706,3,0,0
+test,1,Nous pouvons attendre un jour de plus si le prix est meilleur.,1828.06,268.19,99999,8,5,0
+test,1,"Appelez 55 272 450 et oubliez la plateforme, c'est moins cher !!!",382.51,278.1,1454,1,2,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,201.26,125.96,136,1,10,0
+test,1,"Réservez vite !!! paiement d'avance exigé, aucune facture.",196.32,642.04,1199,2,5,3
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",196.01,288.3,2590,2,900,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,508.07,533.7,425,8,0,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,361.2,391.51,873,0,3,2
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,402.52,265.67,433,1,1,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",439.25,313.71,105,1,3,0
+test,1,Envoyez l'argent par mandat minute avant le départ.,50.41,377.44,201,2,90,2
+test,0,Marchandise assurée par l'expéditeur. Tél. 59 189 851,1102.39,753.49,807,2,500,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur. Tél. 26 553 348,197.34,149.9,219,2,90,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,216.62,275.24,1359,0,30,1
+test,1,"Remise exceptionnelle si virement aujourd'hui, écrivez à transport.pas.cher@mail.com",1072.04,478.23,8696,25,0,0
+test,1,"Produits emballés et étiquetés, bon de livraison fourni.",637.84,527.51,8003,1,5,3
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",160.43,196.6,710,1,30,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",604.38,475.6,109,2,900,2
+test,1,"Camion disponible, tarif très bas, places limitées.",397.39,183.68,411,15,200,1
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,758.3,726.36,2906,2,30,2
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin.",655.5,414.08,7229,0,1,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,964.09,1079.05,11456,3,90,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,922.36,688.96,3523,1,3,2
+test,0,Tél. du responsable donné une fois la demande acceptée.,67.17,55.38,250,3,10,2
+test,0,Transport à prévoir avec hayon si possible.,445.8,504.19,3363,0,1,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Prix négociable, appelez-nous via la messagerie CargoLink.",494.37,421.73,1516,0,200,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,80.87,231.07,286,3,30,0
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",565.56,355.33,11482,5,500,1
+test,0,"Accès entrepôt zone industrielle, parking poids lourds.",356.34,333.99,1514,1,1,0
+test,0,"Chargement possible le matin uniquement, merci de confirmer l'heure.",842.41,536.45,1153,1,900,2
+test,0,"Produits emballés et étiquetés, bon de livraison fourni. Tél. 27 826 551",685.32,500.46,811,1,900,0
+test,0,"Les cartons sont légers mais fragiles, à empiler avec soin. URGENT : marchandise périssable, départ demain matin !",239.26,154.86,113,1,1,0
+test,1,"Argent facile : devenez partenaire, bonus garanti",282.85,1176.3,9315,1,2,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,120.3,54.68,107,1,30,2
+test,0,"Merci d'indiquer votre délai et votre prix dans la demande. URGENT : marchandise périssable, départ demain matin !",294.62,235.51,386,1,90,1
+test,0,Merci d'indiquer votre délai et votre prix dans la demande. Tél. 29 421 175,444.59,457.6,934,0,900,0
+test,1,Merci d'indiquer votre délai et votre prix dans la demande.,29.36,128.86,159,4,0,0
+test,0,"Merci d'indiquer votre délai et votre prix dans la demande. URGENT : marchandise périssable, départ demain matin !",785.96,520.43,151,5,1,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,1152.07,1881.39,15547,1,10,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,80.28,229.37,407,2,30,0
+test,0,Nous pouvons attendre un jour de plus si le prix est meilleur.,871.08,828.74,6862,0,900,0
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,116.35,144.45,249,4,30,0
+test,1,"Accès entrepôt zone industrielle, parking poids lourds.",194.54,232.09,193,0,90,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,209.41,268.84,1040,5,3,1
+test,0,"Accès entrepôt zone industrielle, parking poids lourds. Tél. 92 210 759",382.25,333.63,540,2,3,1
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",238.86,174.22,225,1,90,1
+test,0,"Nous pouvons attendre un jour de plus si le prix est meilleur. Prix négociable, appelez-nous via la messagerie CargoLink.",83.68,239.1,5467,9,200,0
+test,0,Merci d'indiquer votre délai et votre prix dans la demande.,300.39,476.04,5759,1,10,0
+test,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",3435.02,513.68,1243,15,1,2
+test,0,"Marchandise assurée par l'expéditeur. Prix négociable, appelez-nous via la messagerie CargoLink. Tél. 98 314 940",275.89,372.74,805,9,3,1
+test,1,Visitez www.fret-discount.tn pour un prix 10 fois moins cher,41.38,145.11,307,0,30,0
+test,1,"Transport de marchandises entre Tunis et Sfax, très bon prix.",41.03,150.72,82,2,1,0
+test,0,"Produits emballés et étiquetés, bon de livraison fourni.",188.92,119.64,951,0,1,0
+test,0,Tél. du responsable donné une fois la demande acceptée.,578.1,496.1,6113,5,0,0

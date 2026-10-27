@@ -1,0 +1,77 @@
+# `docker compose up --build` → http://localhost:8000 (demo data loaded on first start).
+name: cargolink
+
+x-app-env: &app-env
+  DJANGO_SETTINGS_MODULE: config.settings.prod
+  SECRET_KEY: ${SECRET_KEY:-docker-local-secret-change-me}
+  DATABASE_URL: postgres://cargolink:cargolink@db:5432/cargolink
+  REDIS_URL: redis://redis:6379/0
+  ALLOWED_HOSTS: localhost,127.0.0.1,web
+  CSRF_TRUSTED_ORIGINS: http://localhost:8000,http://127.0.0.1:8000
+  # Local compose serves plain HTTP: disable HTTPS-only settings here (they stay on in real production).
+  SECURE_SSL_REDIRECT: "False"
+  SECURE_COOKIES: "False"
+  SECURE_HSTS_SECONDS: "0"
+  AI_PROVIDER: ${AI_PROVIDER:-local}
+  AI_API_KEY: ${AI_API_KEY:-}
+  AI_BASE_URL: ${AI_BASE_URL:-https://api.openai.com/v1}
+  AI_MODEL: ${AI_MODEL:-gpt-4o-mini}
+
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: cargolink
+      POSTGRES_USER: cargolink
+      POSTGRES_PASSWORD: cargolink
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cargolink -d cargolink"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  web:
+    build: .
+    environment:
+      <<: *app-env
+      SEED_DEMO: ${SEED_DEMO:-1}
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  worker:
+    build: .
+    command: ["celery", "-A", "config", "worker", "--loglevel=info", "--concurrency=2"]
+    environment:
+      <<: *app-env
+      RUN_MIGRATIONS: "0"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      web:
+        condition: service_started
+
+volumes:
+  pgdata:
