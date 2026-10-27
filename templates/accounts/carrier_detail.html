@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% load cargolink %}
+{% block title %}{{ carrier.display_name }}{% endblock %}
+{% block content %}
+{% with p=carrier.carrier_profile %}
+<div class="d-flex flex-wrap justify-content-between align-items-start gap-3 mb-4">
+  <div>
+    <h1 class="section-title mb-1">{{ carrier.display_name }}</h1>
+    <p class="mb-1 text-muted"><i class="bi bi-geo-alt" aria-hidden="true"></i> {{ p.city|default:"—" }}{% if p.license_number %} · autorisation n° {{ p.license_number }}{% endif %}</p>
+    <p class="mb-0">{% stars p.average_rating %} <strong>{{ p.average_rating|floatformat:1|default:"—" }}/5</strong> · {{ p.reviews_count|default:0 }} avis</p>
+  </div>
+  <div class="card stat-card"><div class="card-body text-center">
+    <p class="mb-0 small text-muted">Score de réputation (IA)</p>
+    <p class="stat-value mb-0">{{ p.reputation_score|floatformat:0|default:"—" }}<span class="fs-6">/100</span></p>
+  </div></div>
+</div>
+{% if p.description %}<p>{{ p.description }}</p>{% endif %}
+{% if user != carrier %}<p><a class="btn btn-sm btn-outline-primary" href="{% url 'accounts:report' 'utilisateur' carrier.pk %}"><i class="bi bi-flag" aria-hidden="true"></i> Signaler ce profil</a></p>{% endif %}
+{% endwith %}
+<div class="row g-4">
+  <section class="col-lg-5" aria-labelledby="h-fleet">
+    <h2 id="h-fleet" class="h5">Flotte</h2>
+    {% if vehicles %}
+      <ul class="list-group mb-4">{% for v in vehicles %}<li class="list-group-item">{{ v }} · {{ v.capacity_kg|floatformat:"-1" }} kg / {{ v.capacity_m3|floatformat:"-1" }} m³{% if v.refrigerated %} · réfrigéré{% endif %}</li>{% endfor %}</ul>
+    {% else %}<p class="text-muted">Aucun véhicule déclaré.</p>{% endif %}
+    <h2 class="h5">Prochains trajets</h2>
+    {% for t in trips %}<div class="mb-2">{% include "partials/trip_card.html" %}</div>{% empty %}<p class="text-muted">Aucun trajet ouvert.</p>{% endfor %}
+  </section>
+  <section class="col-lg-7" aria-labelledby="h-reviews">
+    <h2 id="h-reviews" class="h5">Avis des PME</h2>
+    {% for r in reviews %}
+      <article class="card mb-2"><div class="card-body">
+        <div class="d-flex justify-content-between flex-wrap gap-2">
+          <h3 class="h6 mb-0">{{ r.author.display_name }}</h3>
+          <span>{% stars r.rating %}{% if r.sentiment %} <span class="badge text-bg-light border">{{ r.get_sentiment_display }}</span>{% endif %}</span>
+        </div>
+        <p class="mb-0 mt-2">{{ r.comment }}</p>
+        <p class="small text-muted mb-0">{{ r.created_at|date:"d/m/Y" }}</p>
+      </div></article>
+    {% empty %}
+      {% include "partials/empty.html" with icon="bi-chat-square-text" text="Aucun avis pour le moment." %}
+    {% endfor %}
+  </section>
+</div>
+{% endblock %}

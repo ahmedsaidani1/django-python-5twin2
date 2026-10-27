@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Mon profil{% endblock %}
+{% block content %}
+<h1 class="section-title mb-4">Mon profil</h1>
+<form method="post">
+  {% csrf_token %}
+  <div class="row g-4">
+    <section class="col-lg-6" aria-labelledby="h-account">
+      <div class="card"><div class="card-body">
+        <h2 id="h-account" class="h5">Compte</h2>
+        {% include "partials/form_errors.html" with form=user_form %}
+        {% for field in user_form %}{% include "partials/form_field.html" %}{% endfor %}
+      </div></div>
+    </section>
+    <section class="col-lg-6" aria-labelledby="h-company">
+      <div class="card"><div class="card-body">
+        <h2 id="h-company" class="h5">{% if user.is_pme %}Entreprise{% else %}Activité de transport{% endif %}</h2>
+        {% include "partials/form_errors.html" with form=profile_form %}
+        {% for field in profile_form %}{% include "partials/form_field.html" %}{% endfor %}
+      </div></div>
+    </section>
+  </div>
+  <div class="d-flex gap-2 mt-3">
+    <button class="btn btn-primary" type="submit">Enregistrer</button>
+    {% if user.is_transporteur %}<a class="btn btn-outline-primary" href="{% url 'accounts:carrier' user.pk %}">Voir mon profil public</a>{% endif %}
+  </div>
+</form>
+{% endblock %}

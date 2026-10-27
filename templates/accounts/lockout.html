@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}Compte temporairement bloqué{% endblock %}
+{% block content %}
+<div class="empty-state card">
+  <i class="bi bi-hourglass-split" aria-hidden="true"></i>
+  <h1 class="h3 mt-2">Trop de tentatives de connexion</h1>
+  <p>Par sécurité, la connexion est bloquée pendant 15 minutes après 5 échecs. Réessayez plus tard ou réinitialisez votre mot de passe.</p>
+  <a class="btn btn-primary" href="{% url 'accounts:password_reset' %}">Réinitialiser mon mot de passe</a>
+</div>
+{% endblock %}
