@@ -2,7 +2,7 @@
 
 **Marketplace de covoiturage de fret entre PME et transporteurs indépendants — _Connecter • Optimiser • Avancer ensemble_.**
 
-Projet ESPRIT 5TWIN (équipe de 5). Les PME publient leurs besoins de transport, les transporteurs déclarent leurs
+Projet ESPRIT 5TWIN (équipe de 4 : Ahmed Saidani, Fedi Ben Khalifa, Farah Maiti, Wissem). Les PME publient leurs besoins de transport, les transporteurs déclarent leurs
 trajets et leur capacité libre ; CargoLink les met en relation, gère les demandes de réservation jusqu'à la livraison,
 la messagerie, les avis et la modération, avec 5 fonctionnalités d'IA mesurées.
 
@@ -259,15 +259,14 @@ Durée ≈ 12 min. Ouvrir deux navigateurs (ou une fenêtre privée) : un pour l
 
 ## Organisation Git de l'équipe
 
-Chaque membre est propriétaire d'un périmètre (détail dans [docs/OWNERSHIP.md](docs/OWNERSHIP.md)) :
+Chaque membre est propriétaire d'un périmètre (fichiers, partie de la soutenance et points à maîtriser dans [docs/OWNERSHIP.md](docs/OWNERSHIP.md)) :
 
-| Membre | Périmètre | Branche |
+| Membre | Périmètre | Branche(s) |
 |---|---|---|
-| 1 | comptes, modération, IA fraude, déploiement | `member1/accounts-moderation-fraud-deploy` |
-| 2 | annonces de fret, IA annonce intelligente | `member2/shipments-smart-annonce` |
-| 3 | trajets/véhicules, IA prix | `member3/trips-price` |
-| 4 | réservations, IA matching, messagerie | `member4/bookings-matching-messaging` |
-| 5 | avis, notifications, tableau de bord, IA sentiment | `member5/reviews-notifs-dashboard-sentiment` |
+| Ahmed Saidani | comptes, modération, IA fraude, intégration & déploiement | `member1/accounts-moderation-fraud-deploy` |
+| Fedi Ben Khalifa | annonces de fret, trajets/véhicules, IA annonce intelligente, IA prix | `member2/shipments-smart-annonce`, `member3/trips-price` |
+| Farah Maiti | réservations, messagerie, IA matching, infrastructure IA asynchrone | `member4/bookings-matching-messaging` |
+| Wissem | avis, notifications, tableaux de bord, accessibilité, IA sentiment | `member5/reviews-notifs-dashboard-sentiment` |
 
 Flux : une branche par périmètre, commits conventionnels (`feat(bookings): …`, `test(trips): …`, `docs(ai): …`),
 pull request vers `main` avec CI verte, revue par un autre membre, merge `--no-ff`.
@@ -276,7 +275,7 @@ pull request vers `main` avec CI verte, revue par un autre membre, merge `--no-f
 
 ## Documentation complémentaire
 
-- [docs/OWNERSHIP.md](docs/OWNERSHIP.md) — fichiers et apps par membre
+- [docs/OWNERSHIP.md](docs/OWNERSHIP.md) — répartition du travail par membre
 - [docs/JURY_QA.md](docs/JURY_QA.md) — questions probables du jury et réponses argumentées
 - [docs/accessibility.md](docs/accessibility.md) — checklist WCAG AA, Lighthouse et axe
 - [docs/ai/](docs/ai/) — rapports d'évaluation des 5 IA
