@@ -19,8 +19,8 @@ def validate_pair(freight: FreightRequest, trip: Trip):
             f"Capacité insuffisante : il reste {trip.remaining_weight_kg:g} kg / {trip.remaining_volume_m3:g} m³ "
             f"sur ce trajet, l'annonce demande {freight.weight_kg:g} kg / {freight.volume_m3:g} m³."
         )
-    if not (freight.pickup_date <= trip.departure_date <= freight.delivery_deadline):
-        errors.append("La date de départ du trajet doit être comprise entre l'enlèvement et la date limite.")
+    # No date-window rule: the two parties agree on dates in the booking messages
+    # (the matching score still ranks trips by date compatibility).
     if BookingRequest.objects.filter(freight=freight, trip=trip, status__in=BookingRequest.ACTIVE_STATUSES).exists():
         errors.append("Une demande est déjà en cours entre cette annonce et ce trajet.")
     return errors

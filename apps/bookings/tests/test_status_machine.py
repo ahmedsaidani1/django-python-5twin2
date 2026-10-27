@@ -195,9 +195,10 @@ class BookingViewTests(TestCase):
         big = FreightFactory(pme=self.pme, weight_kg=99999)
         r = self.client.post(url, {"freight": big.pk, "proposed_price": "250"})
         self.assertIn("Capacité insuffisante", str(r.context["form"].non_field_errors()))
+        # dates are not a blocking rule: a trip leaving after the deadline can still be requested
         late = FreightFactory(pme=self.pme, pickup_date=today(0), delivery_deadline=today(1))  # trip leaves at today+3
         r = self.client.post(url, {"freight": late.pk, "proposed_price": "250"})
-        self.assertIn("date de départ", str(r.context["form"].non_field_errors()))
+        self.assertEqual(r.status_code, 302)
         self.client.post(url, {"freight": self.freight.pk, "proposed_price": "250"})
         r = self.client.post(url, {"freight": self.freight.pk, "proposed_price": "250"})
         self.assertIn("déjà en cours", str(r.context["form"].non_field_errors()))
